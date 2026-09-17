@@ -1,0 +1,581 @@
+case_id,reference_row,paper,doi,field,value,status,quote_or_reason
+v5-2F,1,PAPER 18,10.3390/batteries8070067,capacity,130,stated,ter 300 Cycles MW_15m_A 82 198 190 172 150 137 110 87 75 68 MW_30m_A 87 203 192 178 165 151 130 91 84 73 MW_60m_A 84 200 190 174 154 145 120 85 74 64 CP_A 78 199 192 178 165 156 131 90 77 69 CP7_MW3 83 202 194 182 165 144 120 93 85 78
+v5-2F,1,PAPER 18,10.3390/batteries8070067,material,NMC811 (MW_30m_A),stated,ter 300 Cycles MW_15m_A 82 198 190 172 150 137 110 87 75 68 MW_30m_A 87 203 192 178 165 151 130 91 84 73 MW_60m_A 84 200 190 174 154 145 120 85 74 64 CP_A 78 199 192 178 165 156 131 90 77 69 CP7_MW3 83 202 194 182 165 144 120 93 85 78
+v5-2F,1,PAPER 18,10.3390/batteries8070067,modification,"microwave-assisted hydrothermal precursor, 30 min",stated,MW and CP NMC811 samples
+v5-2F,1,PAPER 18,10.3390/batteries8070067,capacity_type,discharge,stated,Table 3. Discharge capacity and capacity retention
+v5-2F,1,PAPER 18,10.3390/batteries8070067,cycle,not_reported,not_reported,rate-test column; no cycle index given
+v5-2F,1,PAPER 18,10.3390/batteries8070067,c_rate,5C,stated,Table 3. Discharge capacity and capacity retention for the MW and CP NMC811 samples ... 0.1C 0.2C 0.5C 1C 2C 5C
+v5-2F,1,PAPER 18,10.3390/batteries8070067,voltage_window,2.7–4.3 V,stated_elsewhere,Galvanostatic tests were performed ... in the potential range of 2.7–4.3 V
+v5-2F,1,PAPER 18,10.3390/batteries8070067,cell_type,"half cell, Li foil",stated_elsewhere,with a lithium foil disc as a counter electrode
+v5-2F,1,PAPER 18,10.3390/batteries8070067,temperature,room temperature (no number),stated_elsewhere,at room temperature
+v5-2F,1,PAPER 18,10.3390/batteries8070067,electrolyte,1 M LiPF6 in EC/PC/DMC,stated_elsewhere,"Coin-type half-cells (2032 R) were assembled in an Ar-ﬁlled glove box using the electrolyte consisting of 1M LiPF6 (Sigma-Aldrich, 99.99%) solution in ethylene carbonate/propylene carbonate/dimethyl carbonate solution (EC:PC:DMC = 1:1:3 vol. ratio)"
+v5-2F,2,PAPER 18,10.3390/batteries8070067,capacity,131,stated,1 130 91 84 73 MW_60m_A 84 200 190 174 154 145 120 85 74 64 CP_A 78 199 192 178 165 156 131 90 77 69 CP7_MW3 83 202 194 182 165 144 120 93 85 78 NMC811 [20] 82 196 180 162 150 125 100 87 79 - To evaluate the processes taking place
+v5-2F,2,PAPER 18,10.3390/batteries8070067,material,NMC811 (CP_A),stated,1 130 91 84 73 MW_60m_A 84 200 190 174 154 145 120 85 74 64 CP_A 78 199 192 178 165 156 131 90 77 69 CP7_MW3 83 202 194 182 165 144 120 93 85 78 NMC811 [20] 82 196 180 162 150 125 100 87 79 - To evaluate the processes taking place
+v5-2F,2,PAPER 18,10.3390/batteries8070067,modification,conventional co-precipitation precursor,stated,MW and CP NMC811 samples
+v5-2F,2,PAPER 18,10.3390/batteries8070067,capacity_type,discharge,stated,Table 3. Discharge capacity and capacity retention
+v5-2F,2,PAPER 18,10.3390/batteries8070067,cycle,not_reported,not_reported,rate-test column; no cycle index given
+v5-2F,2,PAPER 18,10.3390/batteries8070067,c_rate,5C,stated,Table 3. Discharge capacity and capacity retention for the MW and CP NMC811 samples ... 0.1C 0.2C 0.5C 1C 2C 5C
+v5-2F,2,PAPER 18,10.3390/batteries8070067,voltage_window,2.7–4.3 V,stated_elsewhere,Galvanostatic tests were performed ... in the potential range of 2.7–4.3 V
+v5-2F,2,PAPER 18,10.3390/batteries8070067,cell_type,"half cell, Li foil",stated_elsewhere,with a lithium foil disc as a counter electrode
+v5-2F,2,PAPER 18,10.3390/batteries8070067,temperature,room temperature (no number),stated_elsewhere,at room temperature
+v5-2F,2,PAPER 18,10.3390/batteries8070067,electrolyte,1 M LiPF6 in EC/PC/DMC,stated_elsewhere,"Coin-type half-cells (2032 R) were assembled in an Ar-ﬁlled glove box using the electrolyte consisting of 1M LiPF6 (Sigma-Aldrich, 99.99%) solution in ethylene carbonate/propylene carbonate/dimethyl carbonate solution (EC:PC:DMC = 1:1:3 vol. ratio)"
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,capacity,not_reported,not_reported,no capacity after 100 cycles; only 'capacity retention of 90 %'
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,material,NMC811 (LiNi0.8Mn0.1Co0.1O2),stated,LiNi0.8Mn0.1Co0.1O2 (NMC811; Guangdong Canard)
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,capacity_type,retention only,stated,capacity retention of 90 %
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,cycle,100,stated,after 100 cycles
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,c_rate,0.2C,stated,at 0.2C rate after 100 cycles
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,voltage_window,2.8–4.3 V,stated_elsewhere,for the NMC811 cells within 2.8–4.3 V
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,cell_type,"half cell, Li metal (Li||NMC811)",stated,the Li||NMC811 cell with the dual salt electrolyte
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,temperature,not_reported,not_reported,no test temperature given
+v5-4D,1,PAPER 06,10.1016/j.jpowsour.2025.239241,electrolyte,1.5 M LiSac + 0.2 M LiBOB in TEP + 2% VC,stated,"The dual salt electrolyte, 1.5 M LiSac + 0.2 M LiBOB in TEP w. 2 % VC"
+v5-1B,1,PAPER 12,10.3390/mi15070894,capacity,149.04,stated,"After 150 cycles, the former delivered 149.04 mAh g−1"
+v5-1B,1,PAPER 12,10.3390/mi15070894,material,NCM811,stated,Al2O3-coated NCM811
+v5-1B,1,PAPER 12,10.3390/mi15070894,modification,Al2O3 coating,stated,the Al2O3-coated sample
+v5-1B,1,PAPER 12,10.3390/mi15070894,capacity_type,discharge,stated,ween 2.8 and 4.5 V. Sample 1st Discharge Capacity (mAh g−1) 150th Discharge Capacity (mAh g−1) Capacity Retention (%) Voltage Fading (V) Upper Cutoff Voltage (V) Pristine NCM811 179.46 147.51 82.00 0.0986 4.3 189.62 144.52 75.68 0.155
+v5-1B,1,PAPER 12,10.3390/mi15070894,cycle,150,stated,After 150 cycles
+v5-1B,1,PAPER 12,10.3390/mi15070894,c_rate,1C,stated,at 1 C discharge current
+v5-1B,1,PAPER 12,10.3390/mi15070894,voltage_window,2.8–4.5 V,stated,over 150 cycles between 2.8 and 4.5 V
+v5-1B,1,PAPER 12,10.3390/mi15070894,cell_type,"half cell, Li foil",stated_elsewhere,Lithium foil served as the anode
+v5-1B,1,PAPER 12,10.3390/mi15070894,temperature,25 °C,stated_elsewhere,cycling at 1 C across ... 4.5 V vs. Li/Li+ at 25 °C
+v5-1B,1,PAPER 12,10.3390/mi15070894,electrolyte,1 M LiPF6 in EC:DEC 1:1,stated_elsewhere,The electrolyte used was 1 M LiPF6 dissolved in a 1:1 mixture of ethylene carbonate (EC) and diethyl carbonate (DEC)
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,capacity,213,stated,reversible discharge of 1.02 mAh/cm2 (213 mAh/g) during formation cycles
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,material,NMC811,stated,uncoated NMC811 electrode was obtained from Umicore
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,modification,none (uncoated),stated,The uncoated NMC811 electrode
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,capacity_type,discharge (reversible),stated,reversible discharge of 1.02 mAh/cm2 (213 mAh/g)
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,cycle,not_reported,not_reported,'during formation cycles' of three; which one is not given
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,c_rate,0.1C,stated_elsewhere,followed by a C/10 discharge
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,voltage_window,2.5–4.3 V,stated,"during formation cycles (2.5–4.3V, 25.2 °C ± 0.2 °C)"
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,cell_type,"half cell, Li foil",stated_elsewhere,2.50 V–4.30 V for the positive half-cells
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,temperature,25.2 °C,stated,"(2.5–4.3V, 25.2 °C ± 0.2 °C)"
+v5-3A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,electrolyte,1 M LiPF6 in EC:EMC (30:70 wt) + 2 wt% VC,stated_elsewhere,1M LiPF6 in EC:EMC (30 %:70 % wt: wt) + 2 wt% VC
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,capacity,245,stated,first charge of 1.17 mAh/cm2 (245 mAh/g)
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,material,NMC811,stated,uncoated NMC811 electrode was obtained from Umicore
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,modification,none (uncoated),stated,The uncoated NMC811 electrode
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,capacity_type,charge,stated,first charge of 1.17 mAh/cm2 (245 mAh/g)
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,cycle,"1 (first charge, formation)",stated,first charge ... during formation cycles
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,c_rate,0.1C,stated_elsewhere,Formation cycles consisted of 3 cycles of constant current charge of C/10
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,voltage_window,2.5–4.3 V,stated,"during formation cycles (2.5–4.3V, 25.2 °C ± 0.2 °C)"
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,cell_type,"half cell, Li foil",stated_elsewhere,2.50 V–4.30 V for the positive half-cells
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,temperature,25.2 °C,stated,"(2.5–4.3V, 25.2 °C ± 0.2 °C)"
+v5-1A,1,PAPER 15,10.1016/j.jpowsour.2025.237184,electrolyte,1 M LiPF6 in EC:EMC (30:70 wt) + 2 wt% VC,stated_elsewhere,1M LiPF6 in EC:EMC (30 %:70 % wt: wt) + 2 wt% VC
+v5-3E,1,PAPER 07,10.3390/batteries9080423,capacity,141,stated,"for NCM811, were 146 and 141 mAh/g, respectively"
+v5-3E,1,PAPER 07,10.3390/batteries9080423,material,NCM811 (regenerated),stated,NCM811
+v5-3E,1,PAPER 07,10.3390/batteries9080423,modification,aluminium present (>1%) in the regenerated material; not an intentional modification,stated,"There was also the presence of more than 1% aluminum, which probably got into the precursor during the extraction of the cobalt from the aluminum current collector."
+v5-3E,1,PAPER 07,10.3390/batteries9080423,capacity_type,discharge,stated,"the charging and discharging capacities ... for NCM811, were 146 and 141"
+v5-3E,1,PAPER 07,10.3390/batteries9080423,cycle,5,stated,At cycle 5
+v5-3E,1,PAPER 07,10.3390/batteries9080423,c_rate,0.1C,stated_elsewhere,charge–discharge curves at a current rate of 0.1 C ... at the 1st and 5th cycles
+v5-3E,1,PAPER 07,10.3390/batteries9080423,voltage_window,2.8–4.3 V,stated_elsewhere,in a voltage range of 2.8–4.3 V
+v5-3E,1,PAPER 07,10.3390/batteries9080423,cell_type,"half cell, Li metal",stated_elsewhere,Lithium metal was used as the anode material
+v5-3E,1,PAPER 07,10.3390/batteries9080423,temperature,not_reported,not_reported,no test temperature anywhere in the paper
+v5-3E,1,PAPER 07,10.3390/batteries9080423,electrolyte,TC-E918 (LiPF6 in organic carbonates),stated_elsewhere,"TC-E918 (Tinki), which is a solution of LiPF6 in a mixture of organic carbonates"
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,capacity,180,stated,"After 57 cycles, measured capacities were 149, 166, 180, and 146 mAh/g"
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,material,NMC811,stated,NMC811/Li coin cells
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,capacity_type,discharge,stated,Discharge capacity of NMC811/Li coin cells ... as a function of cycle number
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,cycle,57,stated,After 57 cycles
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,c_rate,C/5,stated_elsewhere,The cells were tested at C/20 for 2 cycles and then cycled at C/5 at a constant temperature of 30°C. ... All the cells were tested with a current density of 10 mA/g (∼C/20) for one cycle and 40 mAh/g (∼C/5) at the following cycles.
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,voltage_window,3.0–4.3 V,stated,"Second discharge capacities of ∼161, 180, 198, and 207 mAh/g at C/20 were measured from 3.0–4.1 V, 4.2 V, 4.3 V and 4.4 V, respectively, whereas the second discharge capacities at C/5 within the same potential ranges were ∼150, 169, 188 and 197 mAh/g respectively. ... After 57 cycles, measured capacities were 149, 166, 180, and 146 mAh/g with corresponding capacity retentions of 99%, 98%, 95% and 74% (comparing to the second discharge at C/5), respectively."
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,cell_type,"half cell, Li metal",stated,NMC811/Li coin cells
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,temperature,30 °C,stated_elsewhere,cycled at C/5 at a constant temperature of 30°C
+v5-2C,1,PAPER 02,10.1149/2.1011507jes,electrolyte,1.0 M LiPF6 in EC:DEC 1:2 (v/v),stated_elsewhere,"For all cells, the electrolyte used was 1.0 M LiPF6 in 1:2 v/v EC:DEC"
+v5-4B,1,PAPER 18,10.3390/batteries8070067,capacity,not_reported,not_reported,no capacity after 300 cycles; Table 3 gives retention 78% for CP7_MW3
+v5-4B,1,PAPER 18,10.3390/batteries8070067,material,NMC811 (CP7_MW3),stated,"4 145 120 85 74 64 CP_A 78 199 192 178 165 156 131 90 77 69 CP7_MW3 83 202 194 182 165 144 120 93 85 78 NMC811 [20] 82 196 180 162 150 125 100 87 79 - To evaluate the processes taking place during Li (de)intercalation in NMC811, differen- tial"
+v5-4B,1,PAPER 18,10.3390/batteries8070067,modification,70:30 mix of CP_A and MW_30m_A,stated,CP7_MW3
+v5-4B,1,PAPER 18,10.3390/batteries8070067,capacity_type,retention only,stated,"Capacity Retention, at 1C, % ... after 300 Cycles"
+v5-4B,1,PAPER 18,10.3390/batteries8070067,cycle,300,stated,after 300 charge/discharge cycles
+v5-4B,1,PAPER 18,10.3390/batteries8070067,c_rate,1C,stated,(current density 1C)
+v5-4B,1,PAPER 18,10.3390/batteries8070067,voltage_window,2.7–4.3 V,stated,within the voltage region of 2.7–4.3 V vs. Li/Li+
+v5-4B,1,PAPER 18,10.3390/batteries8070067,cell_type,"half cell, Li foil",stated_elsewhere,with a lithium foil disc as a counter electrode
+v5-4B,1,PAPER 18,10.3390/batteries8070067,temperature,room temperature (no number),stated_elsewhere,at room temperature
+v5-4B,1,PAPER 18,10.3390/batteries8070067,electrolyte,1 M LiPF6 in EC:PC:DMC 1:1:3 (vol),stated_elsewhere,"Coin-type half-cells (2032 R) were assembled in an Ar-ﬁlled glove box using the electrolyte consisting of 1M LiPF6 (Sigma-Aldrich, 99.99%) solution in ethylene carbonate/propylene carbonate/dimethyl carbonate solution (EC:PC:DMC = 1:1:3 vol. ratio)"
+v5-2D,1,PAPER 14,10.1155/er/6664420,capacity,178 (approximately),stated,"approximately 218, 207, 199, 190, and 178 mA h g−1"
+v5-2D,1,PAPER 14,10.1155/er/6664420,material,NCM811,stated,P0.3-NCM811 cathode
+v5-2D,1,PAPER 14,10.1155/er/6664420,modification,"PO4(3−) polyanion incorporation, 0.3 mol% (P0.3)",stated,P0.3-NCM811
+v5-2D,1,PAPER 14,10.1155/er/6664420,capacity_type,discharge,stated,delivered discharge capacities of approximately
+v5-2D,1,PAPER 14,10.1155/er/6664420,cycle,not_reported,not_reported,rate-capability step; no cycle index given
+v5-2D,1,PAPER 14,10.1155/er/6664420,c_rate,4.0C,stated,"at current rates of 0.2, 0.5, 1.0, 2.0, and 4.0 C"
+v5-2D,1,PAPER 14,10.1155/er/6664420,voltage_window,3.0–4.5 V,stated_elsewhere,within a potential range of 3.0–4.5 V (vs. Li/Li+)
+v5-2D,1,PAPER 14,10.1155/er/6664420,cell_type,"half cell, Li metal",stated_elsewhere,CR2032 coin cells ... using Li metal as both the counter and reference electrodes
+v5-2D,1,PAPER 14,10.1155/er/6664420,temperature,25 °C,stated_elsewhere,All electrochemical measurements were performed at 25°C
+v5-2D,1,PAPER 14,10.1155/er/6664420,electrolyte,1.0 M LiPF6 in EC/EMC,stated_elsewhere,The electrolyte consisted of 1.0 M LiPF6 dissolved in a mixed sol- vent of ethylene carbonate (EC) and ethyl methyl carbonate (EMC) in a 3:7 volume ratio
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,capacity,137.1,stated,the full-cell delivered 137.1 mAh g–1 (areal capacity: 2.10 mAh cm–2) after 100 cycles
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,material,NCM811,stated,pairing the Si/a-Sn/CoSi2/G/C anode with an NCM811 cathode
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,capacity_type,not_reported,not_reported,the paper says the full cell 'delivered' 137.1 mAh/g with a capacity retention but never says charge or discharge; reading it as discharge is a convention
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,cycle,100,stated,after 100 cycles
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,c_rate,1C (1C = 180 mA/g),stated,At 1 C with a cathode loading of 15.3 mg cm–2
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,voltage_window,2.0–4.3 V,stated_elsewhere,The full-cells were tested ... within a range of 2.0–4.3 V
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,cell_type,"full cell, Si/a-Sn/CoSi2/G/C anode",stated,the full-cell delivered 137.1
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,temperature,room temperature (no number),stated_elsewhere,All LIB measurements were taken at room temperature
+v5-3B,1,PAPER 01,10.1007/s40820-026-02258-w,electrolyte,not_reported,not_reported,composition given only for LIB half-cell tests (1.3 M LiPF6 in EC/DEC + 10 wt% FEC); the full-cell paragraph names none
+v5-1C,1,PAPER 11,10.3390/ma16103613,capacity,218,stated,247/218 mAh g−1
+v5-1C,1,PAPER 11,10.3390/ma16103613,material,single-crystal NCM811 (SCNCM),stated,SCNCM/(ALP+BA)-1 electrode
+v5-1C,1,PAPER 11,10.3390/ma16103613,modification,aluminum triphosphate + boric acid coating ((ALP+BA)-1),stated,SCNCM/(ALP+BA)-1
+v5-1C,1,PAPER 11,10.3390/ma16103613,capacity_type,discharge,stated,first charge/discharge specific capacities ... 247/218
+v5-1C,1,PAPER 11,10.3390/ma16103613,cycle,1,stated,The first charge/discharge specific capacities
+v5-1C,1,PAPER 11,10.3390/ma16103613,c_rate,0.1C,stated,first charging and discharging curves ... at the current of 0.1 C
+v5-1C,1,PAPER 11,10.3390/ma16103613,voltage_window,2.8–4.6 V,stated,(c) 2.8−4.6 V at 25 °C
+v5-1C,1,PAPER 11,10.3390/ma16103613,cell_type,"half cell, Li foil",stated_elsewhere,lithium foil was used as the counter electrode
+v5-1C,1,PAPER 11,10.3390/ma16103613,temperature,25 °C,stated,(c) 2.8−4.6 V at 25 °C
+v5-1C,1,PAPER 11,10.3390/ma16103613,electrolyte,1 M LiPF6 in EC/EMC/DMC 1:1:1 (wt),stated_elsewhere,"China, and is prepared by dissolving 1 mol L−1 LiPF6 in a ternary solvent of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and dimethyl carbonate (DMC) at a weight ratio of 1:1:1"
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,capacity,204.6,stated,(204.6 mAh g-1 for HR-NCM and 203.7 mAh g-1 for LR-NCM)
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,material,NCM811 (HR-NCM),stated,HR-NCM
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,modification,high primary-particle length/width ratio,stated,HR-NCM and LR-NCM cathodes
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,capacity_type,discharge,stated,initial discharge specific capacity at 0.1 C
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,cycle,1,stated,initial discharge specific capacity
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,c_rate,0.1C,stated,at a rate of 0.1 C (1 C = 200 mAh g-1)
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,voltage_window,2.7–4.3 V,stated,from 2.7 to 4.3 V
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,cell_type,"half cell, Li metal",stated_elsewhere,CR2032-type half cells constructed using lithium metal as the anode
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,temperature,25 °C,stated_elsewhere,tested ... between 2.7 and 4.3 V (vs. Li/Li+) at 25 °C
+v5-2E,1,PAPER 16,10.20517/energymater.2023.59,electrolyte,1 M LiPF6 in EC/DEC/DMC (1:1:1 vol) + 5 wt% FEC,stated_elsewhere,The electrolyte used was 1 M LiPF6 in EC/DEC/DMC (1:1:1 Vol%) with 5 wt% FEC
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,capacity,203.7,stated,203.7 mAh g-1 for LR-NCM
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,material,NCM811 (LR-NCM),stated,LR-NCM
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,modification,low primary-particle length/width ratio,stated,HR-NCM and LR-NCM cathodes
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,capacity_type,discharge,stated,initial discharge specific capacity at 0.1 C
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,cycle,1,stated,initial discharge specific capacity
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,c_rate,0.1C,stated,at a rate of 0.1 C
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,voltage_window,2.7–4.3 V,stated,from 2.7 to 4.3 V
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,cell_type,"half cell, Li metal",stated_elsewhere,CR2032-type half cells constructed using lithium metal as the anode
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,temperature,25 °C,stated_elsewhere,tested ... between 2.7 and 4.3 V (vs. Li/Li+) at 25 °C
+v5-2E,2,PAPER 16,10.20517/energymater.2023.59,electrolyte,1 M LiPF6 in EC/DEC/DMC (1:1:1 vol) + 5 wt% FEC,stated_elsewhere,The electrolyte used was 1 M LiPF6 in EC/DEC/DMC (1:1:1 Vol%) with 5 wt% FEC
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,capacity,193,stated,NMC811 shows a capacity value of 193 mAh g−1 at 1/15 C when charged to 4.5 V
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,material,NMC811,stated,NMC811 shows a capacity value
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,modification,not_reported,not_reported,none named
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,capacity_type,not_reported,not_reported,'a capacity value ... when charged to 4.5 V'; never called charge or discharge
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,cycle,1,stated_elsewhere,(a) First derivative of (b) the EPR signal intensity of NMC811 (broad signal); (c) dQ/dV and (d) the voltage change of the NMC811 cathode during charge (blue) and the discharge (orange) process in LP57 without VC additive at a C rate of 1/15C from 2.7 to 4.5 V during its first cycle.
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,c_rate,1/15C,stated,at 1/15 C
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,voltage_window,2.7–4.5 V,stated_elsewhere,(a) First derivative of (b) the EPR signal intensity of NMC811 (broad signal); (c) dQ/dV and (d) the voltage change of the NMC811 cathode during charge (blue) and the discharge (orange) process in LP57 without VC additive at a C rate of 1/15C from 2.7 to 4.5 V during its first cycle.
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,cell_type,in situ EPR cell with Li metal (half cell),stated_elsewhere,contained both an NMC811 cathode and a Li counter/reference electrode
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,temperature,room temperature (no number),stated_elsewhere,"This cell includes a metallic Li anode and a free-standing NMC811 film cathode, allowing us to study the redox reactions of metal cations at room temperature under galvanostatic cycling."
+v5-3F,1,PAPER 08,10.1021/acs.jpcc.5c00275,electrolyte,"1 M LiPF6 in EC/EMC 3:7 (LP57), no VC",stated,"in 1 M LiPF6 in 3:7 ethylene carbonate/ethyl methyl carbonate (EC/EMC, LP57) without the vinylene carbonate (VC) additive"
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,capacity,225,stated,lower than the one obtained when it was tested in a coin cell (225 mAh g−1) under the same conditions
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,material,NMC811,stated,NMC811 shows a capacity value
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,modification,not_reported,not_reported,none named
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,capacity_type,not_reported,not_reported,'a capacity value ... when charged to 4.5 V'; never called charge or discharge
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,cycle,not_reported,not_reported,no cycle given
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,c_rate,1/15C,stated,at 1/15 C
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,voltage_window,2.7–4.5 V,stated_elsewhere,This value is lower than the one obtained when it was tested in a coin cell (225 mAh g−1) under the same conditions. ... (a) First derivative of (b) the EPR signal intensity of NMC811 (broad signal); (c) dQ/dV and (d) the voltage change of the NMC811 cathode during charge (blue) and the discharge (orange) process in LP57 without VC additive at a C rate of 1/15C from 2.7 to 4.5 V during its first cycle.
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,cell_type,coin cell (counter electrode not stated for it),stated_elsewhere,tested in a coin cell (225 mAh g−1) under the same conditions
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,temperature,room temperature (no number),stated_elsewhere,"This value is lower than the one obtained when it was tested in a coin cell (225 mAh g−1) under the same conditions. ... This cell includes a metallic Li anode and a free-standing NMC811 film cathode, allowing us to study the redox reactions of metal cations at room temperature under galvanostatic cycling."
+v5-3F,2,PAPER 08,10.1021/acs.jpcc.5c00275,electrolyte,"1 M LiPF6 in EC/EMC 3:7 (LP57), no VC",stated,"in 1 M LiPF6 in 3:7 ethylene carbonate/ethyl methyl carbonate (EC/EMC, LP57) without the vinylene carbonate (VC) additive"
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,capacity,210,stated,210 mAh/g of discharge capacity at the end of the formation cycles
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,material,NMC811,stated,the NMC811/Gr cell
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,modification,none (uncoated),stated,its coated counterpart in Fig. 1b
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,capacity_type,discharge,stated,210 mAh/g of discharge capacity
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,cycle,end of formation (index not given),stated,at the end of the formation cycles
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,c_rate,0.1C,stated_elsewhere,3 cycles of constant current charge of C/10 ... followed by a C/10 discharge
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,voltage_window,2.5–4.2 V,stated_elsewhere,2.50 V–4.20 V for the full-cells ... employed in the formation cycles
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,cell_type,"full cell, graphite",stated,the NMC811/Gr cell
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,temperature,25.2 °C,stated_elsewhere,All the cells were aged in a thermal chamber ... at 25.2 °C ± 0.2 °C
+v5-2B,1,PAPER 15,10.1016/j.jpowsour.2025.237184,electrolyte,1 M LiPF6 in EC:EMC (30:70 wt) + 2 wt% VC,stated_elsewhere,Electrolyte consisted of 1M LiPF6 in EC:EMC ... + 2 wt% VC
+v5-4A,1,PAPER 11,10.3390/ma16103613,capacity,not_reported,not_reported,no capacity after 200 cycles; only 'capacity retention rate of the SCNCM/(ALP+BA)-1 electrode (83.8%)'
+v5-4A,1,PAPER 11,10.3390/ma16103613,material,single-crystal NCM811 (SCNCM),stated,SCNCM/(ALP+BA)-1
+v5-4A,1,PAPER 11,10.3390/ma16103613,modification,aluminum triphosphate + boric acid coating ((ALP+BA)-1),stated,SCNCM/(ALP+BA)-1
+v5-4A,1,PAPER 11,10.3390/ma16103613,capacity_type,retention only,stated,capacity retention rate ... (83.8%)
+v5-4A,1,PAPER 11,10.3390/ma16103613,cycle,200,stated,After 200 cycles at 1 C
+v5-4A,1,PAPER 11,10.3390/ma16103613,c_rate,1C,stated,After 200 cycles at 1 C
+v5-4A,1,PAPER 11,10.3390/ma16103613,voltage_window,2.8–4.6 V,stated_elsewhere,83.8% at ... 4.6 V cut-off voltage ... Three formation cycles were applied between 2.8 and 4.5 and 4.6 V vs. Li/Li+
+v5-4A,1,PAPER 11,10.3390/ma16103613,cell_type,"half cell, Li foil",stated_elsewhere,lithium foil was used as the counter electrode
+v5-4A,1,PAPER 11,10.3390/ma16103613,temperature,25 °C,stated_elsewhere,"0.1 C with the voltage range of (a) 2.8−4.5 V at 25 °C and (c) 2.8−4.6 V at 25 °C, and (e) 2.8−4.5 V at 55 °C, the cycling graph of the SCNCM, SCNCM/(ALP+BA)-1, and SCNCM/(ALP+BA)-2 samples at the current of 1 C in the"
+v5-4A,1,PAPER 11,10.3390/ma16103613,electrolyte,1 M LiPF6 in EC/EMC/DMC 1:1:1 (wt),stated_elsewhere,"China, and is prepared by dissolving 1 mol L−1 LiPF6 in a ternary solvent of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and dimethyl carbonate (DMC) at a weight ratio of 1:1:1"
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,capacity,162.6,stated,The specific discharge capacities of NCM811|P15 Z30 PEDF|Li are 162.6 mAh g−1
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,material,NCM811,stated,NCM811|P15 Z30 PEDF|Li
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,capacity_type,discharge,stated,The specific discharge capacities
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,cycle,not_reported,not_reported,rate-capability step (Figure 5b); no cycle index
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,c_rate,0.2C,stated,"at 0.2 C, 0.5 C, 1.0 C, 2.0 C, and 5.0 C, respectively"
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,voltage_window,not_reported,not_reported,no voltage window anywhere in the paper
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,cell_type,Li metal negative electrode (NCM811|P15 Z30 PEDF|Li; the paper calls these full cells),stated,The specific discharge capacities of NCM811|P15 Z30 PEDF|Li are 162.6 mAh g− 1
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,temperature,not_reported,not_reported,"30 °C is attached to the Figure 5a cycling test and the 8 µm cells, not to this rate test"
+v6-B1-09,1,PAPER 07,10.1002/advs.76317,electrolyte,composite solid electrolyte P15 Z30 PEDF,stated,The specific discharge capacities of NCM811|P15 Z30 PEDF|Li are 162.6 mAh g− 1
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,capacity,104.81,stated,ge Capacity (mAh g−1) rGO (wt%) @0.1C @3C Capacity Fade (%) 0 (control) 202.61 104.81 31 2 193.70 98.00 26 5 216.48 93.20 15 10 153.10 66.55 37 Figure 1 is a comparison of the specific discharge capacity for pristine NMC811 a
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,material,NMC811,stated,ge Capacity (mAh g−1) rGO (wt%) @0.1C @3C Capacity Fade (%) 0 (control) 202.61 104.81 31 2 193.70 98.00 26 5 216.48 93.20 15 10 153.10 66.55 37 Figure 1 is a comparison of the specific discharge capacity for pristine NMC811 a
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,modification,none (0 wt% rGO control),stated,ge Capacity (mAh g−1) rGO (wt%) @0.1C @3C Capacity Fade (%) 0 (control) 202.61 104.81 31 2 193.70 98.00 26 5 216.48 93.20 15 10 153.10 66.55 37 Figure 1 is a comparison of the specific discharge capacity for pristine NMC811 a
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,capacity_type,discharge,stated,5–4.5 V. The capacity fade was calculated after 100 cycles. Discharge Capacity (mAh g−1) rGO (wt%) @0.1C @3C Capacity Fade (%) 0 (control) 202.61 104.81 31 2 193.70 98.00 26 5 216.48 93.20 15 10 153.10 66.55 37 Figure 1 is a comparison of the speci
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,cycle,not_reported,not_reported,table column '@3C'; no cycle index
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,c_rate,3C,stated,5–4.5 V. The capacity fade was calculated after 100 cycles. Discharge Capacity (mAh g−1) rGO (wt%) @0.1C @3C Capacity Fade (%) 0 (control) 202.61 104.81 31 2 193.70 98.00 26 5 216.48 93.20 15 10 153.10 66.55 37 Figure 1 is a comparison of the speci
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,voltage_window,2.5–4.5 V,stated_elsewhere,"A battery test set (BT-2000, Arbin Instruments, College Station, TX, USA) was used to evalu- ate the electrochemical behavior of the assembled batteries in terms of the galvanostatic charge/discharge cycling and cyclic voltammetry (CV) over an operating voltage range of 2.5–4.5 V."
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,cell_type,"half cell, Li metal",stated_elsewhere,"Pure metallic lithium metal chips (EQ-Lib-LiC60-300, 16 mm diameter and 0.6 mm thickness, 99.9% pure Li, MTI Corp.) were used as the anode for the half-cell batteries"
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,temperature,ambient temperature (no number),stated_elsewhere,All measurements were taken at ambient temperature
+v6-B3-04,1,PAPER 09,10.3390/ma15062146,electrolyte,1 M LiPF6 in EC/EMC 3:7 (v/v),stated_elsewhere,"A microporous separator ﬁlm (Celgard 2400, 25 µm thickness) and 1M LiPF6 in 3:7 ethylene carbonate (EC)/ethyl methyl carbonate (EMC) (3:7 v/v) electrolyte (EQ-LBC3015B-LD, MTI Corp.) were used in the battery assembly"
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,capacity,199.0,stated,This cathode delivered discharge capacities of 199.0 mA h g–1 at 0.2 C
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,material,NCM811,stated,SPE‐NCM811 cathode
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,modification,SPE coating,stated,SPE‐NCM811
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,capacity_type,discharge,stated,delivered discharge capacities of 199.0
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,cycle,not_reported,not_reported,rate-test step; no cycle index
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,c_rate,0.2C,stated,at 0.2 C
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,voltage_window,2.18–3.68 V vs In/LiIn (= 2.8–4.3 V vs Li/Li+),stated,"a voltage range of 2.18–3.68 V (vs. In/LiIn, equally 2.8–4.3 V vs. Li+/Li) at 25°C"
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,cell_type,all-solid-state cell with a Li–In alloy negative electrode,stated_elsewhere,"The electrochemical characterizations were performed on the NCM811/SSE/LiIn ASSLBs, which were fabricated using bare-/- SPE- NCM811 cathodes, LPSCl SE, and LiIn anode (Figure S9)."
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,temperature,25 °C,stated,at 25°C
+v6-B1-06,1,PAPER 28,10.1002/cey2.70076,electrolyte,Li6PS5Cl (inorganic sulfide solid electrolyte),stated_elsewhere,"The electrochemical characterizations were performed on the NCM811/SSE/LiIn ASSLBs, which were fabricated using bare-/- SPE- NCM811 cathodes, LPSCl SE, and LiIn anode (Figure S9)."
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,capacity,not_reported,not_reported,no capacity after 100 cycles; 'just 93.1% capacity retention after 100 cycles' in 1 M LiPF6 EC/EMC
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,material,NCM811,stated,Li/NCM811 cells
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,capacity_type,retention only,stated,93.1% capacity retention
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,cycle,100,stated,after 100 cycles
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,c_rate,0.2C,stated,Li/NCM811 coin-cells assembled with different electrolytes at a cut-off voltage of 2.7–4.5 V and a current density of 0.2 C. Frontiers in Energy Research frontiersin.org 05 Chen et al. 10.3389/fenrg.2022.973336 EMC/FEC electrolyte in the temperature range of ‒40–
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,voltage_window,2.7–4.5 V,stated,cells cycled between 2.7 and 4.5 V
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,cell_type,"half cell, Li metal (Li/NCM811 coin cell)",stated,Li/NCM811 coin-cells
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,temperature,not_reported,not_reported,room temperature is given only for the pouch-cell tests; no temperature for the Li/NCM811 coin-cell cycling
+v6-B2-12,1,PAPER 20,10.3389/fenrg.2022.973336,electrolyte,1.0 M LiPF6 in EMC:EC 6:1 (v/v),stated_elsewhere,the conventional EC-based electrolyte was composed of 1.0 mol L−1 LiPF6 dissolved in ... EMC and EC in a 6:1 volume ratio
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,capacity,227 (approximately),stated,showed enhanced capacities of approximately 227 mA h g−1
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,material,NCM811,stated,P0.3-NCM811 cathode material
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,modification,"PO4(3−) polyanion incorporation, 0.3 mol% (P0.3)",stated,incorporating an optimal amount of PO4 3− polyanions
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,capacity_type,discharge,stated,initial discharge capacity
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,cycle,1,stated,initial discharge capacity
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,c_rate,0.1C (1C = 180 mA/g),stated,initial charge–discharge curves measured at a current density of 0.1 C
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,voltage_window,3.0–4.5 V,stated_elsewhere,within a potential range of 3.0–4.5 V (vs. Li/Li+)
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,cell_type,"half cell, Li metal",stated_elsewhere,using Li metal as both the counter and reference electrodes
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,temperature,25 °C,stated_elsewhere,Galvanostatic charge–discharge tests were conducted at 25°C
+v6-B2-07,1,PAPER 23,10.1155/er/6664420,electrolyte,1.0 M LiPF6 in EC/EMC,stated_elsewhere,The electrolyte consisted of 1.0 M LiPF6 dissolved in a mixed sol- vent of ethylene carbonate (EC) and ethyl methyl carbonate (EMC) in a 3:7 volume ratio
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,capacity,207 (approximately),stated,"Second discharge capacities of ∼161, 180, 198, and 207 mAh/g at C/20"
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,material,NMC811,stated,NMC811/Li
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,capacity_type,discharge,stated,Second discharge capacities
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,cycle,2,stated,Second discharge capacities
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,c_rate,C/20,stated,at C/20
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,voltage_window,3.0–4.4 V,stated,"Second discharge capacities of ∼161, 180, 198, and 207 mAh/g at C/20 were measured from 3.0–4.1 V, 4.2 V, 4.3 V and 4.4 V, respectively, whereas the second discharge capacities at C/5 within the same potential ranges were ∼150, 169, 188 and 197 mAh/g respectively."
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,cell_type,"half cell, Li metal",stated_elsewhere,standard 2325 coin cells with lithium metal as the anode
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,temperature,30 °C,stated_elsewhere,"Cells were tested between 3.0 – 4.1, 4.2, 4.3 or 4.4 V (vs. Li/Li+) at 30°C"
+v6-B3-02,1,PAPER 06,10.1149/2.1011507jes,electrolyte,1.0 M LiPF6 in EC:DEC 1:2 (v/v),stated_elsewhere,"For all cells, the electrolyte used was 1.0 M LiPF6 in 1:2 v/v EC:DEC"
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,capacity,156,stated,"By the end of 100 cycles, LWO-NMC811 maintains a specific discharge capacity of 156 mAh g−1"
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,material,NMC811,stated,LWO-NMC811
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,modification,LixWyOz (LWO) coating,stated,The LixWyOz-coated NMC811 (LWO-NMC811)
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,capacity_type,discharge,stated,specific discharge capacity
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,cycle,100,stated,By the end of 100 cycles
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,c_rate,1C (200 mA/g),stated_elsewhere,galvanostatic charge-discharge tests (Land Cycler) at 1C (200 mA g−1)
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,voltage_window,3.0–4.6 V,stated_elsewhere,within the voltage range 3.0–4.6 V
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,cell_type,"half cell, Li metal",stated_elsewhere,lithium metal foil (MSE Supplies) as the anode
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,temperature,not_reported,not_reported,no coin-cell test temperature; 20 °C is given only for the dilatometry cell
+v6-B3-01,1,PAPER 21,10.1016/j.mtener.2025.101862,electrolyte,1 M LiPF6 in EC:DMC 1:1 (v/v),stated_elsewhere,200 μL of 1 M LiPF6 in 1:1 (v/v %) ethylene carbonate and dimethyl carbonate
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,capacity,187.4,stated,"rate capabilities of 174, 187.4 and 181.7 mA h g−1 for NCM811-CS-1, NCM811-CS-3, and NCM811-CS-5 at 5C"
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,material,NCM811,stated,NCM811-CS-3
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,modification,"3 wt% CoSO4 co-modification (Li2SO4 coating, Co doping)",stated,the co-modified NCM811 cathode with 3 wt% CoSO4
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,capacity_type,not_reported,not_reported,'rate capabilities of ... 187.4 mA h g−1'; not labelled charge or discharge
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,cycle,not_reported,not_reported,rate-test step; no cycle index
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,c_rate,5C (1C = 200 mA/g),stated,at 5C
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,voltage_window,2.8–4.5 V,stated_elsewhere,The electrochemical performance of pristine and modied NCM811 materials were tested between 2.8 and 4.5 V vs
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,cell_type,"half cell, Li metal",stated_elsewhere,The cells were assembled using lithium metal as the anode
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,temperature,room temperature (no number),stated_elsewhere,"The cycling performance, rate capability and galvanostatic intermittent titration technique (GITT) test were performed using a LANHE CT2001A battery tester (Wuhan, China) at room temperature under various rates. 1C rate corresponds to a current density of 200 mA h g−1 in this work"
+v6-B4-05,1,PAPER 27,10.1039/d3ra04145j,electrolyte,1 M LiPF6 in EC/DMC/EMC,stated_elsewhere,"The cells were assembled using lithium metal as the anode, microporous membranes (Celgard 2550s) as a separator, 1 mol L−1 LiPF6 in a mixed solution containing ethylene carbonate (EC)/dimethyl carbonate (DMC)/ ethyl methyl carbonate (EMC) with volume ratio of 1 : 1 : 1 as electrolyte"
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,capacity,not_reported,not_reported,no capacity after 100 cycles; 'the correlation capacity retention rates were 54.8% and 80.3% after 100 cycles'
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,material,single-crystal NCM811 (SCNCM),stated,SCNCM/(ALP+BA)-1 electrode
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,modification,aluminum triphosphate (ALP) + boric acid (BA) coating,stated,SCNCM/(ALP+BA)-1
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,capacity_type,retention only,stated,capacity retention rates
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,cycle,100,stated,after 100 cycles
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,c_rate,1C,stated,ty (mAh g-1) SCNCM ICE:90.9% SCNCM/(ALP+BA)−1 ICE:93.4% e 0.1 C 2.8-4.5 V 55 °C 0 20 40 60 80 100 0 40 80 120 160 200 240 Specific capacity (mAh g-1) Cycle Number SCNCM SCNCM/(ALP+BA)−1 f 1 C 2.8-4.5 V 55 °C 0 50 100 15
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,voltage_window,2.8–4.5 V,stated,ty (mAh g-1) SCNCM ICE:90.9% SCNCM/(ALP+BA)−1 ICE:93.4% e 0.1 C 2.8-4.5 V 55 °C 0 20 40 60 80 100 0 40 80 120 160 200 240 Specific capacity (mAh g-1) Cycle Number SCNCM SCNCM/(ALP+BA)−1 f 1 C 2.8-4.5 V 55 °C 0 50 100 15
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,cell_type,"half cell, Li foil",stated_elsewhere,lithium foil was used as the counter electrode
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,temperature,55 °C,stated,at 4.5 V cut-off voltage and 55 °C
+v6-B3-13,1,PAPER 30,10.3390/ma16103613,electrolyte,1 M LiPF6 in EC/EMC/DMC 1:1:1 (wt),stated_elsewhere,"China, and is prepared by dissolving 1 mol L−1 LiPF6 in a ternary solvent of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and dimethyl carbonate (DMC) at a weight ratio of 1:1:1"
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,capacity,not_reported,not_reported,no full-cell capacity in mAh/g; 'capacity retention of 88–90% after 300 cycles at 1C (Figure 13)'
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,material,NMC811 (CP_A),stated_elsewhere,"in full cells, the difference in capacity retention of the CP7_MW3 and CP_A samples becomes less pronounced. Both materials demonstrate capacity retention of 88– 90% after 300 cycles at 1C (Figure 13)."
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,modification,conventional co-precipitation precursor,stated,MW and CP samples
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,capacity_type,retention only,stated,capacity retention of 88–90%
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,cycle,300,stated,after 300 cycles
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,c_rate,1C,stated,at 1C
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,voltage_window,1.60–2.65 V (full-cell voltage),stated_elsewhere,in the potential range of 1.60–2.65 V at room temperature
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,cell_type,"full cell, Li4Ti5O12 anode",stated,Full cells were assembled with ... Li4Ti5O12 (LTO) as the anode
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,temperature,room temperature (no number),stated_elsewhere,at room temperature
+v6-B1-14,1,PAPER 25,10.3390/batteries8070067,electrolyte,1 M LiPF6 in EC:EMC 2:5 (wt) + 2 wt% VC,stated_elsewhere,1 M LiPF6 solution in ethylene carbonate/ethyl methyl carbonate solution (EC:EMC = 2:5 by weight) + 2 wt.% of vinylene carbonate was used as an electrolyte. ... The full cells were assembled in an Ar- ﬁlled glove box
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,capacity,not_reported,not_reported,no full-cell capacity in mAh/g; 'capacity retention of 88–90% after 300 cycles at 1C (Figure 13)'
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,material,NMC811 (CP7_MW3),stated_elsewhere,"in full cells, the difference in capacity retention of the CP7_MW3 and CP_A samples becomes less pronounced. Both materials demonstrate capacity retention of 88– 90% after 300 cycles at 1C (Figure 13)."
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,modification,70:30 mix of CP_A and MW_30m_A,stated,MW and CP samples
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,capacity_type,retention only,stated,capacity retention of 88–90%
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,cycle,300,stated,after 300 cycles
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,c_rate,1C,stated,at 1C
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,voltage_window,1.60–2.65 V (full-cell voltage),stated_elsewhere,in the potential range of 1.60–2.65 V at room temperature
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,cell_type,"full cell, Li4Ti5O12 anode",stated,Full cells were assembled with ... Li4Ti5O12 (LTO) as the anode
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,temperature,room temperature (no number),stated_elsewhere,at room temperature
+v6-B1-14,2,PAPER 25,10.3390/batteries8070067,electrolyte,1 M LiPF6 in EC:EMC 2:5 (wt) + 2 wt% VC,stated_elsewhere,1 M LiPF6 solution in ethylene carbonate/ethyl methyl carbonate solution (EC:EMC = 2:5 by weight) + 2 wt.% of vinylene carbonate was used as an electrolyte. ... The full cells were assembled in an Ar- ﬁlled glove box
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,capacity,110 (approximately),stated,"Even at 15 C, the HR-NCM retained a high discharge capacity of ~110 mAh g-1"
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,material,NCM811 (HR-NCM),stated,the HR-NCM
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,modification,high primary-particle length/width ratio,stated,HR-NCM
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,capacity_type,discharge,stated,discharge capacity of ~110
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,cycle,not_reported,not_reported,rate-test step; no cycle index
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,c_rate,15C,stated,Even at 15 C
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,voltage_window,2.7–4.3 V,stated_elsewhere,between 2.7 and 4.3 V (vs. Li/Li+) at 25 °C
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,cell_type,"half cell, Li metal",stated_elsewhere,CR2032-type half cells constructed using lithium metal as the anode
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,temperature,25 °C,stated_elsewhere,between 2.7 and 4.3 V (vs. Li/Li+) at 25 °C
+v6-B3-03,1,PAPER 24,10.20517/energymater.2023.59,electrolyte,1 M LiPF6 in EC/DEC/DMC (1:1:1 vol) + 5 wt% FEC,stated_elsewhere,The electrolyte used was 1 M LiPF6 in EC/DEC/DMC (1:1:1 Vol%) with 5 wt% FEC
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,capacity,224,stated,A high capacity of 224 mAh g−1 is delivered at 0.2 C when NCM811 cathode is charged to 4.6 V
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,material,NCM811,stated,NCM811 cathode
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,capacity_type,not_reported,not_reported,'a high capacity of 224 mAh g−1 ... when ... charged to 4.6 V'; not labelled charge or discharge
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,cycle,not_reported,not_reported,0.2 C covers the first activation cycles; no cycle index
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,c_rate,0.2C,stated,delivered at 0.2 C
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,voltage_window,3.0–4.6 V,stated_elsewhere,The Li|NCM811 cells were cycled at C/2 (1C = 200 mA g−1) charge/discharge between 3 and 4.6 V after the first three activation cycles at C/5 charge/discharge.
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,cell_type,"half cell, Li metal",stated_elsewhere,The Li|NCM811 cells were cycled at C/2 (1C = 200 mA g−1) charge/discharge between 3 and 4.6 V after the first three activation cycles at C/5 charge/discharge.
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,temperature,25 °C,stated_elsewhere,cycling tests for coin cells and pouch cells were carried out on a Land instrument in the oven at 25 °C
+v6-B1-10,1,PAPER 22,10.1038/s41467-023-36853-x,electrolyte,1 M LiBF4 + 1 M LiDFOB in tFEP/FEC,stated,The compatibility of 1 M LiBF4 + 1 M LiDFOB tFEP/FEC electrolyte with high-voltage cathodes
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,capacity,203.9,stated,exhibited a considerably large discharge capacity of 203.9 mA h g–1 at 0.1 C at 60°C with an ICE of up to 92.8%
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,material,NCM811,stated,the SPE‐NCM811 cathode
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,modification,"SPE coating (high loading, 38.7 mg/cm2)",stated,"with a high mass loading of 38.7 mg cm−2, the SPE‐NCM811 cathode"
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,capacity_type,discharge,stated,discharge capacity of 203.9
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,cycle,not_reported,not_reported,the paper gives 203.9 mAh/g with its ICE (92.8%) but never names the cycle; reading ICE as first-cycle is a convention
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,c_rate,0.1C,stated,at 0.1 C
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,voltage_window,not_reported,not_reported,"the only window sentence ('2.18–3.68 V ... at 25°C') covers the 25 °C comparison, not the 60 °C tests"
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,cell_type,all-solid-state cell with a Li–In alloy negative electrode,stated_elsewhere,"The electrochemical characterizations were performed on the NCM811/SSE/LiIn ASSLBs, which were fabricated using bare-/- SPE- NCM811 cathodes, LPSCl SE, and LiIn anode (Figure S9)."
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,temperature,60 °C,stated,at 0.1 C at 60°C
+v6-B1-11,1,PAPER 28,10.1002/cey2.70076,electrolyte,Li6PS5Cl (inorganic sulfide solid electrolyte),stated_elsewhere,"The electrochemical characterizations were performed on the NCM811/SSE/LiIn ASSLBs, which were fabricated using bare-/- SPE- NCM811 cathodes, LPSCl SE, and LiIn anode (Figure S9)."
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,capacity,187.4,stated,"(2026) 18:411 Page 13 of 21 411 cell delivered discharge capacities of 187.4, 175.5, 174.2, 163.6, 151.9, and 139.7 mAh ­g–1 at 0.1, 0.5, 1, 2, 3, and 5 C, respectively"
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,material,NCM811,stated,an NCM811 cathode
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,capacity_type,discharge,stated,delivered discharge capacities
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,cycle,not_reported,not_reported,first step of a rate test; no cycle index
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,c_rate,0.1C,stated,"at 0.1, 0.5, 1, 2, 3, and 5 C, respectively"
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,voltage_window,2.0–4.3 V,stated_elsewhere,The full-cells were tested with an N/P capacity ratio of 1.1 within a range of 2.0–4.3 V
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,cell_type,"full cell, Si/a-Sn/CoSi2/G/C anode",stated,a LIB full-cell was assembled by pairing the Si/a-Sn/CoSi2/G/C anode with an NCM811 cathode
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,temperature,room temperature (no number),stated_elsewhere,All LIB measurements were taken at room temperature
+v6-B3-06,1,PAPER 12,10.1007/s40820-026-02258-w,electrolyte,not_reported,not_reported,composition given only for LIB half-cell tests; the full-cell paragraph names none
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,capacity,187.3,stated,discharge capacity of 187.3 mAh g−1 at C/8
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,material,NCM811,stated,Li/NCM811 coin-cells
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,capacity_type,discharge,stated,discharge capacity of 187.3
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,cycle,not_reported,not_reported,rate-test step; no cycle index
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,c_rate,C/8,stated,at C/8
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,voltage_window,2.7–4.5 V,stated,at room temperature and in the voltage range of 2.7–4.5 V
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,cell_type,"half cell, Li metal",stated,Li/NCM811 coin-cells
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,temperature,room temperature (no number),stated,at room temperature and in the voltage range of 2.7–4.5 V
+v6-B4-02,1,PAPER 20,10.3389/fenrg.2022.973336,electrolyte,1.0 M LiPF6 in EMC:EC 6:1 (v/v),stated_elsewhere,"For comparison, the conventional EC-based electrolyte was composed of 1.0 mol L−1 LiPF6 dissolved in the mixture solvent of EMC and EC in a 6:1 volume ratio (noted as 1 M LiPF6 EMC/EC)."
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,capacity,172,stated,"at 5C, the discharge capacity is 172 mAh g−1 for LWO-NMC811 and 170 mAh g−1 for bare NMC811"
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,material,LWO-NMC811,stated,LWO-NMC811
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,modification,LixWyOz (LWO) coating,stated,LWO-NMC811
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,capacity_type,discharge,stated,the discharge capacity is
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,cycle,not_reported,not_reported,rate-test step; no cycle index
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,c_rate,5C (discharge; charge at 0.2C),stated,at 5C
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,voltage_window,3.0–4.6 V,stated_elsewhere,rate capability ... within 3.0–4.6 V
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,cell_type,"half cell, Li metal",stated_elsewhere,lithium metal foil (MSE Supplies) as the anode
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,temperature,not_reported,not_reported,no coin-cell test temperature; 20 °C is given only for the dilatometry cell
+v6-B3-10,1,PAPER 21,10.1016/j.mtener.2025.101862,electrolyte,1 M LiPF6 in EC:DMC 1:1 (v/v),stated_elsewhere,1 M LiPF6 in 1:1 (v/v %) ethylene carbonate and dimethyl carbonate
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,capacity,170,stated,"at 5C, the discharge capacity is 172 mAh g−1 for LWO-NMC811 and 170 mAh g−1 for bare NMC811"
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,material,bare NMC811,stated,bare NMC811
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,modification,none,stated,bare NMC811
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,capacity_type,discharge,stated,the discharge capacity is
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,cycle,not_reported,not_reported,rate-test step; no cycle index
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,c_rate,5C (discharge; charge at 0.2C),stated,at 5C
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,voltage_window,3.0–4.6 V,stated_elsewhere,rate capability ... within 3.0–4.6 V
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,cell_type,"half cell, Li metal",stated_elsewhere,lithium metal foil (MSE Supplies) as the anode
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,temperature,not_reported,not_reported,no coin-cell test temperature; 20 °C is given only for the dilatometry cell
+v6-B3-10,2,PAPER 21,10.1016/j.mtener.2025.101862,electrolyte,1 M LiPF6 in EC:DMC 1:1 (v/v),stated_elsewhere,1 M LiPF6 in 1:1 (v/v %) ethylene carbonate and dimethyl carbonate
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,capacity,204,stated,The charge/discharge specific capacity of the first circle for SCNCM-FC and SCNCM/(ALP+BA)-FC electrodes are 241/204 and 241/203
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,material,single-crystal NCM811 (SCNCM),stated,SCNCM-FC
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,modification,none,stated,"Accordingly, the bare single-crystal NCM811 and the two treated final samples were designated as SCNCM, SCNCM/(ALP+BA)-1 (10 mg BA), and SCNCM/(ALP+BA)-2 (20 mg BA), respectively."
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,capacity_type,discharge,stated,charge/discharge specific capacity ... 241/204
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,cycle,1,stated,of the first circle
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,c_rate,0.1C,stated,first between 2.8 and 4.3 V at 0.1 C and 25 °C
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,voltage_window,2.8–4.3 V,stated,between 2.8 and 4.3 V
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,cell_type,"full cell, graphite",stated_elsewhere,We assembled full cells with graphite anode
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,temperature,25 °C,stated,at 0.1 C and 25 °C
+v6-B4-01,1,PAPER 30,10.3390/ma16103613,electrolyte,not_reported,not_reported,the electrolyte is given in the coin-cell paragraph with a lithium-foil counter electrode; none is stated for the graphite full cells
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,capacity,185.6,stated,the NCM811|P15 Z30 PEDF|Li shows an initial specific discharge capacity of 185.6 mAh g−1 at 0.5 C
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,material,NCM811,stated,NCM811|P15 Z30 PEDF|Li
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,capacity_type,discharge,stated,initial specific discharge capacity
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,cycle,1,stated,initial specific discharge capacity
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,c_rate,0.5C,stated,at 0.5 C
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,voltage_window,not_reported,not_reported,no voltage window anywhere in the paper
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,cell_type,Li metal negative electrode (NCM811|P15 Z30 PEDF|Li; the paper calls these full cells),stated,the NCM811|P15 Z30 PEDF|Li shows an initial specific discharge capacity of 185.6 mAh g− 1 at 0.5 C
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,temperature,60 °C,stated,even at a high temperature of 60°C
+v6-B1-01,1,PAPER 07,10.1002/advs.76317,electrolyte,composite solid electrolyte P15 Z30 PEDF,stated,the NCM811|P15 Z30 PEDF|Li shows an initial specific discharge capacity of 185.6 mAh g− 1 at 0.5 C
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,capacity,183.7,stated,The 50th discharge capacity of the electrode with MWCNTs was 183.7 mAh g−1
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,material,NCM811,stated_elsewhere,"Conclusions In this study, ultrahigh-loading cathodes were prepared using NCM811 and Ni92% to enhance energy density and electrochemical performance of LIBs."
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,modification,1 wt% MWCNT conductive additive,stated,the electrode with MWCNTs
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,capacity_type,discharge,stated,The 50th discharge capacity
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,cycle,50,stated,The 50th discharge capacity
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,c_rate,0.33C (after 3 cycles at 0.1C),stated,tested at 0.1 C for the 3 cycles and 0.33 C for the next 47 cycles
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,voltage_window,2.8–4.3 V,stated,between 2.8 and 4.3 V
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,cell_type,"half cell, Li metal",stated_elsewhere,"CR-2032 coin-type cell, with Li metal as the anode"
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,temperature,30 °C,stated_elsewhere,electrochemical performance tests in a 30 °C chamber
+v6-B2-05,1,PAPER 02,10.3390/nano15030156,electrolyte,1 M LiPF6 in EC:EMC 3:7 (wt),stated_elsewhere,Commercial 1 M LiPF6 in EC:EMC (3:7 weight ratio) electrolyte
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,capacity,not_reported,not_reported,no 4.0C value for P0.0-NCM811; the text gives 178 mA h g−1 at 4.0 C only for P0.3-NCM811
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,material,NCM811 (P0.0-NCM811),stated,P0.0-NCM811
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,modification,none (P0.0: no PO4(3−) incorporation),stated_elsewhere,"The dried precursors were then mixed with LiOH·H2O in a Li/metal molar ratio of 1.02 and calcined in an O2 atmo- sphere at 780°C for 12 h to obtain the final P0.0-NCM811, P0.3-NCM811, and P0.5-NCM811 cathode materials."
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,capacity_type,discharge,stated,delivered discharge capacities
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,cycle,not_reported,not_reported,rate-test step
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,c_rate,4.0C (1C = 180 mA/g),stated,"at current rates of 0.2, 0.5, 1.0, 2.0, and 4.0 C"
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,voltage_window,3.0–4.5 V,stated_elsewhere,within a potential range of 3.0–4.5 V (vs. Li/Li+)
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,cell_type,"half cell, Li metal",stated_elsewhere,using Li metal as both the counter and reference electrodes
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,temperature,25 °C,stated_elsewhere,Galvanostatic charge–discharge tests were conducted at 25°C
+v6-B2-13,1,PAPER 23,10.1155/er/6664420,electrolyte,1.0 M LiPF6 in EC/EMC,stated_elsewhere,The electrolyte consisted of 1.0 M LiPF6 dissolved in a mixed sol- vent of ethylene carbonate (EC) and ethyl methyl carbonate (EMC) in a 3:7 volume ratio
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,capacity,114.5 (lower end of a range),stated,the cells delivered reversible discharge capacities of 114.5–168.8 mAh g–1 ... over a wide temperature range of 25–80 °C
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,material,NCM811,stated,an NCM811 composite cathode
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,capacity_type,discharge (reversible),stated,reversible discharge capacities of 114.5–168.8
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,cycle,not_reported,not_reported,no cycle index
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,c_rate,0.1C,stated,b Voltage profiles tested at 0.1 C over 25–80 °C (cathode loading: 14.9 mg ­cm–2).
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,voltage_window,2.0–4.3 V,stated_elsewhere,ASSLB full-cells were tested at 60 °C (except for temperature-dependent tests) within a voltage range of 2.0–4.3 V
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,cell_type,"all-solid-state full cell, Si/a-Sn/CoSi2/G/C anode",stated,"Sulfide-based ASSLB full-cells were assembled using the Si/a-Sn/CoSi2/G/C anode, LPSC SE"
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,temperature,not_reported,not_reported,'over a wide temperature range of 25–80 °C'; neither endpoint is bound to a temperature
+v6-B3-11,1,PAPER 12,10.1007/s40820-026-02258-w,electrolyte,Li6PS5Cl (LPSC) sulfide solid electrolyte,stated,LPSC SE
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,capacity,168.8 (upper end of a range),stated,114.5–168.8 mAh g–1 ... over a wide temperature range of 25–80 °C
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,material,NCM811,stated,an NCM811 composite cathode
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,capacity_type,discharge (reversible),stated,reversible discharge capacities of 114.5–168.8
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,cycle,not_reported,not_reported,no cycle index
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,c_rate,0.1C,stated,b Voltage profiles tested at 0.1 C over 25–80 °C (cathode loading: 14.9 mg ­cm–2).
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,voltage_window,2.0–4.3 V,stated_elsewhere,ASSLB full-cells were tested at 60 °C (except for temperature-dependent tests) within a voltage range of 2.0–4.3 V
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,cell_type,"all-solid-state full cell, Si/a-Sn/CoSi2/G/C anode",stated,"Sulfide-based ASSLB full-cells were assembled using the Si/a-Sn/CoSi2/G/C anode, LPSC SE"
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,temperature,not_reported,not_reported,'over a wide temperature range of 25–80 °C'; neither endpoint is bound to a temperature
+v6-B3-11,2,PAPER 12,10.1007/s40820-026-02258-w,electrolyte,Li6PS5Cl (LPSC) sulfide solid electrolyte,stated,LPSC SE
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,capacity,190,stated,The rate capability of NCM811 cathode in our electrolyte exhibits high capacities of 190 and 163 mAh g−1 at 1C and 2C
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,material,NCM811,stated,NCM811 cathode
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,capacity_type,not_reported,not_reported,'high capacities of 190 and 163 mAh g−1'; not labelled charge or discharge
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,cycle,not_reported,not_reported,rate-test step
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,c_rate,1C,stated,"at 1C and 2C, respectively"
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,voltage_window,3.0–4.6 V,stated_elsewhere,The Li|NCM811 cells were cycled at C/2 (1C = 200 mA g−1) charge/discharge between 3 and 4.6 V after the first three activation cycles at C/5 charge/discharge.
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,cell_type,"half cell, Li metal",stated_elsewhere,The Li|NCM811 cells were cycled at C/2 (1C = 200 mA g−1) charge/discharge between 3 and 4.6 V after the first three activation cycles at C/5 charge/discharge.
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,temperature,25 °C,stated_elsewhere,cycling tests for coin cells ... were carried out on a Land instrument in the oven at 25 °C
+v6-B4-06,1,PAPER 22,10.1038/s41467-023-36853-x,electrolyte,1 M LiBF4 + 1 M LiDFOB in tFEP/FEC,stated_elsewhere,Performance of 4.6 V NCM811 and LiCoO2 cathode The compatibility of 1 M LiBF4 + 1 M LiDFOB tFEP/FEC electrolyte with high-voltage cathodes was evaluated using aggressive 4.6 V NCM811 and LiCoO2 cathode (Fig.
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,capacity,160,stated,reversible discharge specific capacity retention (160 mAh g-1 after 200 cycles at 1 C rate)
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,material,NCM811 (HR-NCM),stated,the NCM811 material with a higher primary particle length/width ratio
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,modification,high primary-particle length/width ratio,stated,higher primary particle length/width ratio
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,capacity_type,discharge (reversible),stated,reversible discharge specific capacity
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,cycle,200,stated,after 200 cycles
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,c_rate,1C,stated,at 1 C rate
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,voltage_window,2.7–4.3 V,stated_elsewhere,cycling stability of two cathodes at 1 C in the voltage range of 2.7–4.3 V
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,cell_type,"half cell, Li metal",stated_elsewhere,CR2032-type half cells constructed using lithium metal as the anode
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,temperature,25 °C,stated_elsewhere,between 2.7 and 4.3 V (vs. Li/Li+) at 25 °C
+v6-B3-07,1,PAPER 24,10.20517/energymater.2023.59,electrolyte,1 M LiPF6 in EC/DEC/DMC (1:1:1 vol) + 5 wt% FEC,stated_elsewhere,The electrolyte used was 1 M LiPF6 in EC/DEC/DMC (1:1:1 Vol%) with 5 wt% FEC
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,capacity,167.6,stated,"NCMSe exhibited excellent rate capability, achieving a high discharge specific capacity of 167.6 mAh g−1 at 10 C"
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,material,NCM811 (NCMSe),stated,NCMSe
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,modification,selenium modification,stated,"the Se-modified NCM811 sample, denoted as NCMSe"
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,capacity_type,discharge,stated,discharge specific capacity
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,cycle,not_reported,not_reported,rate-test step
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,c_rate,10C,stated,at 10 C
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,voltage_window,2.7–4.5 V,stated_elsewhere,the half-cells were cycled within the range of 2.7–4.5 V
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,cell_type,"half cell, Li metal",stated_elsewhere,The anode was made of lithium metal foil
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,temperature,not_reported,not_reported,no test temperature anywhere in the paper
+v6-B2-08,1,PAPER 14,10.1002/sstr.202300247,electrolyte,1.0 M LiPF6 in EC:DEC 3:7 (wt),stated_elsewhere,"a solution of 1.0 M LiPF6 in ethylene carbonate: diethyl carbonate (EC: DEC, 3:7 by weight)"
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,capacity,183.9,stated,"After 100 cycles, the discharge capacity still reached to 183.9 mAh g−1"
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,material,single-crystal NCM811,stated,single crystal Nickel-rich LiNi0.8Co0.1Mn0.1O2 (NCM811)
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,capacity_type,discharge,stated,the discharge capacity still reached to 183.9
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,cycle,100,stated,After 100 cycles
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,c_rate,0.2C,stated,FIGURE 6 ... at a cut-off voltage of 2.7–4.8 V and a current density of 0.2 C
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,voltage_window,2.7–4.8 V,stated,at a cut-off voltage of 2.7–4.8 V
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,cell_type,"half cell, Li metal",stated,Charge-discharge cycling performances of Li/NCM811 coin-cells
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,temperature,not_reported,not_reported,room temperature is given only for the pouch-cell tests; no temperature for the 4.8 V coin-cell cycling
+v6-B2-03,1,PAPER 20,10.3389/fenrg.2022.973336,electrolyte,1 M LiPF6 in MTFP/EMC/FEC 3:6:1 (v/v/v),stated,the NCM811 cells with 1 M LiPF6 MTFP/EMC/FEC
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,capacity,158,stated,"After 200 cycles under 1C, the modified electrode of SCNCM/(ALP+BA)-1 has a reversible specific capacity of 158 mAh g−1"
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,material,single-crystal NCM811 (SCNCM),stated,SCNCM/(ALP+BA)-1
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,modification,aluminum triphosphate (ALP) + boric acid (BA) coating,stated,aluminum triphosphate (ALP) and boric acid (BA)
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,capacity_type,not_reported,not_reported,the paper calls 158 mAh/g a 'reversible specific capacity' and never says charge or discharge; reading it as discharge is a convention
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,cycle,200,stated,After 200 cycles
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,c_rate,1C,stated,under 1C
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,voltage_window,2.8–4.5 V,stated,h g-1) Cycle Number SCNCM SCNCM/(ALP+BA)−1 SCNCM/(ALP+BA)−2 1 C 2.8-4.5 V 25 °C 0 20 40 60 80 100 120 140 160 180 200 0 40 80 120 160 200 Specific capacity (mAh g-1) Cycle Number SCNCM SCNCM/(ALP+BA)−1 0 50 100 150 200
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,cell_type,"half cell, Li foil",stated_elsewhere,The adopted separator between the cathode and the anode was a porous polypropylene ﬁlm (Celgard 2500) while lithium foil was used as the counter electrode
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,temperature,25 °C,stated,h g-1) Cycle Number SCNCM SCNCM/(ALP+BA)−1 SCNCM/(ALP+BA)−2 1 C 2.8-4.5 V 25 °C 0 20 40 60 80 100 120 140 160 180 200 0 40 80 120 160 200 Specific capacity (mAh g-1) Cycle Number SCNCM SCNCM/(ALP+BA)−1 0 50 100 150 200
+v6-B3-05,1,PAPER 30,10.3390/ma16103613,electrolyte,1 M LiPF6 in EC/EMC/DMC 1:1:1 (wt),stated_elsewhere,"China, and is prepared by dissolving 1 mol L−1 LiPF6 in a ternary solvent of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and dimethyl carbonate (DMC) at a weight ratio of 1:1:1"
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,capacity,205.79,stated,the discharge capacity of NMC811@cPAN has reached 205.79 mAh g−1
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,material,NMC811@cPAN,stated,NMC811@cPAN
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,modification,PAN-derived carbon coating,stated,NMC811@cPAN
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,capacity_type,discharge,stated,the discharge capacity of NMC811@cPAN
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,cycle,not_reported,not_reported,0.2C recovery step of a rate test; no cycle index
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,c_rate,0.2C,stated,When the current rate returns to 0.2 C
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,voltage_window,2.8–4.3 V,stated,within the voltage range from 2.8 to 4.3 V at 28°C (Figure 8b)
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,cell_type,"half cell, Li metal",stated_elsewhere,"To assemble the LIB half-cells, the fab- ricated cathode electrodes were paired with lithium metal foil as the anode"
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,temperature,28 °C,stated,at 28°C (Figure 8b)
+v6-B2-01,1,PAPER 08,10.1155/er/8863976,electrolyte,1 M LiPF6 in EC/EMC/DEC 2:2:1 (wt) + 10 wt% FEC,stated_elsewhere,"The electrolyte used in the assembly was a 1M solution of lithium hexaﬂuorophosphate (LiPF6) dissolved in a solvent mixture of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and diethyl carbonate (DEC) in a 2:2:1 weight ratio, with 10 wt% ﬂuoroethylene carbonate (FEC) additive"
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,capacity,~100,stated,with the material stabilizing at ~100 mAh g−1 by the 100th cycle
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,material,NMC811 (0.2 M metal-concentration synthesis),stated,The NMC811 produced at a metal concentration of 0.2 M
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,capacity_type,not_reported,not_reported,'specific capacity'; never labelled charge or discharge
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,cycle,100,stated,by the 100th cycle
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,c_rate,C/3 (after one C/10 activation cycle),stated_elsewhere,1) activation cycle at C/10 ... 2) the rest of the cycles at C/3
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,voltage_window,3.0–4.5 V,stated_elsewhere,voltage cut off 4.5–3.0
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,cell_type,"half cell, Li metal",stated_elsewhere,coin-cell configuration using 12 mm diameter lithium metal as counter electrode
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,temperature,25 °C,stated_elsewhere,All cycling tests were conducted at 25 °C
+v6-B2-11,1,PAPER 26,10.1016/j.jpowsour.2025.239058,electrolyte,"1 M LiPF6 in EC:DMC 1:1 (v/v), LP30",stated_elsewhere,"150 μl of 1M LiPF6 in EC:DMC 1:1(v:v), LP30"
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,capacity,172.9,stated,"specific capacities of 211.2, 202.9, 187.8, 172.9, and 157.7 mAh g−1 are achieved at 0.1, 0.2, 0.5, 1 C and 2 C rates for the Li|G-P3 AR|NCM811 cell"
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,material,NCM811,stated,Li|G-P3 AR|NCM811 cell
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,capacity_type,not_reported,not_reported,'specific capacities'; not labelled charge or discharge
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,cycle,not_reported,not_reported,rate-test step
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,c_rate,1C,stated,"In the rate performance test, specific capaci- ties of 211.2, 202.9, 187.8, 172.9, and 157.7 mAh ­g−1 are achieved at 0.1, 0.2, 0.5, 1 C and 2 C rates for the Li|G- P3 AR|NCM811 cell, respectively."
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,voltage_window,cutoff 4.3 V (lower cutoff not given),stated_elsewhere,LMBs with NCM811 cathodes were assembled and evaluated at 25 °C with a cutoff voltage of 4.3 V
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,cell_type,"half cell, Li metal",stated,Li|G-P3 AR|NCM811 cell
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,temperature,25 °C,stated_elsewhere,evaluated at 25 °C with a cutoff voltage of 4.3 V
+v6-B4-04,1,PAPER 01,10.1007/s40820-026-02307-4,electrolyte,in-situ polymerised gel polymer electrolyte G-P3 AR (liquid: 2 M LiTFSI + 0.2 M LiDFOB in EC:DMC 3:7),stated_elsewhere,2.2 Preparation of GPEs Liquid electrolyte (LE) was prepared by dissolving 2 M LiTFSI and 0.2 M LiDFOB in a mixture of EC and DMC with a volume ratio of 3:7.
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,capacity,not_reported,not_reported,no capacity after 88 cycles; only '69%' capacity retention
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,material,NMC811,stated,the NMC811 pristine battery
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,modification,none (pristine),stated,the NMC811 pristine battery
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,capacity_type,retention only,stated,capacity retention
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,cycle,88,stated,after 88 cycles
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,c_rate,2C,stated,at a C-rate of 2C
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,voltage_window,2.5–4.5 V,stated,over the voltage window of 2.5–4.5 V vs. Li+/Li
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,cell_type,"half cell, Li metal",stated_elsewhere,"Pure metallic lithium metal chips (EQ-Lib-LiC60-300, 16 mm diameter and 0.6 mm thickness, 99.9% pure Li, MTI Corp.) were used as the anode for the half-cell batteries"
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,temperature,ambient temperature (no number),stated_elsewhere,All measurements were taken at ambient temperature
+v6-B3-12,1,PAPER 09,10.3390/ma15062146,electrolyte,1 M LiPF6 in EC/EMC 3:7 (v/v),stated_elsewhere,"A microporous separator ﬁlm (Celgard 2400, 25 µm thickness) and 1M LiPF6 in 3:7 ethylene carbonate (EC)/ethyl methyl carbonate (EMC) (3:7 v/v) electrolyte (EQ-LBC3015B-LD, MTI Corp.) were used in the battery assembly"
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,capacity,not_reported,not_reported,no capacity after 88 cycles; only 'about 85%' capacity retention
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,material,NMC811,stated,the modified rGO/NMC811 battery
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,modification,5 wt% reduced graphene oxide (rGO),stated,the modified rGO/NMC811 battery
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,capacity_type,retention only,stated,capacity retention
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,cycle,88,stated,after 88 cycles
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,c_rate,2C,stated,at a C-rate of 2C
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,voltage_window,2.5–4.5 V,stated,over the voltage window of 2.5–4.5 V vs. Li+/Li
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,cell_type,"half cell, Li metal",stated_elsewhere,"Pure metallic lithium metal chips (EQ-Lib-LiC60-300, 16 mm diameter and 0.6 mm thickness, 99.9% pure Li, MTI Corp.) were used as the anode for the half-cell batteries"
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,temperature,ambient temperature (no number),stated_elsewhere,All measurements were taken at ambient temperature
+v6-B3-12,2,PAPER 09,10.3390/ma15062146,electrolyte,1 M LiPF6 in EC/EMC 3:7 (v/v),stated_elsewhere,"A microporous separator ﬁlm (Celgard 2400, 25 µm thickness) and 1M LiPF6 in 3:7 ethylene carbonate (EC)/ethyl methyl carbonate (EMC) (3:7 v/v) electrolyte (EQ-LBC3015B-LD, MTI Corp.) were used in the battery assembly"
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,capacity,122,stated,The full cell exhibits an initial charge capacity of 128 mAh g−1 and discharge capacity of 122 mAh g−1 at 0.1C-rate
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,material,NMC811 (commercial),stated,using NMC811 as the cathode
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,modification,none named (commercial NMC811),stated,"Notably, the discharge capacity of the TPEHBZ-ThBS CMP anode is either higher or comparable to the previously reported values.48,50,61–64 As the cycling per- formance of the half-cell LIB showed a stable lithium charge storage capacity over 200 cycles, to test the practical viability, a full-cell was fabricated using the TPEHBZ-ThBS CMP anode, and commercial LiNi0.8Mn0.1Co0.1O2 (NMC811) cathode."
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,capacity_type,discharge,stated,discharge capacity of 122
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,cycle,1 (initial),stated,initial charge capacity ... and discharge capacity
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,c_rate,0.1C,stated,at 0.1C-rate
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,voltage_window,1.5–4.5 V,stated,in a voltage window ranging from 1.5 to 4.5 V
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,cell_type,"full cell, TPEHBZ-ThBS CMP organic anode",stated,The fabricated full cell (TPEHBZ-ThBS CMP|1 M LiPF6|NMC811)
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,temperature,not_reported,not_reported,no test temperature anywhere in the paper
+v6-B2-10,1,PAPER 17,10.1039/d5ma00654f,electrolyte,1 M LiPF6 (solvent not_reported),not_reported,the cell is written only as 'TPEHBZ-ThBS CMP|1 M LiPF6|NMC811'; no solvent anywhere
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,capacity,156.38,stated,TABLE 2: Initial capacity of samples (mAh/g) in various C-rates ... Pristine NMC811 ... 156.38 ... NMC811@cPAN ... 152.84
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,material,NMC811 (pristine),stated,"/g) in various C-rates. Samples 0.1 C 0.2 C 0.5 C C 2 C ICE Pristine NMC811 214.08 202.47 186.72 175.31 156.38 84% NMC811@cPAN 227.27 208.38 190.06 173.96 152.84 92.3% 12 International Journal of Energy Research ijer, 2025, 1, Downloaded from https:/"
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,modification,none (pristine),stated,"/g) in various C-rates. Samples 0.1 C 0.2 C 0.5 C C 2 C ICE Pristine NMC811 214.08 202.47 186.72 175.31 156.38 84% NMC811@cPAN 227.27 208.38 190.06 173.96 152.84 92.3% 12 International Journal of Energy Research ijer, 2025, 1, Downloaded from https:/"
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,capacity_type,not_reported,not_reported,Table 2 'Initial capacity'; not labelled charge or discharge
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,cycle,initial at that rate (rate test),stated,Initial capacity of samples ... in various C-rates
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,c_rate,2C,stated,2: Initial capacity of samples (mAh/g) in various C-rates. Samples 0.1 C 0.2 C 0.5 C C 2 C ICE Pristine NMC811 214.08 202.47 186.72 175.31 156.38 84% NMC811@cPAN 227.27 208.38 190.06 173.96 152.84 92.3% 12 International Journal of Ene
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,voltage_window,2.8–4.3 V,stated_elsewhere,"rate capability ... studied at C-rates of 0.1, 0.2, 0.5, 1, and 2C within the voltage range from 2.8 to 4.3 V at 28°C"
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,cell_type,"half cell, Li metal",stated_elsewhere,"To assemble the LIB half-cells, the fab- ricated cathode electrodes were paired with lithium metal foil as the anode"
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,temperature,28 °C,stated_elsewhere,within the voltage range from 2.8 to 4.3 V at 28°C (Figure 8b)
+v6-B4-03,1,PAPER 08,10.1155/er/8863976,electrolyte,1 M LiPF6 in EC/EMC/DEC 2:2:1 (wt) + 10 wt% FEC,stated_elsewhere,"The electrolyte used in the assembly was a 1M solution of lithium hexaﬂuorophosphate (LiPF6) dissolved in a solvent mixture of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and diethyl carbonate (DEC) in a 2:2:1 weight ratio, with 10 wt% ﬂuoroethylene carbonate (FEC) additive"
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,capacity,152.84,stated,TABLE 2: Initial capacity of samples (mAh/g) in various C-rates ... Pristine NMC811 ... 156.38 ... NMC811@cPAN ... 152.84
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,material,NMC811@cPAN,stated,NMC811@cPAN
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,modification,PAN-derived carbon coating,stated,NMC811@cPAN
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,capacity_type,not_reported,not_reported,Table 2 'Initial capacity'; not labelled charge or discharge
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,cycle,initial at that rate (rate test),stated,Initial capacity of samples ... in various C-rates
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,c_rate,2C,stated,2: Initial capacity of samples (mAh/g) in various C-rates. Samples 0.1 C 0.2 C 0.5 C C 2 C ICE Pristine NMC811 214.08 202.47 186.72 175.31 156.38 84% NMC811@cPAN 227.27 208.38 190.06 173.96 152.84 92.3% 12 International Journal of Ene
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,voltage_window,2.8–4.3 V,stated_elsewhere,"rate capability ... studied at C-rates of 0.1, 0.2, 0.5, 1, and 2C within the voltage range from 2.8 to 4.3 V at 28°C"
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,cell_type,"half cell, Li metal",stated_elsewhere,"To assemble the LIB half-cells, the fab- ricated cathode electrodes were paired with lithium metal foil as the anode"
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,temperature,28 °C,stated_elsewhere,within the voltage range from 2.8 to 4.3 V at 28°C (Figure 8b)
+v6-B4-03,2,PAPER 08,10.1155/er/8863976,electrolyte,1 M LiPF6 in EC/EMC/DEC 2:2:1 (wt) + 10 wt% FEC,stated_elsewhere,"The electrolyte used in the assembly was a 1M solution of lithium hexaﬂuorophosphate (LiPF6) dissolved in a solvent mixture of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and diethyl carbonate (DEC) in a 2:2:1 weight ratio, with 10 wt% ﬂuoroethylene carbonate (FEC) additive"
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,capacity,117.9,stated,"Even after 8000 cycles, the discharge capacity of the SPE-NCM811 cathode still remained at 117.9 mA h g–1"
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,material,NCM811,stated,SPE-NCM811 cathode
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,modification,SPE coating,stated,SPE-NCM811
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,capacity_type,discharge,stated,the discharge capacity of the SPE-NCM811 cathode
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,cycle,8000,stated,after 8000 cycles
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,c_rate,30C,stated,after 8000 cycles at 30 C at 60°C
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,voltage_window,not_reported,not_reported,"the only window sentence covers the 25 °C comparison, not the 60 °C tests"
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,cell_type,all-solid-state cell with a Li–In alloy negative electrode,stated_elsewhere,"The electrochemical characterizations were performed on the NCM811/SSE/LiIn ASSLBs, which were fabricated using bare-/- SPE- NCM811 cathodes, LPSCl SE, and LiIn anode (Figure S9)."
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,temperature,60 °C,stated,at 30 C at 60°C
+v6-B1-03,1,PAPER 28,10.1002/cey2.70076,electrolyte,Li6PS5Cl (inorganic sulfide solid electrolyte),stated_elsewhere,"The electrochemical characterizations were performed on the NCM811/SSE/LiIn ASSLBs, which were fabricated using bare-/- SPE- NCM811 cathodes, LPSCl SE, and LiIn anode (Figure S9)."
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,capacity,158.74,stated,Table 1 ... Al2O3-Coated NCM811 ... 187.23 158.74 84.79 0.1413 4.4
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,material,NCM811,stated,Al2O3-Coated NCM811
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,modification,Al2O3 coating,stated,Al2O3-Coated NCM811
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,capacity_type,discharge,stated,ween 2.8 and 4.5 V. Sample 1st Discharge Capacity (mAh g−1) 150th Discharge Capacity (mAh g−1) Capacity Retention (%) Voltage Fading (V) Upper Cutoff Voltage (V) Pristine NCM811 179.46 147.51 82.00 0.0986 4.3 189.62 144.52 75.68 0.155
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,cycle,150,stated,150th Discharge Capacity
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,c_rate,1C,stated_elsewhere,Long-term cycling was conducted at 1 C for 150 cycles
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,voltage_window,2.8–4.4 V,stated_elsewhere,Upper Cutoff Voltage (V) ... 187.23 158.74 84.79 0.1413 4.4 ... followed by discharging to 2.8 V at the same rate as charging
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,cell_type,"half cell, Li foil",stated_elsewhere,Lithium foil served as the anode
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,temperature,25 °C,stated_elsewhere,cycling at 1 C across ... at 25 °C
+v6-B2-06,1,PAPER 11,10.3390/mi15070894,electrolyte,1 M LiPF6 in EC:DEC 1:1,stated_elsewhere,The electrolyte used was 1 M LiPF6 dissolved in a 1:1 mixture of ethylene carbonate (EC) and diethyl carbonate (DEC)
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,capacity,not_reported,not_reported,no capacity after 200 cycles; 'The high-mass-loading cell with the G-P3 AR exhibits 76.6% capacity retention after 200 cycles (Fig. S13)'
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,material,"NCM811 (high mass loading, 2 mAh/cm2)",stated,cells with high-mass-loading NCM811 cathodes (area capacity of 2 mAh cm−2)
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,modification,not_reported,not_reported,"no coating, dopant or other modification is named for this sample"
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,capacity_type,retention only,stated,76.6% capacity retention
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,cycle,200,stated,after 200 cycles
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,c_rate,not_reported,not_reported,no rate given for this cell in the text (Fig. S13)
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,voltage_window,cutoff 4.3 V (lower cutoff not given),stated_elsewhere,LMBs with NCM811 cathodes were assembled and evaluated at 25 °C with a cutoff voltage of 4.3 V
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,cell_type,"half cell, Li metal (Li|G-P3 AR|NCM811)",stated_elsewhere,"Thus, LMBs with NCM811 cathodes were assembled and evaluated at 25 °C with a cutoff volt- age of 4.3 V. ... cells with high-mass-loading NCM811 cathodes (area capacity of 2 mAh cm−2) were assembled"
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,temperature,25 °C,stated_elsewhere,evaluated at 25 °C with a cutoff voltage of 4.3 V
+v6-B1-12,1,PAPER 01,10.1007/s40820-026-02307-4,electrolyte,in-situ polymerised gel polymer electrolyte G-P3 AR,stated,The high- mass-loading cell with the G-P3 AR exhibits 76.6% capacity retention after 200 cycles
