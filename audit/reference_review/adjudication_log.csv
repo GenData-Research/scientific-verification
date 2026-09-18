@@ -1,0 +1,21 @@
+case_id,row,field,old_value,old_status,new_value,new_status,why
+v5-3F,1,cycle,not_reported,NOT_REPORTED,1,STATED,caption of the in situ cell measurement: '1/15C from 2.7 to 4.5 V during its first cycle' (both judges)
+v5-3F,1,voltage_window,to 4.5 V (lower cutoff not given here),STATED,2.7–4.5 V,STATED,same caption gives the lower cutoff (GPT)
+v5-3F,1,temperature,not_reported,NOT_REPORTED,room temperature (no number),INFERRED,in situ cell cycled at room temperature (both judges)
+v5-3F,2,voltage_window,to 4.5 V (lower cutoff not given here),STATED,2.7–4.5 V,INFERRED,coin cell tested 'under the same conditions' (GPT)
+v5-3F,2,temperature,not_reported,NOT_REPORTED,room temperature (no number),INFERRED,same conditions as the room-temperature in situ test (both judges)
+v6-B2-12,1,temperature,room temperature (no number),INFERRED,not_reported,NOT_REPORTED,both judges: the room-temperature sentence is about pouch cells
+v6-B2-03,1,temperature,room temperature (no number),INFERRED,not_reported,NOT_REPORTED,"both judges: same sentence, pouch cells only"
+v6-B1-01,1,cell_type,"half cell, Li metal",STATED,Li metal negative electrode (NCM811|P15 Z30 PEDF|Li; the paper calls these full cells),STATED,the paper's own label is 'Full cell performance' (Claude)
+v6-B1-09,1,cell_type,"half cell, Li metal",STATED,Li metal negative electrode (NCM811|P15 Z30 PEDF|Li; the paper calls these full cells),STATED,"same figure, same label"
+v6-B3-11,1,c_rate,not_reported,NOT_REPORTED,0.1C,STATED,Figure 7b caption (Claude)
+v6-B3-11,2,c_rate,not_reported,NOT_REPORTED,0.1C,STATED,Figure 7b caption (Claude)
+v5-3B,1,capacity_type,not_reported,NOT_REPORTED,discharge,INFERRED,"'delivered ... after 100 cycles, corresponding to a capacity retention of 81.2%' is a cycling discharge capacity (both judges)"
+v5-3E,1,modification,not_reported,NOT_REPORTED,aluminium present (>1%) in the regenerated material; not an intentional modification,STATED,both judges: the paper reports Al content for this sample
+v5-2C,1,c_rate,C/5 (after 2 cycles at C/20),INFERRED,C/5,INFERRED,"Claude: the methods say one C/20 cycle, the results say two; C/5 itself is consistent (paper conflict on the preamble)"
+v6-B3-11,1,modification,none,STATED,not_reported,NOT_REPORTED,"uniform rule: 'none' only where the paper says bare, pristine, uncoated or commercial (judges split on this convention)"
+v6-B3-11,2,modification,none,STATED,not_reported,NOT_REPORTED,"uniform rule: 'none' only where the paper says bare, pristine, uncoated or commercial (judges split on this convention)"
+v6-B2-11,1,modification,none,STATED,not_reported,NOT_REPORTED,"uniform rule: 'none' only where the paper says bare, pristine, uncoated or commercial (judges split on this convention)"
+v6-B4-04,1,modification,none,STATED,not_reported,NOT_REPORTED,"uniform rule: 'none' only where the paper says bare, pristine, uncoated or commercial (judges split on this convention)"
+v6-B1-12,1,modification,none,STATED,not_reported,NOT_REPORTED,"uniform rule: 'none' only where the paper says bare, pristine, uncoated or commercial (judges split on this convention)"
+v6-B4-01,1,electrolyte,1 M LiPF6 in EC/EMC/DMC 1:1:1 (wt),INFERRED,not_reported,NOT_REPORTED,both judges; Andre chose the judges' verdict. Changes the case key (Correction 4)

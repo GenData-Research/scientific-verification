@@ -1,0 +1,3247 @@
+
+
+==================== PAPER 09 ====================
+
+An eﬀective co-modiﬁcation strategy to enhance
+the cycle stability of LiNi0.8Co0.1Mn0.1O2 for
+lithium-ion batteries†
+Jingjing Zhou,a Bingxin Wei,b Meng Liu,a Yinping Qin,a Hongyu Cheng,a
+Yingchun Lyu,
+a Yang Liu
+*acd and Bingkun Guo
+*a
+Ni-rich cathode materials suﬀer from rapid capacity fading caused by interface side reactions and bulk
+structure degradation. Previous studies show that Co is conducive to bulk structure stability and sulfate
+can react with the residual lithium (LiOH and Li2CO3) on the surface of Ni-rich cathode materials and
+form a uniform coating to suppress the side reactions between the cathode and electrolyte. Here,
+CoSO4 is utilized as a modiﬁer for LiNi0.8Co0.1Mn0.1O2 (NCM811) cathode materials. It reacts with the
+residual lithium on the surface of the NCM811 cathode to form Li-ion conductive Li2SO4 protective
+layers and Co doping simultaneously during the high-temperature sintering process, which can suppress
+the side reactions between the Ni-rich cathode and electrolyte and eﬀectively prevent the structural
+transformation. As a result, the co-modiﬁed NCM811 cathode with 3 wt% CoSO4 exhibits an improved
+cycling performance of 81.1% capacity retention after 200 cycles at 1C and delivers an excellent rate
+performance at 5C of 187.4 mA h g−1, which is 10.2% higher than that of the pristine NCM811 cathode.
+1
+Introduction
+Among the state-of-the-art electrochemical energy storage
+devices, lithium-ion batteries (LIBs) are the most promising and
+world-changing energy storage devices, as they possess high
+energy density and fast recharging capability. In order to meet
+the ever-increasing desire for high energy density, Ni-rich
+ternary cathode materials have become the most promising
+candidates.1–4
+However, they are still facing the shortcoming of rapid
+capacity fading, which limit their practical application.5 These
+drawbacks are caused by the following: Firstly, during cycling,
+the anisotropic structure transformation leads to the structure
+collapse, and the rock-salt type disordered surface structures
+with a higher activation energy barrier for Li+ migration
+decrease the electrochemical performance.6,7 Secondly, during
+the charging process, Ni2+ and Ni3+ oxidize to Ni4+, which can
+react much more easily with the electrolyte by parasitic
+reactions.8,9 Thirdly, the residual lithium on the surface of the
+material is easy to react with H2O and CO2 in the air to form
+a Li2CO3/LiOH passivation layer, which not only increases the
+interface impedance, but also leads to an irreversible capacity
+loss during the rst cycle.10–12
+To address the above issues, numerous methods, such as
+surface coating and element doping, are widely used to enhance
+the interface or bulk stability of Ni-rich cathode materials.13
+Doping with a metallic element (Ti, Mg, Al, Co etc) into the bulk
+crystallographic structure of Ni-rich materials is considered to be
+a representative method to strengthen the structural stability of
+the whole particle.14–18 Zhang et al. reported that Ti4+-doped Ni-
+rich cathode LiNi0.8Co0.1Mn0.1O2 shows multiple performances
+with high capacity, good rate performance and excellent cyclic
+stability.14 Sun et al. reported that Mg and Al co-substituted
+LiNi0.8Co0.1Mn0.1O2 have positive eﬀects on structure, electro-
+chemical property and thermal stability.15 Guo et al. found that
+Co doped LiNi0.8Co0.1Mn0.1O2 cathode material shows high
+capacity and maintain notable cycling stability in 300 cycles.17
+Based on rst-principle calculation, Hu et al. speculated that Co
+doping can increase the space distance of the Li layer, which is
+benecial to improve the rate performance of Ni-rich cathode.18
+Also, surface coating of Ni-rich materials by metal oxides (Al2O3,
+TiO2, ZrO2),19–21 metal uorides (LiF, LaF3)22,23 and metal phos-
+phates (Li3PO4)24 also has been widely reported. Lithium-ion
+conductor can enhance the surface chemical and structural
+stability, by acting as a protective layer that avoids direct reac-
+tions between the active materials and the electrolyte compo-
+nents.25 Aurbach et al. reported that Li2SO4 coating layer can
+aMaterials Genome Institute, Shanghai University, Shanghai, 99 Shangda Road,
+Baoshan
+District,
+Shanghai,
+P.
+R.
+China.
+E-mail:
+liuyang81@shu.edu.cn;
+guobingkun@shu.edu.cn
+bWuhan Institute of Marine Electric Propulsion, Wuhan 430064, P. R. China
+cA Key Laboratory of Advanced Energy Materials Chemistry (Ministry of Education),
+Nankai University, Tianjin 300071, P. R. China
+dKey Laboratory of Optoelectronic Chemical Materials and Devices of Ministry of
+Education, Jianghan University, No. 8, Sanjiaohu Rd., Wuhan, Hubei, 430056, P. R.
+China
+† Electronic
+supplementary
+information
+(ESI)
+available.
+See
+DOI:
+https://doi.org/10.1039/d3ra04145j
+Cite this: RSC Adv., 2023, 13, 34194
+Received 20th June 2023
+Accepted 16th November 2023
+DOI: 10.1039/d3ra04145j
+rsc.li/rsc-advances
+34194 | RSC Adv., 2023, 13, 34194–34199
+© 2023 The Author(s). Published by the Royal Society of Chemistry
+RSC Advances
+PAPER
+Published on 22 November 2023
+Licensed under CC-BY 4.0
+suppress the side reaction between Ni-rich cathode and electro-
+lyte due to its high stability at high voltage.26 Although these
+coatings can minimize direct contact between the highly active
+cathode and the electrolyte and therefore alleviate parasitic
+reactions, reduce impedance growth, and suppress microcrack in
+some extent, most coatings are diﬃcult to make a bonding with
+the bulk, and unable to aﬀord a long-term eﬀective protection. A
+functional coating which can aﬀord close integration between
+coating layer and bulk materials is the promising option. It is
+reported that taking advantage of a modier which can react with
+the residual lithium (LiOH and Li2CO3) on the surface of
+LiNi0.8Co0.1Mn0.1O2 cathode material and forming a uniform
+coating is an ideal way to make the close integration between
+coating layer and bulk materials.27
+Based on the above considerations, a simple and eﬀective
+method was proposed to modify LiNi0.8Co0.1Mn0.1O2 (NCM811)
+from surface to bulk. Co-modied NCM811 cathode materials
+with diﬀerent content CoSO4 as modiers are prepared, which
+combine Co doping and Li2SO4 surface coating with removing
+residual lithium via a one-step facile method, as shown in
+Scheme 1. The inuence of co-modied on the physical struc-
+ture and electrochemical properties of NCM811 cathode mate-
+rials were explored. The co-modied NCM811 cathode with
+3 wt% CoSO4 exhibits an improved cyclic stability and rate
+performance. The modication removes residual lithium and
+suppresses the side reactions between cathode materials and
+electrolyte, improves the surface and bulk structure stability
+and promotes Li+ ion diﬀusion simultaneously.
+2
+Methods
+2.1
+Preparation
+The spherical precursor was prepared by the co-precipitation
+method as described previously.28 The obtained Ni0.8Co0.1-
+Mn0.1(OH)2 precursor was mixed with LiOH$H2O at the molar
+ratio Li : TM = 1.05 : 1, the mixture was calcination at 800 °C for
+10 h with owing O2, abbreviated as NCM811.
+CoSO4-modied NCM811 was prepared by mixing CoSO4-
+$7H2O and NCM811 under mortaring for 30 min. The mixtures
+were calcined at 600, 700, 800 °C for 4 h with owing O2. The
+content of CoSO4$7H2O in the mixture was 1, 3 and 5 wt%, and
+the obtained samples were labeled as NCM811-CS-1, NCM811-
+CS-3, and NCM811-CS-5. The equivalent molar amount of
+CoC2O4$2H2O and Li2SO4 as modiers were replaced of 3 wt%
+CoSO4
+to
+modify
+NCM811
+respectively.
+Li2SO4-modied
+NCM811 and CoC2O4-modied NCM811 were prepared under
+the same condition of the NCM811-CS-3, which denoted as
+NCM811-Li2SO4 and NCM811-CoC2O4 respectively.
+2.2
+Characterization
+The morphology and the elements distribution of the prepared
+samples were characterized using scanning electron micros-
+copy (SEM, Hitachi Regulus 8230). X-ray-diﬀraction (XRD)
+patterns of all samples was characterized using PANalytical
+Empyrean, from 10° to 90°, with Cu Ka (l = 1.5406 Å) radiation.
+The elemental analysis of pristine NCM811 and NCM811-CS-
+3 were investigated by inductively coupled plasma optical
+emission spectrometry (ICP-OES, Agilent 5110) and inductively
+coupled plasma mass spectrometry (ICP-MS, Agilent 7800). The
+components Li, Mn, Ni, and Co were measured by ICP-OES and
+S was measured by ICP-MS. The compositions of pristine and
+modied NCM811 electrodes were characterized using an
+ESCALAB 250Xi X-ray photoelectron spectrometer aided with
+Ar+ ion etching.
+2.3
+Electrochemical testing
+Electrochemical performance was measured by CR2032 coin-
+type cells. Cathodes were prepared by 80 wt% of active mate-
+rial, 10 wt% of Super-p and 10 wt% of poly(vinylideneuoride)
+(PVDF), which were mixed with N-methyl-2-pyrrolidone (NMP)
+as the slurry, and then taking the slurry to coat on an Al current
+collector, and roll-pressed. The cells were assembled using
+lithium metal as the anode, microporous membranes (Celgard
+2550s) as a separator, 1 mol L−1 LiPF6 in a mixed solution
+containing ethylene carbonate (EC)/dimethyl carbonate (DMC)/
+ethyl methyl carbonate (EMC) with volume ratio of 1 : 1 : 1 as
+electrolyte. All cell assemblies were performed in an Ar-lled
+MBraun glovebox, where humidity and oxygen were controlled
+to less than 1 ppm. The cycling performance, rate capability and
+galvanostatic intermittent titration technique (GITT) test were
+performed using a LANHE CT2001A battery tester (Wuhan,
+China) at room temperature under various rates. 1C rate
+corresponds to a current density of 200 mA h g−1 in this work.
+The duration time for each applied galvanostatic current (0.1C)
+and relaxation during the GITT measurements was 0.5 and 4 h,
+respectively. Electrochemical impedance spectroscopy (EIS) was
+measured on a Solartron analytical 1470 Cell Test System in
+a frequency range of 0.1–105 Hz. And conductivities of pristine
+and modied NCM811 materials under diﬀerent pressures were
+also tested on the Solartron Cell Test System.
+3
+Results and discussion
+The diﬀerent temperatures of 600, 700 and 800 °C for modi-
+cation of NCM811 are investigated. As shown in Fig. S1,† the
+Scheme 1
+Illustration of modiﬁed NCM811 preparation and the
+evolution of particles after long cycling.
+© 2023 The Author(s). Published by the Royal Society of Chemistry
+RSC Adv., 2023, 13, 34194–34199 | 34195
+Paper
+RSC Advances
+cycling performance of the sample calcined at 700 °C is the best.
+And the annealing of 700 °C for the electrochemical perfor-
+mance of pristine NCM811 was also studied shown in Fig. S2.†
+The extra annealing shows no diﬀerence for the samples, thus
+700 °C was selected for the modied temperature in this
+manuscript.
+The XRD patterns of pristine and modied NCM811 mate-
+rials have been shown in Fig. 1a, which are well-indexed as the
+hexagonal a-NaFeO2 layered structure with the space group R-
+3m.29 All samples show marked splitting peaks of (006)/(102)
+and (108)/(110), illustrating the well-ordered layered structure.
+With the increase of CoSO4 content, the additional diﬀraction
+peaks belonging to monoclinic Li2SO4 with space group P2(1)/c,
+at 2q = 21–26°& 44–47°as marked by asterisks.26 It suggests
+a surface coating layer of Li2SO4, resulting from the reaction of
+CoSO4 and the lithium residue. Li2SO4 is regarded as a lithium-
+ion conductor, which is benecial for the ion diﬀusion at the
+surface. In addition, the (003) peak shis to higher diﬀraction
+angle with the increasing CoSO4 content. The lattice parameters
+have been rened by Rietveld method as shown in Fig. S3 and
+Table S1.† Results show that the a, c lattice parameters increase
+with the percentage of CoSO4$7H2O treatment. These indicate
+that Co3+ ions are doped into the bulk structure and the
+composition of NCM811-CS-3 is Li(Ni0.8Co0.1Mn0.1)0.99Co0.01O2
+as the molar amount of doping Co is 0.01.
+The elemental analyses of the pristine NCM811 and
+NCM811-CS-3 are performed using ICP-OES and ICP-MS tech-
+nique. As indicated in Table S3,† components Li, Mn, Ni, and
+Co are detected for the above two samples, and S is detected for
+NCM811-CS-3. The atom ratios of Li, Ni, Mn are almost the
+same for NCM811 and NCM811-CS-3, while Co and S increases.
+The increment of Co and S is consistent with the molar quantity
+of 3 wt% CoSO4$7H2O in NCM811-CS-3.
+The SEM images of pristine and modied NCM811 materials
+have been shown in Fig. 1b, which demonstrate that all samples
+possess spherical secondary particles with an average size of 10
+mm comprising submicron primary particles, indicating that
+the co-modication treatment presents little eﬀect on particle
+size, but the surfaces became rough as the CoSO4 content
+increasing. As shown in Fig. 1c, the EDS mapping results show
+that the S element is homogeneously distributed on the surface
+of the modied sample. XPS measurement aided with Ar+ ion
+etching also reveal the Li2SO4 on the surface of modied
+NCM811 and the thickness of the Li2SO4 coating layer is no
+more than 50 nm (Fig. S4 and S9†). These conrm that
+a uniform and thin Li2SO4 coating layer is formed on the surface
+of the NCM811 particles, in consistent with the XRD results.
+The electrochemical performance of pristine and modied
+NCM811 materials were tested between 2.8 and 4.5 V vs. Li+/Li.
+As shown in Fig. 2a, the rst discharge capacities of NCM811 &
+NCM811-CS-3 are 213.5 and 214.8 mA h g−1. The plotted dQ/dV
+proles show that the phase transitions of NCM811-CS-3 is
+similar with NCM811, but a low potential of the main oxidation
+peak, demonstrating a smaller polarization of NCM811-CS-3
+(Fig. S5†). The pristine NCM811 displays rapidly capacity
+attenuation from 200.7 mA h g−1 to 135.6 mA h g−1 with 67.6%
+capacity retention in 200 cycles at 1C. In contrast, NCM811-CS-
+1, NCM811-CS-3, and NCM811-CS-5 exhibit higher capacity
+Fig. 1
+(a) XRD patterns of NCM811 and NCM811-CS; (b) SEM image of
+NCM811 and NCM811-CS; (c) EDS mapping of Ni, Co, O and S
+elements of NCM811-CS-3.
+Fig. 2
+(a) Cycling performance of the cells cycled at 1C, (b) rate
+performance of the cells at various rates, charge/discharge voltage
+proﬁles of (c) NCM811 and (d) NCM811-CS-3 at various cycles; (e) GITT
+curves for NCM811 and NCM811-CS-3, (f) Li+ diﬀusion coeﬃcient for
+NCM811 and NCM811-CS-3.
+34196 | RSC Adv., 2023, 13, 34194–34199
+© 2023 The Author(s). Published by the Royal Society of Chemistry
+RSC Advances
+Paper
+retention of 73.0%, 81.1% and 80.3%, respectively. Obviously,
+the NCM811-CS-3 exhibits the superior cycling stability. Fig. 2c
+and d show the evolution of charge/discharge proles of
+NCM811 and NCM811-CS-3. NCM811 shows a rapid decline in
+the capacity, while few changes are observed in the discharge
+capacities and voltage platform of NCM811-CS-3. This demon-
+strates that the Co3+ doping with Li2SO4 coating for the NCM811
+electrode can eﬀectively relieve capacity fading.
+To investigate the Co3+ doping and Li2SO4 layer coating by
+two separate processes on electrochemical performance, the
+equivalent molar amount of CoC2O4 and Li2SO4 as modiers
+were replaced of CoSO4 to modify NCM811 respectively. As
+shown
+in
+Fig.
+S6,†
+the
+electrochemical
+performance
+of
+NCM811-Li2SO4 and NCM811-CoC2O4 are worse than that of
+NCM811-CS-3, even that of the pristine NCM811. The reasons
+for these results were inferred as follows: the co-modied
+NCM811 cathode material in this manuscript is a one-step
+facile method by the chemical reactions of CoSO4 with
+residual lithium to form Co doping and Li2SO4 coating. The
+separate process of Co3+ doping and Li2SO4 layer coating cannot
+achieve the results obtained by this one-step method. On the
+one hand, the separate process cannot remove the residual
+lithium on the surface, on the other hand, the formed coating
+layer may be nonuniform.
+To evaluate the rate capabilities of the co-modication
+samples, the samples are measured between 0.1C–5C. The
+modied samples present the rate capabilities of 174, 187.4 and
+181.7 mA h g−1 for NCM811-CS-1, NCM811-CS-3, and NCM811-
+CS-5 at 5C. They are higher than 170 mA h g−1 of the pristine
+NCM811 sample as shown in Fig. 2b. To gain a better under-
+standing of the improved rate capabilities, the galvanostatic
+intermittent titration technique (GITT) was determined with
+a titration current of 0.1C, and the chemical diﬀusion coeﬃ-
+cients are calculated,25 as shown in Fig. 2e and f. The overall
+trends of NCM811 and NCM811-CS-3 are almost the same, but
+NCM811-CS-3 delivers a higher Li+ diﬀusion coeﬃcients than
+the pristine NCM811, validating that the co-modication has
+a positive eﬀect on the improvement of Li+ diﬀusion kinetics.
+These improvements in electrochemical performance could be
+attributed to the both presence of Li2SO4 coating layer and Co-
+doping. The Li2SO4 ion conductor layer is benet for the ion
+conductivity and the Co3+ doping is benet for electronic
+conductivity.30 At the same time, they would improve the
+stability of the interface and bulk structure simultaneously.
+The conductivities of pristine and modied NCM811 mate-
+rials under diﬀerent pressures were tested. As shown in Fig. S7,†
+the conductivities of all the samples increase with the pressure,
+and the conductivity of NCM811 is relatively higher than that of
+other modied materials. Since the electronic conductivity of
+NCM811 is much higher than its ionic conductivity, these
+results should be attributed to the surface electronic conduc-
+tivity. According to these results, the Li2SO4 coating layer
+slightly reduces the surface electronic conductivity of NCM811.
+Combined with the results of GITT, the ionic conductivity of
+NCM811 aer modied is improved. These demonstrate though
+the surface electronic conductivity of the modied material is
+reduced, the ionic conductivity is improved.
+The
+electrochemical
+impedance
+spectroscopy
+(EIS)
+measurements
+were
+taken
+to
+investigate
+the
+impedance
+(Fig. 3a–e). The quantitative analysis was performed by tting
+the spectra with an equivalent circuit model and the tting
+results are shown in Fig. 3d and e. The resistances at high-
+frequency (rst semicircle) and low-frequency (second semi-
+circle) semicircles are derived from ion migration in interfacial
+lm and charge transfer on electrodes, respectively, denoted as
+RSEI & Rct. The RSEI resistance of NCM811-CS-3 is slightly bigger
+than that of NCM811 in the 5th cycle, which should be attrib-
+uted to the coating layer of Li2SO4. Although the presence of
+Li2SO4 coating increases the initial interface resistance of
+NCM811, the RSEI resistance of NCM811-CS-3 is much lower
+than that of NCM811 in the 200th cycle. These indicate Li2SO4
+coating layer improve the stability of NCM811 in the long-term
+cycling.
+The Rct resistance of NCM811-CS-3 is much lower than that
+of NCM811 in the 5th cycle, which should be related to good
+electronic conductivity of Co3+ doping. And the increase of Rct
+resistance of NCM811 is much larger than that of NCM811-CS-3
+in 200 cycles, suggesting that the co-modication improve the
+stability of the bulk structure. Therefore, though the initial RSEI
+resistance of NCM811-CS-3 is slightly higher, the Rct resistance
+is much lower, and the RSEI & Rct resistances are much more
+stable in the long-term cycling than those of NCM811. These
+Fig. 3
+Nyquist plots of (a) NCM811 and (b) NCM811-CS-3 during
+cycling, (c) the equivalent circuit model, Fitted RS, RSEI and Rct value of
+(d) NCM811 and (e) NCM811-CS-3, SEM images of (f) NCM811 and (g)
+NCM811-CS-3 electrode after 200 cycles.
+© 2023 The Author(s). Published by the Royal Society of Chemistry
+RSC Adv., 2023, 13, 34194–34199 | 34197
+Paper
+RSC Advances
+suggest that co-modication improve the stability of the inter-
+face and bulk structure simultaneously.
+Aiming at verifying the positive eﬀect of the co-modication
+strategy, SEM images of the pristine NCM811 and NCM811-CS-3
+aer 200 cycles at 1C were obtained as shown in Fig. 3f and g.
+The pristine NCM811 particles suﬀer serious damage, where
+various number of cracks were observed due to volume aniso-
+tropic changes caused by phase transitions. Cracks would create
+new active surface and result in the continuous electrolyte
+decomposition, growth of the CEI, and poor cycling perfor-
+mance.
+In
+comparison,
+particle
+morphologies
+were
+well
+retained for NCM811-CS-3, further indicating the benets of
+dual modication for NCM811 can maintain structural stability
+with reduced side reactions during cycling.
+The structural variations of NCM811 and NCM811-CS-3 were
+compared before and aer 200 cycles by XRD measurement. As
+shown in Fig. S8,† the shiof (003) peak of NCM811-CS-3 is
+smaller than that of NCM811 aer 200 cycles. These indicate the
+variation of bulk structure of NCM811 is much larger than that of
+modied NCM811 aer cycling. Therefore, the co-modication is
+conducive to the structural stability of NCM811 in the long
+cycling. XPS measurement of pristine and modied NCM811
+displays that the S–O (169.5 eV) peak in S 2p is still strong on the
+surface of NCM811-CS-3 aer 200 cycles (Fig. S9 and Table S2†).
+These indicate the Li2SO4 coating layer displays good stability at
+the high voltage of 4.5 V vs. Li+/Li for long cycling. In addition,
+EDS was used to test the content of transition metal elements
+deposited on lithium metal surface of pristine and modied
+NCM811 aer 200 cycles. As shown in Fig. S10,† the dissolution
+of Mn and Ni elements were detected on the lithium metal side of
+NCM811 aer 200 cycles, which were not be detected of the
+modied NCM811, indicating that co-modication can inhibit
+the dissolution of transition metals during the long-term cycling.
+4
+Conclusion
+In summary, the co-modied LiNi0.8Co0.1Mn0.1O2 cathode
+materials with Li2SO4 coating and Co-doping were prepared by
+a facile and eﬀective one-step strategy using CoSO4 as a modier
+in this work. With adding 3 wt% CoSO4, NCM811-CS-3 shows
+the excellent cyclic stability (with 81.1% capacity retention in
+200 cycles at 1C) and rate performance (187.4 mA h g−1 at 5C).
+The formation of Li2SO4 surface coating layer consumed the
+residual lithium compounds on the surface of Ni-rich cathode
+material and mitigated the side reactions between cathode
+materials and electrolyte. Meanwhile, the Co doping can
+improve the stability of the structure and promote Li+ ion
+diﬀusion. Thus, co-modied Ni-rich cathode materials deliver
+an excellent electrochemical performance. And the results
+indicate that this co-modication strategy can eﬀectively
+improve the electrochemical performance. And the results
+indicate that this co-modication strategy can also be expected
+to apply to other oxide cathode materials.
+Conﬂicts of interest
+There are no conicts to declare.
+Acknowledgements
+This work supported by the National Natural Science Founda-
+tion of China (Grant no. 22075172), the Opening Project of Key
+Laboratory of Optoelectronic Chemical Materials and Devices of
+Ministry of Education, Jianghan University (JDGD-202221).
+References
+1 W. Lee, S. Muhammad, C. Sergey, H. Lee, J. Yoon, Y. M. Kang
+and W. S. Yoon, Angew Chem. Int. Ed. Engl., 2020, 59, 2578–
+2605.
+2 G. Jeong, Y.-U. Kim, H. Kim, Y.-J. Kim and H.-J. Sohn, Energy
+Environ. Sci., 2011, 4, 1986–2002.
+3 J. Liu, Z. Bao, Y. Cui, E. J. Dufek, J. B. Goodenough,
+P. Khalifah, Q. Li, B. Y. Liaw, P. Liu, A. Manthiram,
+Y.
+S.
+Meng,
+V.
+R.
+Subramanian,
+M.
+F.
+Toney,
+V. V. Viswanathan, M. S. Whittingham, J. Xiao, W. Xu,
+J. Yang, X.-Q. Yang and J.-G. Zhang, Nat. Energy, 2019, 4,
+180–186.
+4 J. L. Shi, H. Sheng, X. H. Meng, X. D. Zhang, D. Lei, X. Sun,
+H. Pan, J. Wang, X. Yu, C. Wang, Y. Li and Y. G. Guo, Natl.
+Sci. Rev., 2023, 10, nwac226.
+5 H. Maleki Kheimeh Sari and X. Li, Adv. Energy Mater., 2019,
+9, 1901957.
+6 L. Li, M. Xu, Q. Yao, Z. Chen, L. Song, Z. Zhang, C. Gao,
+P. Wang, Z. Yu and Y. Lai, ACS Appl. Mater. Interfaces,
+2016, 8, 30879–30889.
+7 Y. Liu, L.-b. Tang, H.-x. Wei, X.-h. Zhang, Z.-j. He, Y.-j. Li and
+J.-c. Zheng, Nano Energy, 2019, 65, 104043.
+8 J. Chen, W. Deng, X. Gao, S. Yin, L. Yang, H. Liu, G. Zou,
+H. Hou and X. Ji, ACS Nano, 2021, 15, 6061–6104.
+9 Y. Cui, K. Xiao, N. M. Bedford, X. Lu, J. Yun, R. Amal and
+D. W. Wang, Adv. Energy Mater., 2019, 9, 1902148.
+10 Y. Chen, H. Chu, W. Liu and W. Feng, Enzyme Microb.
+Technol., 2019, 121, 8–16.
+11 Y. Chen, S. Tang, S. Deng, T. Lei, Y. Li, W. Li, G. Cao, J. Zhu
+and J. Zhang, J. Power Sources, 2019, 431, 8–16.
+12 S. E. Renfrew and B. D. McCloskey, J. Am. Chem. Soc., 2017,
+139, 17853–17860.
+13 J.-M. Kim, X. Zhang, J.-G. Zhang, A. Manthiram, Y. S. Meng
+and W. Xu, Mater. Today, 2021, 46, 155–182.
+14 H. Yang, H. H. Wu, M. Ge, L. Li, Y. Yuan, Q. Yao, J. Chen,
+L. Xia, J. Zheng, Z. Chen, J. Duan, K. Kisslinger, X. C. Zeng,
+W. K. Lee, Q. Zhang and J. Lu, Adv. Funct. Mater., 2019, 29,
+1808825.
+15 S. W. Woo, S. T. Myung, H. Bang, D. W. Kim and Y. K. Sun,
+Electrochim. Acta, 2009, 54, 3851–3856.
+16 T. Weigel, F. Schipper, E. M. Erickson, F. A. Susai,
+B. Markovsky and D. Aurbach, ACS Energy Lett., 2019, 4,
+508–516.
+17 B. Yuan, S.-X. Liao, Y. Xin, Y. Zhong, X. Shi, L. Li and X. Guo,
+RSC Adv., 2015, 5, 2947–2951.
+18 W. Hu, H. kou, Y. Chen, Y. Wang, H. Zhu, G. Li and H. Li,
+Colloids Surf. A Physicochem. Eng. Asp., 2022, 648, 129185.
+19 Y. Chen, Y. Zhang, B. Chen, Z. Wang and C. Lu, J. Power
+Sources, 2014, 256, 20–27.
+34198 | RSC Adv., 2023, 13, 34194–34199
+© 2023 The Author(s). Published by the Royal Society of Chemistry
+RSC Advances
+Paper
+20 K. Du, H. Xie, G. Hu, Z. Peng, Y. Cao and F. Yu, ACS Appl.
+Mater. Interfaces, 2016, 8, 17713–17720.
+21 L. Yao, F. Liang, J. Jin, B. V. R. Chowdari, J. Yang and Z. Wen,
+Chem. Eng. J., 2020, 389, 124403.
+22 R. Wang, T. Zhang, Q. Zhang, M. Zheng, K. Xu and W. Yan,
+Ionics, 2019, 26, 1165–1171.
+23 X. Xiong, Z. Wang, X. Yin, H. Guo and X. Li, Mater. Lett.,
+2013, 110, 4–9.
+24 S. Deng, X. Li, Z. Ren, W. Li, J. Luo, J. Liang, J. Liang,
+M. N. Banis, M. Li, Y. Zhao, X. Li, C. Wang, Y. Sun, Q. Sun,
+R. Li, Y. Hu, H. Huang, L. Zhang, S. Lu, J. Luo and X. Sun,
+Energy Storage Mater., 2020, 27, 117–123.
+25 R. Qian, Y. Liu, T. Cheng, P. Li, R. Chen, Y. Lyu and B. Guo,
+ACS Appl. Mater. Interfaces, 2020, 12, 13813–13823.
+26 F. A. Susai, H. Sclar, S. Maiti, L. Burstein, O. Perkal,
+J.
+Grinblat,
+M.
+Talianker,
+S.
+Ruthstein,
+C.
+Erk,
+P. Hartmann, B. Markovsky and D. Aurbach, ACS Appl.
+Energy Mater., 2020, 3, 3609–3618.
+27 Y.-q. Chu, Y. Hu, A.-j. Lai, Q.-c. Pan, F.-h. Zheng, Y.-g. Huang,
+H.-q. Wang and Q.-y. Li, Electrochim. Acta, 2022, 409, 139966.
+28 M. Liu, Z. Ren, D. Wang, H. Zhang, Y. Bi, C. Shen and B. Guo,
+ACS Appl. Mater. Interfaces, 2021, 13, 18954–18960.
+29 M. Liu, J. Zhou, T. Cheng, Z. Feng, Y. Qin and B. Guo, ACS
+Appl. Energy Mater., 2022, 5, 9181–9188.
+30 F. Wu, Q. Li, L. Chen, Z. Wang, G. Chen, L. Bao, Y. Lu,
+S. Chen and Y. Su, Acta Phys.-Chim. Sin., 2022, 38, 2007017.
+© 2023 The Author(s). Published by the Royal Society of Chemistry
+RSC Adv., 2023, 13, 34194–34199 | 34199
+Paper
+RSC Advances
+
+
+==================== PAPER 10 ====================
+
+RESEARCH ARTICLE
+Rising Stars
+www.advmat.de
+Lignin-Based Separators for Lithium-Ion Batteries via a Dry
+Fibrillation Method
+Huanhuan Jia, Jingjing Liu, Boling Liu, Robert Kuphal, Vittorio Mottini, Paul Monday,
+Madelyn Ball, Jinxing Li, Mojgan Nejad, and Chengcheng Fang*
+Separators are critical components in lithium-ion batteries (LIBs), preventing
+internal short circuits, mitigating thermal runaway, and inﬂuencing rate
+capability and cycling performance. However, current polyoleﬁn separators
+suﬀer from limitations, such as high thermal shrinkage, relatively poor
+wettability, and inadequate long-term stability, impacting safety and cycle life
+in critical applications like electric vehicles. Here, a single-layer lignin-based
+ultrathin separator (as thin as 15 µm) with exceptional intrinsic thermal
+stability and cycling performance is demonstrated. The separator is fabricated
+using lignosulfonate, a natural polymer derived as a byproduct of chemical
+pulping and bioreﬁnery processes. By employing a dry ﬁbrillation method, the
+process achieves low energy consumption and a 100% raw material
+conversion rate, highlighting its scalability and sustainability. Interfacial
+studies reveal the improved cycling performance in both graphite||NMC811
+and Si-Gr||NMC811 cells is attributed to the abundant sulfonate functional
+groups in lignosulfonates, which promote the formation of a sulfur-rich
+cathode/solid electrolyte interphases (CEI/SEI) with low resistance in both the
+cathode and anode. The high thermal stability, manufacturing feasibility,
+battery performance, and low cost of such lignin-based separators oﬀer new
+inspiration for developing next-generation, single-layer functional separators
+tailored for high-performance LIBs.
+H. Jia, J. Liu, B. Liu, R. Kuphal, P. Monday, M. Ball, M. Nejad, C. Fang
+Department of Chemical Engineering and Materials Science
+Michigan State University
+East Lansing, MI 48824, USA
+E-mail: cfang@msu.edu
+V.Mottini,J.Li
+Department of Biomedical Engineering andInstituteforQuantitative
+Health ScienceandEngineering (IQ)
+Michigan StateUniversity
+East Lansing,MI 48824, USA
+M.Nejad
+Department of Forestry
+Michigan StateUniversity
+East Lansing,MI 48824, USA
+The ORCID identiﬁcation number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/adma.202419694
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH
+GmbH. This is an open access article under the terms of the Creative
+Commons Attribution License, which permits use, distribution and
+reproduction in any medium, provided the original work is properly cited.
+[Correction added on May 8, 2026, after ﬁrst online publication: The
+copyright line was changed.]
+DOI: 10.1002/adma.202419694
+1. Introduction
+Separators, a passive element positioned
+between the anode and cathode, play a
+key role in preventing internal short cir-
+cuits, facilitating ion transport, and inﬂu-
+encing rate and cycling performance in
+lithium-ion batteries (LIBs).[1–4] Achieving
+high energy density, long cycle life, and
+enhanced safety of LIBs requires a sep-
+arator that is lightweight, thin, and ex-
+hibits high electrolyte wettability, good me-
+chanical strength, and thermal stability.[1,2]
+Widely used polyoleﬁn separators, such as
+polyethylene (PE) and polypropylene (PP),
+oﬀer commendable electrochemical stabil-
+ity and mechanical strength. However, they
+suﬀer from high thermal shrinkage, rela-
+tively poor wettability, and inadequate long-
+term stability,[3,5] limiting safety and cy-
+cle performance in important applications
+such as electric vehicles. This necessitates
+the development of separator materials with
+high safety, mechanical and electrochemi-
+cal performances, low cost, and scalability.
+Enhancing these properties of separa-
+tors has been explored by functionalizing
+polyoleﬁn separators,[5–11] such as improving their thermal sta-
+bility by coating with inorganic nanoparticles,[6] strengthening
+interface stability with metal-organic frameworks materials[10,11]
+and prolonging cycle life by inhibiting the shuttle eﬀect in
+lithium-sulfur battery with other functional materials such as re-
+duced graphene oxide/sodium lignosulfonate composite based
+on a “charge”repulsion’’ design approach.[7,12] Alternatively, with
+the aim to promote intrinsic thermal stability and boost cy-
+cling performances, single-layer functional separators made of
+other polymeric materials have also been extensively explored,
+such as thermal stable polymer matrix (e.g., polytetraﬂuoroethy-
+lene, PTFE)[13–15] and natural biopolymers (e.g., cellulose,[2,16–18]
+and lignin[19–22]). In addition to acting as the physical bar-
+rier between the cathode and anode, functional separators fur-
+ther enhance electrochemical performances due to their spe-
+cial functional groups, unique porous structure, and/or modi-
+ﬁed separator–electrolyte interface interactions. These features
+facilitate the rapid formation of stable solid electrolyte inter-
+phase (SEI) by leveraging the strong aﬃnity between the func-
+tional groups and lithium ions[23] or by regulating ion ﬂux in
+the interfaces.[24,25] For example, Yang et al.[26] demonstrated
+Adv. Mater. 2025, 37, 2419694
+2419694 (1 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+www.advancedsciencenews.com
+www.advmat.de
+Figure 1. Schematic illustration of lignin-based separator design and fabrication process. a) Lignosulfonates are sourced from paper-making wastes.
+b) Workﬂow of producing a lignin-based separator by a dry ﬁbrillation process.
+a functional separator made of hydrogen-bonded organic frame-
+work material, which achieved a low N/P ratio lithium metal
+battery with rapid and homogeneous deposition of lithium-ion
+due to the high lithium aﬃnity of the C═N bond. Uddin et
+al.[27] reported a high thermal-stable alkali lignin/polyvinyl al-
+cohol nanoﬁber membrane fabricated via an electrospinning
+method, showing improved rate performance due to the reduced
+surface resistance. Yao et al.[28] explored a cationic covalent or-
+ganic framework modiﬁed polypropylene separator. Ultralong cy-
+cled Li//LiFePO4 full cells are synergistically achieved, by anchor-
+ing solvent molecules with a positively charged organic unit to
+avoid reactions with the lithium anode, contributing to the for-
+mation of a LiF-enriched SEI with weakly bonded F−ions.
+Despite the promising performances of the aforementioned
+separator designs, existing single-layer functional separators typ-
+ically employ multi-step wet-process fabrication.[15,29–33] For ex-
+ample, Li et al.[30] adopted a nonsolvent-induced phase separation
+method to produce polyvinylidene ﬂuoride (PVDF) – cellulose
+nanoﬁber – cyanoethyl cellulose separator in four steps including
+homogenization with N,N′-dimethylformamide, scraping, coag-
+ulation bath and drying. Moraes et al.[31] fabricated free-standing
+hexagonal boron nitride (hBN) separators with good wettability
+and thermal stability using carbon-coated hBN nanosheets and
+PVDF polymer followed by hBN-PVDF-N-methyl-2-pyrrolidone-
+glycerol solution preparation, blade-coating and drying steps.
+These wet processes increase costs and potentially introduce
+environmental challenges due to the volatilization of solvents,
+which may limit their sustainability for large-scale battery
+applications.
+Here, we report a lignin-based, ultrathin (down to 15 μm) sep-
+arator utilizing an in situ PTFE ﬁbrillation dry method, which is
+highly scalable and widely adopted to produce dry electrodes and
+solid electrolyte ﬁlms.[14,34–38] Lignin, derived from biomass—a
+natural polymer found in plant cell walls, is produced as byprod-
+ucts of chemical pulping and bioreﬁnery processes. Recent stud-
+ies, as summarized in Table S1 (Supporting Information), in-
+dicate that incorporating lignin derivatives into separators for
+LIBs can signiﬁcantly enhance their mechanical strength, ther-
+mal stability, and cycling performance. The lignosulfonate used
+in this study is the major type of available technical lignin,
+produced through the sulﬁte pulping process by Borregaard
+(Figure 1a). Lignosulfonate is the only type of technical lignin
+that is fully soluble in water, yet insoluble in organic liquid
+electrolytes. Lignosulfonate contains abundant sulfonate groups
+Adv. Mater. 2025, 37, 2419694
+2419694 (2 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Table 1. Illustration of functions of polymer binders and separators with diﬀerent component ratios.
+Material
+PTFE-675
+PTFE-480
+PVDF
+Function
+Fibrillation
+(network the components)
+Lubricant
+(Increase processability; Uniform
+the components)
+Improve the strain performance
+PTFE(675)-PTFE(480)-PVDF-LG
+Weight Ratio
+PTFE(675)
+PTFE(480)
+PVDF
+LG
+Thinnest thickness
+can be achieved (μm)
+10v0v0v90
+10
+0
+0
+90
+25
+05v05v0v90
+5
+5
+0
+90
+25
+05v0v05v90
+5
+0
+5
+90
+50
+05v2.5v2.5v90
+5
+2.5
+2.5
+90
+15
+and exhibits excellent binding and dispersing properties, mak-
+ing it an ideal material for separators using a dry method.[39]
+Compared to existing fabrication methods, such as facile
+ﬁltration,[12] electrospinning,[40,41] and casting-and-drying,[42] the
+dry process stands out as an eco-friendly, low-energy consump-
+tion, and cost-eﬀective approach. It aligns with large-scale man-
+ufacturing goals and allows for thickness customization with
+100% raw material conversion.
+The prepared lignin-based separators consist of 90 wt.% of lig-
+nosulfonate and 10 wt.% of polymer binders consisting of PTFE
+with diﬀerent crystal structures and PVDF at various ratios. The
+function of each polymer additive in the ﬁlm formation process
+has been systematically investigated. Notably, the chain-extended
+PTFE[14] can be elongated into ﬁbrils by shear force, building a
+heat-resistant polymer matrix and adhering to the other powdery
+components to form a free-standing, thickness-customized ﬁlm
+at room temperature. The ultrathin separator exhibits zero ther-
+mal shrinkage at over 200 °C, and demonstrates improved cy-
+cling stability in high-loading graphite (Gr)||LiNi0.8Co0.1Mn0.1O2
+(NCM811) and silicon-graphite (Si-Gr)||NCM811 full cells, com-
+pared to that with commercial separators (Celgard2325). Ow-
+ing to the abundant sulfonate functional groups in lignosul-
+fonate, the lignin-based separators eﬀectively promote the for-
+mation of sulfur-rich SEI and cathode electrolyte interphase
+(CEI) layers, reducing interface resistance and facilitating ion
+transport.[43–46] This work demonstrates a novel design of func-
+tional separators using naturally abundant biopolymers, featur-
+ing a scalable binder-ﬁbrillation dry method for their prepara-
+tion and improved cycling performance. This approach provides
+a scalable, low-cost, eco-friendly option for manufacturing high-
+performance separators.
+2. Result and Discussion
+2.1. Fabricating Lignin-Based Separators by a Dry Fibrillation
+Process
+Lignosulfonate was selected as the primary structural material
+for the separators due to its sustainability, low cost, insolubil-
+ity in organic liquid electrolytes, abundant sulfonate functional
+groups, and excellent binding and dispersing properties. The
+composition of the lignosulfonate we used was determined by
+ash testing and listed in Table S2 (Supporting Information). As
+illustrated in Figure 1b and Figure S1 (Supporting Information),
+the lignin-based separator was produced by a binder ﬁbrillation-
+based dry method, in which the powders of lignosulfonates and
+binders were ﬁrst mixed and ground to form a ﬁlm with a thick-
+ness of more than 300 μm, followed by a repeated rolling pro-
+cess to reduce the thickness (Figure S2, Supporting Informa-
+tion). The ﬁbrillation was achieved from PTFE(675) with a chain-
+extended crystal structure.[14] Two polymers, PTFE(480) with a
+chain-folded crystal structure and PVDF, were used as co-binders
+to increase processability and adjust the mechanical strength,
+respectively. The micro morphologies of the four components
+are shown in Figure S3 (Supporting Information), and the X-
+ray diﬀraction (XRD) patterns of two types of PTFE are shown
+in Figure S4 (Supporting Information). Samples with diﬀerent
+component ratios were prepared to study the roles of diﬀerent
+polymer binders and optimize their performances. All samples
+are composed of 90 wt.% lignosulfonates and 10 wt.% polymer
+matrix with varied amounts of PTFE(675), PTFE(480), and PVDF,
+as demonstrated in Table 1. The samples are named by their
+weight percentages in the order of PTFE(675)-PTFE(480)-PVDF-
+lignosulfonate(LG). The thinnest thickness the ﬁlm achieved are
+given in the last column.
+2.2. Physical Properties
+Taking the component of 05v2.5v2.5v90 as an example, the sep-
+arators can be rolled to reduce thicknesses down to 15 μm,
+as shown in Figure 2a,d,g. The in situ ﬁbrillated PTFE(675)
+forms a polymer matrix by the shear force from grinding be-
+cause of the chain-extended crystal structure (Figure S4, Sup-
+porting Information).[14] In the fabricated separator, the in situ
+PTFE(675) ﬁbrils construct a network that binds the PTFE(480),
+PVDF, and lignosulfonate powders together, resulting in the
+formation of a ﬁlm (Figure 2b,e,h). Simultaneously, the ligno-
+sulfonate particles pack closely together to generate a porous
+structure (Figure 2c,f,i). Contact angles were measured to eval-
+uate the wettability of the lignin-based separators. As shown in
+Figure S5 (Supporting Information), the 05v2.5v2.5v90 separa-
+tors demonstrate superior wettability compared to Celgard2325,
+as evidenced by their smaller contact angles (29.0°, 35.0°, and
+45.0° for thicknesses of 25, 20, and 15 μm, respectively) ver-
+sus Celgard2325 (51.5°). This improved wettability is attributed
+to the abundant aﬃnitive functionalities of lignosulfonates, the
+Adv. Mater. 2025, 37, 2419694
+2419694 (3 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Figure 2. Morphology study of separators PTFE(675)-PTFE(480)-PVDF-LG-05v2.5v2.5v90 with diﬀerent thicknesses. a) The digital image, b) cross-
+sectional, and c) top-view SEM images of the 05v2.5v2.5v90-25 μm. d) The digital image, e) the cross-sectional, and f) top view SEM images of the
+05v2.5v2.5v90-20 μm. g) The digital image, h) the cross-sectional, and i) top view SEM images of the 05v2.5v2.5v90-15 μm.
+micro/nanoporous structure (Figure 2b,e,h, and BET results
+shown in Figure S6, Supporting Information), and their facil-
+itation of ion transport. Based on the morphological analysis
+in Figure 2 and the practical insights gained during ﬁlm fab-
+rication, as illustrated in Figure S1 (Supporting Information),
+we found that PTFE (480), with its chain-folded crystal struc-
+ture, was eﬀective in reﬁning lignosulfonate when mixed to-
+gether and subjected to shear force (Figure S3e, Supporting In-
+formation). It functioned as a lubricant, enhancing processabil-
+ity and ensuring even dispersion within the ﬁlm, while PVDF
+facilitated pressure distribution during the rolling process,[47]
+enabling the formation of dense, ultrathin separators with im-
+proved strain performance, as discussed in Section 2.3. The func-
+tions of the three binders are summarized in Table 1. The cost
+of the lignin-based separators was calculated based on the price
+of raw materials (lignosulfonate, PTFE, and PVDF). As shown
+in Table S3 (Supporting Information), the lignin-based separa-
+tor with 15 um thickness saves 50% of the cost compared with
+Celgard2325.[1]
+2.3. Mechanical Properties
+Four ﬁlm samples with various component ratios in Table 1
+were prepared in diﬀerent thicknesses, and their tensile-strain
+behaviors were tested. The tensile-strain results are shown in
+Figure 3a–d. All the ﬁlms with a thickness lower than 50 μm
+demonstrate a tensile strength of MPa level (1–3 MPa). The ten-
+sile strength of the four components as the function of thickness
+is summarized in Figure 3e. It is demonstrated that the tensile
+strength increases as the ﬁlm thickness reduces, attributed to
+the increased ﬁlm density and ﬁbrillated PTFE(675) polymer net-
+work. The strain as the function of thickness proﬁles is depicted
+in Figure 3f. Comparing the samples with and without PVDF, e.g.
+Adv. Mater. 2025, 37, 2419694
+2419694 (4 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Figure 3. Tensile-strain behavior of four types of lignin-based ﬁlm with various thicknesses. The stress-strain curves for the samples of a) 10v0v0v90,
+b) 05v05v0v90, c) 05v0v05v90, and d) 05v2.5v2.5v90 with diﬀerent thicknesses. Summary of e) tensile strength as a function of ﬁlm thickness and f)
+strain as a function of thickness.
+10v0v0v90 and 05v0v05v90, it is notable that PVDF could signiﬁ-
+cantly improve the strain performance. This can be attributed to
+the larger pressure exerted by the roller so the separator can stand
+during the rolling process with the PVDF content.[47] Partially
+replacing PTFE(675) with PTFE(480) leads to reduced stretcha-
+bility, comparing 10v0v0v90 and 05v05v0v90. When 5 percent of
+PTFE(675) was replaced by 2.5% of PTFE(480) and 2.5% of PVDF
+to form 05v2.5v2.5v90, the strain property was much ameliorated,
+along with improved processability that leads to a ﬁlm as thin as
+15 μm, which suggests that PVDF helps to increase the mechan-
+ical strength while PTFE(480) enhances the ﬁlm processability.
+2.4. Thermal Stability
+To evaluate the thermal stability, lignin-based separators with
+the composition of 05v2.5v2.5v90 and thicknesses of 25, 20,
+and 15 μm were continuously heated at 100, 150, 180, 200,
+220, and 240 °C for 15 min at each temperature, compared
+to Celgard2325. As shown in Figure 4 and Figure S7 (Sup-
+porting Information), the images before and after heating re-
+veal that all lignin-based separators with various thicknesses
+exhibit ≈0 shrinkage up to 180 °C, and only 2.7% shrink-
+age up to 240 °C, demonstrating excellent thermal stability.
+Whereas the Celgard2325 separator experiences severe shrink-
+age starting from 100 °C, exceeding 40% at 150 °C, and be-
+coming transparent. The thermal stability of the lignin was
+evaluated via thermogravimetry analysis (TGA) test. The re-
+sult shown in Table S4 (Supporting Information) indicated
+that the degradation starts at a temperature above 180 °C.
+The much-improved thermal stability of lignin-based separa-
+tors can be ascribed to the intrinsic thermal stable nature of
+the lignin, and the PTFE matrix with a high melting point
+of 327 °C.[1]
+Adv. Mater. 2025, 37, 2419694
+2419694 (5 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Figure 4. Thermal stability tests of lignin-based separators with the composition of 05v2.5v2.5v90 at diﬀerent thicknesses (25, 20, and 15 μm), and the
+Celgard2325 (25 μm).
+2.5. Electrochemical Performances
+We evaluated the chemical and electrochemical stability of
+lignin-based separators against organic liquid electrolytes and in
+batteries. Electrolyte soaking experiments demonstrated the
+chemical stability of lignin-based separators, as evidenced by the
+clear electrolyte status after 23 days of soaking (Figure S8, Sup-
+porting Information). Cyclic voltammetry (CV) tests conﬁrmed
+that lignin-based separators exhibit excellent electrochemical sta-
+bility (Figure S9, Supporting Information). To further assess elec-
+trochemical stability, we performed self-discharge experiments.
+The 05v2.5v2.5v90–25 μm separator exhibited similar capacity re-
+tention and voltage drop compared to Celgard 2325 (Figure S10,
+Supporting Information). A two-week calendar life assessment
+revealed that the lignin-based separator demonstrated even better
+capacity retention than Celgard 2325 (Figure S11, Supporting In-
+formation), highlighting its superior chemical and electrochem-
+ical stability. These results conﬁrm that lignin-based separators
+are well-suited for battery operation and have the potential to en-
+hance battery performance.
+We further examined the electrochemical cycling performance
+of lignin-based separators with diﬀerent component ratios and a
+thickness of 25 μm in Gr||NCM811 cells. The commercial sep-
+arator Celgard2325 with a thickness of 25 μm, was used as the
+control group. All cells were assembled using NCM811 cath-
+ode with a capacity loading of 3 mAh cm−2 and an N/P ratio of
+1.2 using graphite anode. As illustrated by the electrochemical
+impedance spectroscopy (EIS) results shown in Figure 5a, freshly
+assembled cells with lignin-based separators showed smaller re-
+sistance than those of the Celgard2325. After two formation cy-
+cles, cells using the separators with components of 10v0v0v90
+and 05v05v0v90 showed higher total resistance than the Cel-
+gard2325, whereas that with the component of 05v2.5v2.5v90
+showed lower total resistance (Figure 5b,c). The corresponding
+ﬁtting results are displayed in Figure 5c and Table S5 (Support-
+ing Information). Figure S12 (Supporting Information) shows
+the equivalent circuit applied for ﬁtting. Rohm is the ohmic resis-
+tance. Rf corresponds to the resistance of the SEI (Rf1) and CEI
+(Rf2) ﬁlms, relating to Li+ ion diﬀusion behavior through SEI and
+CEI ﬁlms. Rct signiﬁes the charge transfer resistance between
+electrodes and electrolytes.[48–50] The quantiﬁed Rf impedance
+contribution of 17.30, 13.37, 12.21, and 9.61 Ω for Celgard2325,
+10v0v0v90, 05v05v0v90 and 05v2.5v2.5v90 respectively, indicat-
+ing that the cells with lignin-based separators deliver faster in-
+terfacial Li+ ion diﬀusion than the cell with Celgard2325 separa-
+tor. The voltage proﬁles (Figure 5d) demonstrate that all lignin-
+based separators did not introduce any side reactions to cells, and
+the 05v2.5v2.5v90 separator delivered a higher discharge speciﬁc
+capacity of 186.48 mAh g−1 compared to 183.10 mAh g−1 with
+the Celgard2325 with a C-rate of C/3. The 05v2.5v2.5v90 sepa-
+rator further exhibited an improved cycling stability compared
+to that of Celgard2325, delivering over 350 cycles compared to
+200 cycles with 80% of capacity retention in Gr||NCM811 cells
+(Figure 5e). The lignin-based cells demonstrated comparable rate
+performance to that of Celgard 2325 (Figure 5f).
+The ratio of PTFE and PVDF signiﬁcantly inﬂuences the
+electrochemical properties of the separator. PTFE(480), act-
+ing as a lubricant, facilitates the uniform distribution of ﬁb-
+rillated PTFE(675) within the separator matrix, enhancing
+the structural integrity and ionic diﬀusion pathways. A high
+PTFE(675) content improves mechanical robustness but may
+slightly reduce ionic conductivity due to limited polar groups for
+Adv. Mater. 2025, 37, 2419694
+2419694 (6 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Figure 5. Electrochemical performances of 25 μm lignin-based separators in Gr||NCM811 and Si-Gr||NCM811cells a–f). a) Nyquist plots of the newly
+assembled cells, b) after two formation cycles, and c) the corresponding resistance (Rf) value representing the interfacial ﬁlm obtained by equivalent
+circuit ﬁtting in graphite||NCM811 cells. d) capacity-voltage proﬁles at C/3 after two formation cycles. e) cycling performance at C/3 after two formation
+cycles of C/10 and f) rate performance at C/20, C/10, C/3, C/2, and 1C, respectively, in graphite||NCM811 cells with cathode loading of 3 mAh cm−2.
+The cell performance of Si-Gr||NCM811 battery with separators of PTFE(675)-PTFE(480)-PVDF-LG-05v2.5v2.5v90-25 μm g,h). g) voltage proﬁles for the
+cells and h) cycling performance at charge and discharge C-rate of C/3.
+electrolyte interaction. Introducing PTFE(480) eﬀectively en-
+hances cycling stability, as demonstrated by the comparison be-
+tween 05v05v0v90 and 10v0v0v90 (Figure 5e). PVDF, with its in-
+herent polarity, enhances electrolyte wettability and ionic conduc-
+tivity. Increasing the PVDF content (e.g., in 05v2.5v2.5v90 com-
+pared to 05v05v0v90) further accelerates ionic diﬀusion, as ev-
+idenced by improved rate performance and cycling stability in
+electrochemical tests (Figure 5e,f). This balance between PTFE
+and PVDF is crucial for optimizing both mechanical and elec-
+trochemical properties, allowing the separator to enhance overall
+battery performance.
+The separator 05v2.5v2.5v90 (25 μm) was further tested in the
+Si-Gr||NCM811 cells. As shown in Figure 5g, the full cell with the
+05v2.5v2.5v90 separator delivered a comparable speciﬁc capac-
+ity of 171.57 mAh g−1 in comparison with the cell with Celgard
+2325; and displayed higher Coulombic Eﬃciency of 99.9% versus
+99.8%, especially in the initial stage of the cycling process. As a
+result, the 05v2.5v2.5v90 (25 μm) separator demonstrated 83%
+capacity retention at 250 cycles compared with the Celgard2325
+of 70% (Figure 5h).
+The inﬂuences of thicknesses of lignin-based separators were
+investigated using the composition of 05v2.5v2.5v90 with thick-
+nesses of 25, 20, and 15 μm to assemble Gr||NCM811 cells. Cells
+were tested using the constant-current (CC)/constant-voltage
+(CV) charging protocol with a rate of C/3 ranging from 2.5 to 4.3 V
+at 25 °C. Cells were activated with two formation cycles, charging
+and discharging at C/10. As shown in Figure 6a, higher speciﬁc
+discharge capacities of 189.21, 189.44, and 195.11 mAh g−1 are
+delivered by 05v2.5v2.5v90 separators with decreased thicknesses
+of 25, 20, and 15 μm at C/10, respectively, whereas the discharge
+speciﬁc capacity of Celgard2325 separator is 186.36 mAh g−1.
+The cells exhibit higher speciﬁc discharge capacities as the thick-
+nesses decrease, likely due to changes in ionic conductivity. As
+shown in Figure S13 (Supporting Information), thinner lignin-
+based separators demonstrate reduced ionic conductivity, which
+can be attributed to decreased porosity and diminished wettabil-
+ity. These ﬁndings are consistent with wettability measurements,
+indicating their impact on eﬀective ion transport. Figure 6b,c
+and Figure S14 (Supporting Information) show that cells with
+05v2.5v2.5v90 separators with various thicknesses all exhibit
+Adv. Mater. 2025, 37, 2419694
+2419694 (7 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Figure 6. Thickness eﬀects on cycling performances of Gr||NCM811 cells using 05v2.5v2.5v90 separators with thicknesses of 25, 20, and 15 μm. a) voltage
+proﬁles of cells at C/10. b) cycling performance at charge and discharge rate of C/3 and c) the corresponding capacity retention analysis. Voltage proﬁles
+for the cells at diﬀerent cycle numbers with d) Celgard2325, e) 05v2.5v2.5v90-20 μm, and f) 05v2.5v2.5v90-25 μm separator, respectively. The SEM images
+of lignin-based separators after 400 cycles from the cross-sectional and top view of g) 05v2.5v2.5v90-20 μm and h) the 05v2.5v2.5v90-25 μm.
+higher capacity retention at the initial cycling stage. After 50
+cycles, the thinnest 05v2.5v2.5v90 (15 μm) separator demon-
+strated 93.0% capacity retention compared to the Celgard2325
+of 92.4%. Furthermore, the separators of 05v2.5v2.5v90 (25 μm)
+and (20 μm) delivered 96.3 ± 0.3% capacity retention after 50 cy-
+cles and 77.4 ± 0.1% capacity retention after 400 cycles, show-
+ing excellent cycling stability compared to the Celgard 2325,
+which had 68.6% capacity retention after 400 cycles (Figure 6b–f).
+The 05v2.5v2.5v90 separators with 20 and 25 μm thicknesses
+were disassembled from the cells after 400 cycles and tested on
+both the surface and cross-section morphologies. As shown in
+Figure 6g,h, the morphology of cycled samples was similar to the
+fresh ones, shown in Figure 2b,c,e,f, indicating lignin-based sep-
+arators can maintain excellent structural integrity throughout the
+battery cycling process.
+2.6. Electrochemical and Chemical Analysis After Cycling
+Further analysis was conducted to better understand the im-
+proved cycling performance of lignin-based separators. The
+medium voltages presented in Figure 7a–d indicate that
+cells using the lignin-based separators with the composition
+05v2.5v2.5v90, and thicknesses of 25 and 20 μm, exhibited
+smaller changes in medium voltage over their cycling life. No-
+tably, the 25 μm separator showed a voltage drop of only 0.02 V
+from the 3rd cycle to the 400th cycle, and the 20 μm separator
+showed a drop of 0 .05V. In comparison, the Celgard2325 separa-
+tor experienced a voltage drop of 0.12 V over the same period. The
+stable medium voltage directly contributes to the improvement
+of energy density. As a result, the cell using the 05v2.5v2.5v90
+(25 μm) separator demonstrated a higher energy density reten-
+tion of 76.2% after 400 cycles, closing to its capacity retention
+of 77.5%. In contrast, the cell with the 05v2.5v2.5v90 (20 μm)
+separator showed an energy density retention of 75.4%, despite
+those two cells displaying similar capacity retention (77.5% for
+25 μm vs 77.3% for 20 μm). In comparison, the energy den-
+sity retention for the cell with Celgard2325 was 65.9%, which
+was much lower than its capacity retention of 68.6%. Besides,
+as the divided charging capacity contribution of the CC stage
+and CV stage shown in Figure 7e–h, the CC stage of the cells
+with lignin-based separators contributes more to the cumula-
+tive charging capacity than the cell with Celgard2325 separator.
+As summarized in Figure 7h, the CV stage contributed 2.44%,
+2.79%, and 2.37% for cells with the Celgard2325, 05v2.5v2.5v90
+(20 μm), and 05v2.5v2.5v90 (25 μm) separators at the 3rd cy-
+cle, respectively. After 400 cycles, the charging capacity contri-
+bution of the CV stage for the cell with Celgard2325 separator
+Adv. Mater. 2025, 37, 2419694
+2419694 (8 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Figure 7. a–c) Voltage versus speciﬁc capacity of the 3rd and 400th cycle of the Gr||NCM811 cells with separator of a) celgard2325, b) 05v2.5v2.5v90-
+20 μm, and c) 05v2.5v2.5v90-25 μm, respectively. The medium voltages after formation cycles and at the 400th cycle are marked by dashed lines.
+d)The change of medium voltage and energy density with the cycle progress; Capacity contribution of the state of charge divided into CC phase and
+CV phase at the cycling life with separators of e) celgard2325, f) 05v2.5v2.5v90-20 μm, and g) 05v2.5v2.5v90-25 μm, respectively. h) the proportion of
+capacity contributed by the CV part. EIS measurements at diﬀerent cycling numbers with separators of i) celgard2325, j) 05v2.5v2.5v90-20 μm, and k)
+05v2.5v2.5v90-25 μm, respectively. l) The proportion of the resistance stands for the ﬁlm (Rf). The XPS spectra and ﬁtting results of C1s, O 1s, F 1s, and
+S 2p of m) the NCM811 cathode side and n) the graphite anode side after 400 cycles. All of the curves were set with the same counts.
+signiﬁcantly increased to 17.08%. The corresponding values for
+the 05v2.5v2.5v90 (20 μm) and 05v2.5v2.5v90 (25 μm) separa-
+tors were 13.77% and 10.54%, respectively. These results indi-
+cate that 05v2.5v2.5v90 separators delivered much less potential
+polarization throughout the cycle life, enabling the cells to reach
+a fully charged state in a shorter time. The EIS test was employed
+for the cells after formation cycles and after 400 cycles at a fully
+discharged state. The EIS curves were ﬁtted by the equivalent cir-
+cuit shown in Figure S12 (Supporting Information), and the ﬁt-
+ting results were displayed in Figure 7i–l. After formation cycles,
+the Rf resistances of the cells assembled with the Celgard2325,
+05v2.5v2.5v90-20 μm, and 05v2.5v2.5v90-25 μm separators were
+19.0, 9.3, and 9.6 Ω, respectively, and the corresponding values
+increased to 26.6, 17.5, and 18.9 Ω after 400 cycles. These results
+demonstrate that lignin-based separators achieve lower Rf within
+the long-term cycling, which is advantageous for accelerating Li+
+ion diﬀusion and reducing polarization. All the above-mentioned
+results reveal that the utilization of lignin-based 05v2.5v2.5v90
+separators enhanced interfacial Li+ ion transport compared with
+the Celgard2325.[4,51–53]
+X-ray photoelectron spectroscopy (XPS) was employed to an-
+alyze the interfacial components of NCM811 and graphite af-
+ter 400 cycles, to understand the role of lignin-based separa-
+tors in CEI and SEI formation. As shown in Figure 7m,n, four
+main peaks belonging to C─C (284.8 eV), C─O (286.8 eV), C═O
+(289.0 eV), and LiCO3/C-F (290.6 eV) emerged in the C 1s spec-
+trum, and two main peaks belonging to C─O (533.9 eV), C═O
+(532.0 eV) were detected in the O 1s spectrum on both cath-
+ode and anode sides with diﬀerent separators. The LiF peaks
+at ≈684.5 eV indicated the formation of LiF-rich SEI and CEI
+originating from the decomposition reaction of LiPF6. Except
+for the same main peaks that emerged in the C 1s, O 1s, and
+F 1s spectra, extra peaks were detected in the S 2p regions on
+the surface of the NCM811 cathode and graphite anode when
+using the lignin-based 05v2.5v2.5v90 separator. The peaks at
+169.4 and 170.6 eV match the -SO2CF3 species. The peaks at
+Adv. Mater. 2025, 37, 2419694
+2419694 (9 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+168.3 and 169.2 eV correspond to ROSO2Li. Whereas no peaks
+were detected at the corresponding binding energy positions for
+the cell with Celgard 2325. The results indicate that the sul-
+fonate functional group participates in the modiﬁcation of the
+CEI and SEI layers.[54,55] Previous investigations have veriﬁed
+that adopting the sulfonate functional group to construct S-rich
+CEI and SEI is an eﬃcient method for improving interfacial sta-
+bility and enhancing the cycling performance of NCM cathodes
+and graphite anodes.[43,45,46,48,54–57] Moreover, the SOx (x = 1–4)
+functional groups were proven to inhibit the decomposition of
+electrolytes.[45] As a result, the cells with lignin-based separators
+show weaker intensity of the LiF peaks (≈684.5 eV) in both the
+SEI and CEI compared to those with Celgard 2325. The abundant
+sulfonate functional groups in lignin-based separators synergize
+to aid in the formation of S-rich CEI and SEI, reducing ﬁlm re-
+sistance, facilitating ion transport, and contributing to a more ro-
+bust cycle life.
+3. Conclusion
+In this work, lignosulfonates were utilized to produce high-
+value-added LIB separators via a highly scalable, cost-eﬀective
+binder ﬁbrillation dry process. By carefully studying the functions
+of polymer additives in the ﬁlm formation process, thickness-
+tailored separators with a composition of PTFE(675)-PTFE(480)-
+PVDF-LG-05v2.5v2.5v90 and a thickness as thin as 15 μm were
+achieved. The lignin-based separators exhibited zero thermal
+shrinkage at over 200 °C owing to the high thermal stability of
+the lignin and PTFE matrix. Furthermore, the prepared separa-
+tors were tested in graphite||NCM811 and Si-Gr||NCM811 full
+cells. The graphite||NCM811 full cells using the 05v2.5v2.5v90
+separators, with both 20 and 25 μm thicknesses, demonstrated
+minimum polarization, robust cycling performances, and excel-
+lent capacity retention. Therein, the abundant sulfonate func-
+tional groups in lignosulfonate eﬀectively induced the formation
+of S-rich SEI and CEI layers, reducing ﬁlm resistance and fa-
+cilitating ion transport. After 400 cycles at a C-rate of C/3, im-
+proved capacity retention of 8% and energy density retention
+of 10% was achieved compared to the cells with Celgard2325.
+This work demonstrates a low-cost and eco-friendly approach to
+manufacturing high-performance separators, which enlightens
+separator design and bridges the gap between research require-
+ments and the commercial demands of next-generation single-
+layer functional sustainable separators for high-performance
+batteries.
+4. Experimental Section
+Preparation of Lignin-Based Separators:
+The PTFE (675), PTFE (480),
+and PVDF are purchased from Sigma, MSE Supplies, and MTI Corpora-
+tion, respectively. The lignosulfonates (LG) were kindly supplied by Borre-
+gaard, and the component information is shown in Table S2 (Supporting
+Information). All of the chemicals were dried at 60 °C for at least 12 h
+before use. The lignin-based separators were prepared by dry ﬁbrillation
+method, and the following sample was taken as an example to describe
+the preparation process. To make a separator of PTFE(675)-PTFE(480)-
+PVDF-LG-05v2.5v2.5v90-25 μm, the dried PTFE(675), PTFE(480), PVDF,
+and LG were weighed ﬁrst with the total amount of 800 mg in the ratio of
+5:2.5:2.5:90. The mixture was ground to form a smooth ﬁlm with thickness
+of ≈300 μm by pestle in the mortar. Then, the ﬁlm was placed between the
+two rollers of the roller press to decrease the thickness by narrowing the
+gap between the two rollers. During this process, the gap distance was nar-
+rowed by 10 μm each time until the roller was basically free of pressure.
+PTFE(675) can be ﬁbrillated by shear force and the ﬁlm gradually becomes
+thinner and more compact. Finally, an ultrathin ﬁlm consisting of lignosul-
+fonate, PVDF, and PTFE can be obtained and the thickness was measured
+by an electronic thickness gauge unless the thickness was down to 25 μm.
+The processes above were conducted in air with ambient humidity below
+30%. The ﬁnal products were cut into pieces and heated at 100 °C in the
+vacuum oven for further use.
+Materials Characterizations:
+The morphologies of the lignin-based
+separators were tested using an ultra-high-resolution scanning electron
+microscope (SEM) of JEOL 7500F. The tensile testing was conducted using
+UniVert from CellScale. Rectangular samples with a width of 12 mm and
+diﬀerent thicknesses were used. The X-ray photoelectron spectroscopy
+(XPS, Thermo Scientiﬁc) data were collected using the Kratos Axis Ul-
+tra XPS instrument. The X-ray diﬀraction (XRD) tests were performed us-
+ing the Rigaku Smartlab X-ray Diﬀractometer. The thermal stability perfor-
+mances were tested by a drying oven (Thermo Scientiﬁc) and muﬄe fur-
+naces. The oven was set up at temperatures of 100, 150, 180, 200, 220 and
+240 °C, respectively. Then, the celgard2325 separator, lignin-based sepa-
+rators of 05v2.5v2.5v90-25 μm, 05v2.5v2.5v90-20 μm, and 05v2.5v2.5v90-
+15 μm were put into the oven and heated for 15 min at diﬀerent tempera-
+tures. The thermal stability of lignin was analyzed using a TA Instruments
+Q50. An 8 mg sample was heated from 25 to 105 °C at 10 °C min−1, held
+at 105 °C for 20 min to remove residual water, and then heated to 800 °C
+under controlled nitrogen and airﬂow conditions for thermal stability and
+oxidation analysis, respectively. The pore size distribution of the lignin-
+based separators was analyzed with the Brunauer–Emmett–Teller (BET)
+method.
+Electrochemical Testing and Characterization:
+The prepared lignin-
+based separators are used to assemble the CR2032 cells. Cathode and an-
+ode electrodes were bought from NEI Corporation. The NCM811 cathode
+sheets with active material loading of 3 mAh cm−2 were cut into 14 mm
+discs and the anode sheets with active material loading of 3.5 mAh cm−2
+were cut into 16 mm discs for coin-cells making. The active materials load-
+ing for both the cathode and anode electrodes were 90%. Two kinds of liq-
+uid electrolyte (LE) are used in this work. The LE for graphite||NCM811
+cells with component of 1 m LiPF6 in EC/EMC(v:v = 3:7) with 2%VC;
+The LE for Si/Gr||NCM811 cells is 1 m LiPF6 in EC/EMC(v:v = 3:7)
+with 2% FEC and 1% VC; Both of them are bought form Gotion, and
+the LE of 23 uL mAh−1, totally 70 uL were applied for each cell. The
+cells are charged and discharged at 25 °C using the Neware battery test-
+ing system. The Li||SS cells were assembled for the Cyclic voltammetry
+(CV) test. The symmetric cells (SS||SS) were assembled with stainless
+steel sheets to measure the bulk ionic conductivities of separators. The
+constant–current (CC)/constant–voltage (CV) charging protocol ranging
+from 2.5 to 4.3 V at 25 °C was applied for the self–discharge test and
+Calendar life test of the Gr||NCM811 full cells. The rate of C/10 was
+applied in the CC stage, and the rate of C/20 was applied in the CV
+stage.
+Electrochemical impedance spectroscopy (EIS) and CV tests were
+conducted at room temperature by a PARSTAT 4000 electrochemical
+workstation.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or from
+the author.
+Acknowledgements
+The authors acknowledge the ﬁnancial support from Michigan State
+University.
+Adv. Mater. 2025, 37, 2419694
+2419694 (10 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+Conﬂict of Interest
+The authors declare no conﬂict of interest.
+Data Availability Statement
+The data that support the ﬁndings of this study are available from the
+corresponding author upon reasonable request.
+Keywords
+dry process, sulfonate-derived SEI, thermally stable separator, ultrathin
+lignin-based separator
+Received: December 15, 2024
+Revised: February 19, 2025
+Published online: March 26, 2025
+[1] X. Huang, R. He, M. Li, M. O. L. Chee, P. Dong, J. Lu, Mater. Today.
+2020, 41, 143.
+[2] H. Chen, Z. Wang, Y. Feng, S. Cai, H. Gao, Z. Wei, Y. Zhao, Chem. Eng.
+J. 2023, 471, 144593.
+[3] B. Yuan, K. Wen, D. Chen, Y. Liu, Y. Dong, C. Feng, Y. Han, J. Han, Y.
+Zhang, C. Xia, A. Sun, W. He, Adv. Funct. Mater. 2021, 31, 2101420.
+[4] M. F. Lagadec, R. Zahn, V. Wood, Nat. Energy. 2019, 4, 16.
+[5] M. Zhang, K. Liu, Y. Gan, H. Wang, F. Liu, M. Bai, X. Tang, Z. Wang,
+S. Li, A. Shao, K. Zhou, T. Wang, Z. Wang, S. Yuan, Y. Ma, Adv. Energy
+Mater. 2022, 12, 2201390.
+[6] H. Zheng, Z. Wang, L. Shi, Y. Zhao, S. Yuan, J. Colloid Interface Sci.
+2019, 554, 29.
+[7] W. Wang, K. Xi, B. Li, H. Li, S. Liu, J. Wang, H. Zhao, H. Li, A. M.
+Abdelkader, X. Gao, G. Li, Adv. Energy Mater. 2022, 12, 2200160.
+[8] Q. Meng, M. Fan, X. Chang, H. Li, W. P. Wang, Y. H. Zhu, J. Wan, Y.
+Zhao, F. Wang, R. Wen, S. Xin, Y. G. Guo, Adv. Energy Mater. 2023, 13,
+2300507.
+[9] H. Wu, D. Zhuo, D. Kong, Y. Cui, Nat. Commun. 2014, 5, 5193.
+[10] L. Sheng, Q. Wang, X. Liu, H. Cui, X. Wang, Y. Xu, Z. Li, L. Wang,
+Z. Chen, G. L. Xu, J. Wang, Y. Tang, K. Amine, H. Xu, X. He, Nat.
+Commun. 2022, 13, 172.
+[11] Z. Chang, H. Yang, A. Pan, P. He, H. Zhou, Nat. Commun. 2022, 13,
+6788.
+[12] T. Lei, W. Chen, W. Lv, J. Huang, J. Zhu, J. Chu, C. Yan, C. Wu, Y. Yan,
+W. He, J. Xiong, Y. Li, C. Yan, J. B. Goodenough, X. Duan, Joule. 2018,
+2, 2091.
+[13] H. Guo, M. Li, F. Li, Q. Zhu, Y. Zhao, F. Wang, Z. Qin, Chem. Eng.
+Technol. 2022, 45, 737.
+[14] A. Zhang, J. Chai, C. Yang, J. Zhao, G. Zhao, G. Wang, Mater. Des.
+2021, 211, 110157.
+[15] J. Li, Q. Zhong, Y. Yao, S. Bi, T. Zhou, X. M. Guo, M. Wu, T. Feng, R.
+Xiang, J. Appl. Polym. Sci. 2018, 135, 46508.
+[16] C. Liao, X. Mu, L. Han, Z. Li, Y. Zhu, J. Lu, H. Wang, L. Song, Y. Kan,
+Y. Hu, Energy Storage Mater. 2022, 48, 123.
+[17] F. Zhang, X. Lan, H. Peng, X. Hu, Q. Zhao, Adv. Funct. Mater. 2020,
+30, 2002169.
+[18] G. X. Dong, H. J. Li, Y. Wang, W. J. Jiang, Z. S. Ma, Ionics. 2021, 27,
+2955.
+[19] Y. Yerkinbekova, S. Kalybekkyzy, N. Tolganbek, M. V. Kahraman, Z.
+Bakenov, A. Mentbayeva, Sci. Rep. 2022, 12, 18272.
+[20] M. Zhao, J. Wang, C. Chong, X. Yu, L. Wang, Z. Shi, RSC Adv. 2015, 5,
+101115.
+[21] A. Liu, S. Li, Z. Jiang, J. Du, Y. Tao, J. Lu, Y. Cheng, H. Wang, J. Power
+Sources. 2022, 521, 230947.
+[22] H. Y. Jung, J. S. Lee, H. T. Han, J. Jung, K. S. Eom, J. T. Lee, Polymers.
+2022, 14, 673.
+[23] H. Jin, S. Pyo, H. Seo, J. Cho, J. Han, J. Han, H. Yun, H. Kim, J. Lee,
+B. Min, J. Yoo, Y. S. Kim, Small. 2024, 20, 2401928.
+[24] Y. Liu, Z. Tai, I. Rozen, Z. Yu, Z. Lu, A. P. LaGrow, O. Bondarchuk,
+Q. Chen, G. Goobes, Y. Li, L. Liu, Adv. Energy Mater. 2023, 13,
+2204420.
+[25] G. Zhang, D. Zhang, R. Yang, Y. Du, N. Wang, Z. Guo, X. Mai, F. Dang,
+Adv. Funct. Mater. 2023, 33, 2304981.
+[26] Y. Yang, S. Yao, Y. Wu, J. Ding, Z. Liang, F. Li, M. Zhu, J. Liu, Nano
+Lett. 2023, 23, 5061.
+[27] M. J. Uddin, P. K. Alaboina, L. Zhang, S. J. Cho, Mater. Sci. Eng. B.
+2017, 223, 84.
+[28] S. Yao, Y. Yang, Z. Liang, J. Chen, J. Ding, F. Li, J. Liu, L. Xi, M. Zhu, J.
+Liu, Adv. Funct. Mater. 2023, 33, 2212466.
+[29] J. Zhang, L. Yue, Q. Kong, Z. Liu, X. Zhou, C. Zhang, Q. Xu, B. Zhang,
+G. Ding, B. Qin, Y. Duan, Q. Wang, J. Yao, G. Cui, L. Chen, Sci. Rep.
+2014, 4, 3935.
+[30] L. Li, M. Yu, C. Jia, J. Liu, Y. Lv, Y. Liu, Y. Zhou, C. Liu, Z. Shao, ACS
+Appl. Mater. Interfaces. 2017, 9, 20885.
+[31] A. C. M. De Moraes, W. J. Hyun, N. S. Luu, J. M. Lim, K.
+Y. Park, M. C. Hersam, ACS Appl. Mater. Interfaces. 2020, 12,
+8107.
+[32] T. Liang, W. H. Liang, J. H. Cao, D. Y. Wu, ACS Appl. Energy Mater.
+2021, 4, 2578.
+[33] Y. Zhang, S. Lu, F. Lou, Z. Yu, Electrochim. Acta. 2023, 456,
+142469.
+[34] H. Duong, J. Shin, Y. Yudi, 48th Power Sources Conf. 2018, 2,
+34.
+[35] T. Jiang, P. He, G. Wang, Y. Shen, C. W. Nan, L. Z. Fan, Adv. Energy
+Mater. 2020, 10, 1903376.
+[36] D. J. Lee, J. Jang, J. P. Lee, J. Wu, Y. T. Chen, J. Holoubek, K. Yu, S. Y.
+Ham, Y. Jeon, T. H. Kim, J. B. Lee, M. S. Song, Y. S. Meng, Z. Chen,
+Adv. Funct. Mater. 2023, 33, 2301341.
+[37] C. Wang, R. Yu, H. Duan, Q. Lu, Q. Li, K. R. Adair, D. Bao, Y. Liu, R.
+Yang, J. Wang, S. Zhao, H. Huang, X. Sun, ACS Energy Lett. 2022, 7,
+410.
+[38] T. Aro, P. Fatehi, ChemSusChem. 2017, 10, 1861.
+[39] K. Liu, W. Liu, Y. Qiu, B. Kong, Y. Sun, Z. Chen, D. Zhuo, D. Lin, Y. Cui,
+Sci. Adv. 2017, 3, 1601978.
+[40] X. Li, J. Zhang, X. Guo, C. Peng, K. Song, Z. Zhang, L. Ding, C. Liu,
+W. Chen, S. Dou, Adv. Mater. 2023, 35, 2203547.
+[41] W. Xie, Y. Dang, L. Wu, W. Liu, A. Tang, Y. Luo, Polym. Test. 2020, 90,
+106773.
+[42] J. Zhao, X. Zhang, Y. Liang, Z. Han, S. Liu, W. Chu, H. Yu, ACS Energy
+Lett. 2021, 6, 2552.
+[43] J. Li, J. Wu, S. Li, G. Liu, Y. Cui, Z. Dong, H. Liu, X. Sun, ChemSusChem.
+2021, 14, 2721.
+[44] B. J. Chae, T. Yim, J. Power Sources. 2017, 360, 480.
+[45] H. J. Song, S. H. Jang, K. Choi, S. C. Nam, J. Mun, T. Yim, ACS Sustain.
+Chem. Eng. 2020, 8, 7316.
+[46] S. Tu, B. Zhang, Y. Zhang, Z. Chen, X. Wang, R. Zhan, Y. Ou,
+W. Wang, X. Liu, X. Duan, L. Wang, Y. Sun, Nat. Energy. 2023, 8,
+1365.
+[47] M. Ryu, Y. K. Hong, S. Y. Lee, J. H. Park, Nat. Commun. 2023, 14, 1316.
+[48] T. L. Kulova, V. A. Tarnopol’ skii, A. M. Skundin, Russ. J. Electrochem.
+2009, 45, 38.
+[49] Y. Bao, Y. Gong, Energy Rep. 2023, 9, 34.
+[50] S. J. An, J. Li, C. Daniel, H. M. Meyer, S. E. Trask, B. J. Polzin, D. L.
+Wood, ACS Appl. Mater. Interfaces. 2017, 9, 18799.
+[51] A. Parschau, D. Degler, A. Fill, K. P. Birke, F. Allmendinger, Batteries.
+2023, 9, 83.
+[52] Y. X. Yao, X. Chen, N. Yao, J. H. Gao, G. Xu, J. F. Ding, C. L. Song,
+W. L. Cai, C. Yan, Q. Zhang, Angew. Chem. Int. Ed. Engl. 2023, 62,
+202214828.
+Adv. Mater. 2025, 37, 2419694
+2419694 (11 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+www.advancedsciencenews.com
+www.advmat.de
+[53] J. Lu, X. Xu, W. Fan, Y. Xin, W. Wang, C. Fan, P. Cheng, J. Zhao, J. Liu,
+Y. Huo, ACS Appl. Energy Mater. 2022, 5, 6324.
+[54] C. Ma, D. Wang, Y. Yang, Q. Wu, Z. Chen, C. Zhu, Y. Gao, C. Li, J.
+Electrochem. Soc. 2019, 166, A3441.
+[55] M. Hekmatfar, A. Kazzazi, G. G. Eshetu, I. Hasa, S. Passerini, ACS
+Appl. Mater. Interfaces. 2019, 11, 43166.
+[56] W. Zhao, K. Wang, R. Dubey, F. Ren, E. Brack, M. Becker, R.
+Grissa, L. Seidl, F. Pagani, K. Egorov, K. V. Kravchyk, M. V.
+Kovalenko, P. Yan, Y. Yang, C. Battaglia, Mater. Today Energy. 2023, 34,
+101301.
+[57] D. S. Hall, J. P. Allen, S. L. Glazier, L. D. Ellis, L. Ma, J. M. Peters, I. G.
+Hill, J. R. Dahn, J. Electrochem. Soc. 2017, 164, A3445.
+Adv. Mater. 2025, 37, 2419694
+2419694 (12 of 12)
+© 2025 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 2025, 19, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202419694 by SEA ORCHID (Thailand), Wiley Online Library on [28/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+==================== PAPER 11 ====================
+
+Citation: Long, F.; Liu, Y.; Zhu, G.;
+Wang, Y.; Zheng, H. Phosphate and
+Borate-Based Composite Interface of
+Single-Crystal LiNi0.8Co0.1Mn0.1O2
+Enables Excellent Electrochemical
+Stability at High Operation Voltage.
+Materials 2023, 16, 3613. https://
+doi.org/10.3390/ma16103613
+Academic Editor: Christian M. Julien
+Received: 31 March 2023
+Revised: 4 May 2023
+Accepted: 5 May 2023
+Published: 9 May 2023
+Copyright:
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+materials
+Article
+Phosphate and Borate-Based Composite Interface of
+Single-Crystal LiNi0.8Co0.1Mn0.1O2 Enables Excellent
+Electrochemical Stability at High Operation Voltage
+Fu Long, Yuyang Liu, Guobin Zhu *
+, Yan Wang
+and Honghe Zheng *
+College of Energy, Soochow University, Suzhou 215006, China
+* Correspondence: gbzhu@suda.edu.cn (G.Z.); hhzheng@suda.edu.cn (H.Z.)
+Abstract: The application of nickel-rich cathodes in lithium-ion batteries has been hampered by its
+rapid capacity/voltage fading and limited performance of rate. In this work, a passivation technique
+is used to create a stable composite interface on single-crystal LiNi0.8Co0.1Mn0.1O2 (NCM811) surface,
+which greatly improves the cycle life-span and high-voltage constancy of cathode with 4.5 and 4.6 V
+cut-off voltage. The improved Li+ conductivity of the interface enables a ﬁrm cathode–electrolyte
+interphase (CEI), which reduces interfacial side reactions, lowers the risk of safety hazards, and
+improves irreversible phase transitions. As a result, the electrochemical performance of single-crystal
+Ni-rich cathode are remarkably enhanced. The speciﬁc capacity of 152 mAh g−1 can be delivered at a
+charging/discharging rate of 5 C under 4.5 V cut-off voltage, much higher than 115 mAh g−1 of the
+pristine NCM811. After 200 cycles at 1 C, the composite interface modiﬁed NCM811 demonstrates
+outstanding capacity retention of 85.4% and 83.8% at 4.5 V and 4.6 V cut-off voltage, respectively.
+Keywords: lithium-ion batteries; cathode; LiNi0.8Co0.1Mn0.1O2; boric acid
+1. Introduction
+In recent years, nickel-rich layered oxide NCM811 has been intensively investigated
+as a cathode material for large-scale applications in electric vehicles because of its unique
+strengths in terms of theoretical speciﬁc capacity, operating potential, and fabrication
+cost [1–4]. Generally, much interest has been generated in the secondary spheres structure
+of polycrystalline NCM811 cathode due to its high-level ﬁrst Coulombic efﬁciency for
+de-embedded Li+ storage. However, during battery operation, polycrystalline particles
+are susceptible to cracking due to inherent anisotropic volume changes, which accelerates
+the bulk structure degradation and aggravates interface side reactions, thus shortening the
+battery life [5–7].
+Compared with the polycrystalline aggregates, the single-crystal NCM811 materials
+with micro-sized particles exhibit excellent electrochemical performance because of the
+integrated bulk structure and fewer grain boundaries, reducing the interface reaction
+caused by intergranular crack [8–11]. However, there are certain downsides to single-
+crystalline cathodes. Firstly, because of the smaller primary particles, the single-crystal
+NCM811 material has higher irreversible lithium consumption due to their longer Li+
+diffusion path [12–14]. Additionally, surface residual lithium compounds (RLCs) emerging
+from the manufacturing and storage processes is a major and unavoidable fundamental
+ﬂaw. Speciﬁcally, LiOH not only causes cathode slurry gelation, but it also combines with
+LiPF6 in the electrolyte to generate HF, which corrodes the electrode and causes transition
+metal ion dissolution. The Li2CO3 is also a detrimental substance since it decomposes when
+charged to 4.2 V, causing the battery to bulge and shortening its life [15–18]. Additionally,
+cationic mixing is caused by the low-valence metal ions moving to the Li+ layer and
+occupying the location of Li+. Since a similar ionic radius exists between the Li+ (0.76 Å)
+and Ni2+ (0.69 Å), the Ni2+ are prone to occupying the position of Li+ resulting in a barrier
+Materials 2023, 16, 3613. https://doi.org/10.3390/ma16103613
+https://www.mdpi.com/journal/materials
+Materials 2023, 16, 3613
+2 of 15
+against subsequent Li+ transmission and making the irreversible Li+ consumption increase,
+accompanying with transition of crystal structure from layered over spinel to NiO-like rock
+salt phase [19–21]. What is worse, apart from the synthesis process, the Li/Ni mixing are
+closely related to the severe operating conditions [22–24] (such as extreme charging voltage,
+higher working temperature). Oxygen evolution occurs in all nickel-rich cathodes, and
+the potential of 4.2 V (vs. Li/Li+ for NCM811) is the onset of oxygen evolution, which is
+intimately related with the onset of H2-H3 phase transition and drastically increased as the
+cut off potential and temperature rising. The unfavorable triple phase transition is caused
+by the Li/Ni mixing and oxygen evolution reaction, which results in oxygen loss from the
+cathode materials and thus poses a safety problem. Even worse, this irreversible phase
+transition is aggravated when elevating the cut-off potential of cathodes and operating
+temperature [25–27].
+For the interface and structure problem of high-nickel materials, some artiﬁcial par-
+ticular protective coating material, such as metal oxides [28,29], phosphates [30,31], ﬂuo-
+rides [32,33], borates [34,35], or lithium-containing binary metal oxides [36,37], are regarded
+as one of the most feasible strategies to combat these issues. Among the aforementioned
+substances, phosphate coatings exhibit advantages not only due to their brilliant structure
+stability which is caused by the strong bond of P-O but also for the special chemical activity.
+More speciﬁcally, Li3PO4 coating possesses high ionic conductivity [38], LiH2PO4 coating
+can react with Li2CO3, LiOH and the surface lithium impurities, AlPO4 coating appears to
+have superior thermal stability and constructs a robust interfacial layer, isolating the erosion
+of organic electrolyte to the matrix particles [39,40]. For example, Zhang et al. [40] propose
+an advanced surface improvement strategy for NCM811 with fabricating the Li3PO4 nano
+layer, which substantially enhances the electrochemical performance of NCM811 due to
+the derived fast Li+ diffusion CEI. As surveyed by Hu et al. [41], the coated substance of
+LiH2PO4 on the NCM811 surface can react with Li2CO3 and LiOH to form a homogenous
+passivation layer of Li4P2O7 with an average of about 35 nm in thickness while sintering,
+which effectively alleviate the side reaction. Liu et al. [29] introduced NaH2PO2 to construct
+an ultrathin and stable P-doped functional passivation layer, which not only enhances
+the stability of the cathode/electrolyte interface, but also inhibits the irreversible phase
+transformation and the generation of intergranular cracking. Cho et al. [38] coated AlPO4
+on NCM811 via a wet-coating process to attain a decorated nano layer with 10 nm thickness.
+As a result, due to the highly covalent bonding property between Al and (PO4)3−, the
+rate performance and capacity retention are substantially improved, which provides the
+coating with resistance to electrolyte reactions. Since these substances can provide stable
+interfacial passivation effects, it is necessary to study their synergistic effect, especially at
+high cut-off voltage. In other uses than the coating strategy as mentioned above, electrolyte
+additives play a crucial role for Ni-rich cathode in passivating the NCM811 cathode and
+sustaining its long-term durability, especially in addressing the extremely unstable interface
+under high cut-off voltage for Ni-rich cathodes. Boron-containing compounds, due to the
+electron-deﬁcient B atom, are prone to interacting with nucleophilic species (such as F−)
+and tend to form stale CEI due to the intense B-O bond, which is often utilized as electrolyte
+additives, especially at higher cut-off voltage conditions. For instance, Zhao et al. [42]
+reported that the superior electrochemical performance of the NCM811 cathode is capable
+of reaching a voltage of 4.6 V by utilizing a unique electrolyte system, which contains
+ﬂuorinated carboxylate with a lithium diﬂuoro (oxalate) borate and ﬂuorinated carbonate
+additive. The stable inorganic electrode/electrolyte interface rich in B−and F−at high
+cut-off voltages prevents the collapse of the cathode structure and the continuous dissolu-
+tion of transition metal ions as well as reducing electrochemical polarization. Liu et al. [43]
+employed a high-voltage bifunctional nitrile–borate molecule, tris(2-cyanoethyl) borate, as
+a ﬁlm-forming additive for LiNi0.88Co0.09Mn0.03O2 cathode. The B-rich additives-derived
+CEI layer not only protects the cathode from degradation by interfacial side reactions at
+4.7 V, but also enlarges the galvanic oxidation window of the electrolyte. Interestingly,
+Materials 2023, 16, 3613
+3 of 15
+application of boric acid on NCM811 surface not only removes residual lithium, but also
+forms a stable interfacial layer containing B-O compounds [35].
+Furthermore, we compare three representative modiﬁcation studies of NCM811. Sim
+et al. [6] constructed carbon coatings using super P carbon black to enhance the Li+ and
+electron transport capacity of the material. The modiﬁed cathode exhibited a capacity
+retention of 87.8% after 80 cycles at 0.5 C, while showing excellent rate performance. Zhang
+et al. [7] used a multi-step calcination method to dope ﬂuorine in the NCM811 lattice. This
+controlled doping technique increased the Co3+ and lattice oxygen content, improving
+ion diffusivity and lattice stability. The doped cathode exhibited 86.6% capacity retention
+after 1 C and 100 cycles. Wang et al. [8] utilized polysiloxane to eliminate residual H2O on
+the NCM surface and inhibit the corrosion reaction of HF. After 120 cycles, the capacity
+retention of the polysiloxane-coated NCM811 reached 91.5% at 1 C.
+Considering the superiorly favorable properties of phosphate and boron-containing
+materials for high nickel materials, in this work, we designed a multifunctional composite
+passivation interface with aluminum triphosphate (ALP) and boric acid (BA) from the
+perspective of clearing the surface residual lithium and improving the high cut-off voltage
+performance of the single-crystal NCM811. ALP is a widely used environmental protec-
+tion coating, which demonstrates the advantages of good thermal stability and corrosion
+resistance, and BA has weak acidity, which is usually used to prepare heat-resistant and
+corrosion-resistant glass products. By constructing a phosphorus–boron functional interface
+layer on the surface of a high-nickel material, the surface residual lithium is reduced, and
+the capacity retention of the modiﬁed cathode has a signiﬁcant improvement, especially at
+high voltage (4.5 V/4.6 V). In addition, high temperature and high-voltage performance,
+the performance of rate, and thermal stability of the modiﬁed electrode are signiﬁcantly
+enhanced. Combined with common advantages of interfacial phosphorylation and interfa-
+cial borylation, this artiﬁcial functional passivation interface is projected to give signiﬁcant
+beneﬁts in terms of cycle stability and thermostability at high operating potentials, making
+single-crystal NCM811 an attractive cathode material.
+2. Materials and Methods
+2.1. Preparation of Materials
+The experimental NCM811 powder was purchased from Dangsheng Ltd., Co., Beijing,
+China. The synthesis diagram of modiﬁed NCM811 as depicted in Figure 1, ﬁrstly, the pre-
+cursor was obtained by mixing 20 mg ALP (AlH2P3O10, AR, Shanghai Aladdin Biochemical
+Technology Co., Ltd., Shanghai, China) with 2g NCM811 by mechanical milling and then
+the obtained mixing powder was calcinated at 500 ◦C with an O2 atmosphere for 6 h in a
+tube furnace. Secondly, 10 mg and 20 mg BA (H3BO3, GR, Shanghai Aladdin Biochemical
+Technology Co., Ltd., Shanghai, China) were added to the precursor for further mechanical
+milling and then calcined in an Ar atmosphere with 6 h at 250 ◦C to get the ﬁnal products
+with different BA mass ratios. Accordingly, the bare single-crystal NCM811 and the two
+treated ﬁnal samples were designated as SCNCM, SCNCM/(ALP+BA)-1 (10 mg BA), and
+SCNCM/(ALP+BA)-2 (20 mg BA), respectively.
+Materials 2023, 16, 3613
+4 of 15
+Figure 1. Synthesis diagram of modiﬁed single-crystal NCM811.
+2.2. Preparation and Testing of Electrodes
+The anode powder, polyvinylidene ﬂuoride, and conductive carbon black (weight
+ratio 88:5:7) was fully mixed in N-methyl pyrrolidone solvent. The cathode slurry was
+thoroughly mixed under Ar atmosphere and coated in aluminum foil (12 mm thick). The
+cathode pole piece was calendered and cut into slices (13 mm diameter) after drying at 60 ◦C
+for 6 h. The original and modiﬁed samples have similar mass loadings of 4.0 ± 0.1 mg cm−2
+and the prepared cathode pole piece was dried for 16 h at 120 ◦C under vacuum. The rough
+loading of graphite anode materials and NCM811 cathode was around 2.7 and 4.6 mg cm−2
+for a full cell.
+The electrochemical properties of the cathodes were tested in CR2032 coin-type cells.
+The adopted separator between the cathode and the anode was a porous polypropylene
+ﬁlm (Celgard 2500) while lithium foil was used as the counter electrode. The electrolyte
+was obtained from Capchem Ltd., Co. China, and is prepared by dissolving 1 mol L−1
+LiPF6 in a ternary solvent of ethylene carbonate (EC), ethyl methyl carbonate (EMC), and
+dimethyl carbonate (DMC) at a weight ratio of 1:1:1. Three formation cycles were applied
+between 2.8 and 4.5 and 4.6 V vs. Li/Li+ at a 0.1 C rate (1 C = 200 mA g−1) on a Maccor
+S4000 battery cycler (Maccor Instruments, USA) at 25 ◦C (or 55 ◦C).The rate performance
+of the electrodes was tested with different charge/discharge rates (0.1, 0.2, 0.5, 1, 2, and 5 C,
+respectively). Long-term cycling capability was compared with 1 C charge and discharge
+rates. Electrochemical impedance spectroscopy (EIS) information was collected in the
+frequency range of 105 to 10−2 Hz with an amplitude of 5 mV on an IM6 electrochemical
+workstation (Zahner, Germany) at 25 ◦C at a certain electrode potential. The thermal
+stability of charged cathodes was evaluated by differential scanning calorimeter. The
+cathodes were ﬁrst charged to 4.5 V at 0.1 C and then held at 4.5 V for an additional 1 h.
+The cathode materials were collected from the dismantled cells and then washed with
+DMC to remove remaining electrolytes and dried. Charged cathode powders (5.0 mg) were
+mixed with 3 µL of electrolyte in a hermetic aluminum pan. The temperature was raised
+from ambient to 400 ◦C at a continuous heating rate of 10 ◦C min−1 during the differential
+scanning calorimetry experiments. The relevant parameters of material characterization
+are included in the supporting information.
+Materials 2023, 16, 3613
+5 of 15
+2.3. Material Characterization
+The crystalline phase of the NCM811 material was determined by using X-ray diffrac-
+tion (XRD, Rint-2000, Rigaku with 0.71 nm CuKα) at a scan rate of 3◦min−1 between 10◦
+and 80◦. Morphologies of the samples were observed by scan electron microscope (SEM,
+Hitachi S-8010, 10 kV). Element distribution was examined by using an energy dispersive
+X-ray (EDX) spectrometer coupled to Hitachi S-8010 equipment. Transmission electron
+microscopy (TEM, FEI Tecnai G-20) micrography were captured at an acceleration voltage
+of 200 kV. X-ray photo-electron spectroscopy characterization (XPS) was conducted on a
+VG Multilab 2000 apparatus (Al:1486.7 eV). The NCM811 electrodes after cycling were
+obtained from dismantled batteries and cleaned with DMC solvent and then dried under
+vacuum at 60 ◦C for 2 h.
+3. Results and Discussion
+The SEM images of the original SCNCM and SCNCM/(ALP+BA)-1 samples are shown
+in Figure 2a,b. The diameter of the original SCNCM particles is about 2–3 µm and it has
+a smooth and clean surface. However, homogeneous coating can be clearly observed in
+SEM and TEM images (Figure 2c) of SCNCM/(ALP+BA)-1 sample, suggesting a composite
+interfacial layer has been formed by bonding reaction with residual lithium on the surface
+of NCM811 particles. In addition, the spatial elements distribution of SCNCM/(ALP+BA)-1
+sample was obtained by the SEM-Energy dispersive X-ray spectroscopy (EDS) and the
+elements (B, Al, and P) were equally distributed over the SCNCM/(ALP+BA)-1 sample
+(Figure 2d–f). This indicates that the ultrathin uniform passivation layer is produced
+successfully on the SCNCM surface. Moreover, the crystallographic structures of sample
+were determined by XRD tests and presented in Figure 2g,h. All XRD patterns correspond
+to a well-deﬁned α-NaFeO2 rhombohedral structure (space group of R-3m) [44]. The
+splitting of (108)/(110) and (006)/(102) peaks in the SCNCM/(ALP+BA)-1 veriﬁes the
+ordered layered structure and indicates that the fundamental structure of the SCNCM
+is not damaged during the modiﬁed process. The degree of Li/Ni cation mixing can be
+reﬂected by calculating the intensity ratio of the peak (003) to peak (104), and a higher
+value of I (003)/I (104) implies a more sequential layer structure. The value of I (003)/I (104)
+is 2.01 for the SCNCM sample and 2.41 for the SCNCM/(ALP+BA)-1 sample, signifying
+the Li/Ni mixing in the SCNCM/(ALP+BA)-1 sample is beneﬁcially reduced [20]. This
+may be attributed to the surface reconstruction during chemical conversion and Al3+ enter
+into the Ni site under high temperature re-treatment process. For the pristine SCNCM,
+SCNCM/(ALP+BA)-1, and SCNCM/(ALP+BA)-2, the BET surface area is obtained to be
+1.42, 1.39, and 1.44 m2 g−1, respectively.
+The surface element sensitive characterization method XPS was used to evaluate the
+samples in order to furthermore investigate the compound composition of the coating. The
+XPS ﬁndings of the SCNCM and SCNCM/(ALP+BA)-1 samples are shown in Figure 3, and
+the accuracy of the calibration spectrum depends on a C1s peak of 284.8 eV. As shown in
+Figure 3a,e, the C1s peak with reduced intensity demonstrates that the interfacial reactions
+between the ALP/B and RLCs since the Li2CO3 content originating from the surface
+residual lithium compounds is decreased. In addition, the characteristic B, Al, and P peaks
+are only detected on the SCNCM/(ALP+BA)-1 sample as expected. Speciﬁcally, as shown
+in Figure 3f–h, binding energy at 191.8 eV for the B-O bond originated from the borates and
+the binding energy of 133.3 eV represents a metal phosphate, which indicates the formation
+of a phosphorus boronated bi-functional passivation layer with AlPO4, Li3PO4 and lithium
+boron oxide (Li3BO3, B2O3).
+Materials 2023, 16, 3613
+6 of 15
+10
+20
+30
+40
+50
+60
+70
+80
+(115)
+(110)
+(108)
+(107)
+(015)
+(104)
+(012)
+(006)
+(101)
+Intensity (a.u.)
+2-Theta (Degree)
+ SCNCM
+(003)
+10
+20
+30
+40
+50
+60
+70
+80
+(115)
+(110)
+(108)
+(107)
+(015)
+(104)
+(012)
+(006)
+(101)
+Intensity (a.u.)
+2-Theta (Degree)
+ SCNCM/(ALP+BA)-1
+(003)
+h
+g
+2μm
+a
+2μm
+b
+c
+d
+e
+f
+B
+Al
+P
+SCNCM/(ALP+BA)-1
+SCNCM/(ALP+BA)-1
+SCNCM
+SCNCM/(ALP+BA)-1
+SCNCM/(ALP+BA)-1
+SCNCM/(ALP+BA)-1
+20nm
+8nm
+Figure 2. (a) SEM image of SCNCM sample, (b,c) SEM and TEM images of modiﬁed samples,
+(d–f) the distribution of B, Al, and P elements for SCNCM/(ALP+BA)-1 powder sample, (g–h) XRD
+patterns of SCNCM and SCNCM/(ALP+BA)-1 sample.
+188
+190
+192
+194
+196
+Intensity (a.u.)
+Binding energy (eV)
+282
+284
+286
+288
+290
+292
+294
+Intensity (a.u.)
+Binding energy (eV)
+188
+190
+192
+194
+196
+Intensity (a.u.)
+Binding energy (eV)
+282
+284
+286
+288
+290
+292
+294
+Intensity (a.u.)
+Binding energy (eV)
+C-C
+C-O
+C=O
+Li2CO3
+C 1s
+B 1s
+B-O
+a
+f
+e
+b
+SCNCM
+SCNCM/(ALP+BA)-1
+SCNCM
+SCNCM/(ALP+BA)-1
+84
+82
+80
+78
+76
+74
+72
+70
+68
+Intensity (a.u.)
+Binding energy (eV)
+140
+138
+136
+134
+132
+130
+128
+Intensity (a.u.)
+Binding energy (eV)
+68
+70
+72
+74
+76
+78
+80
+82
+84
+Intensity (a.u.)
+Binding energy (eV)
+Al 2p
+128
+130
+132
+134
+136
+138
+140
+Intensity (a.u.)
+Binding energy (eV)
+P 2p
+h
+g
+d
+c
+Al
+P
+SCNCM
+SCNCM/(ALP+BA)-1
+SCNCM
+SCNCM/(ALP+BA)-1
+C-C
+C-O
+C=O
+Li2CO3
+Figure 3.
+(a–d) XPS ﬁtting results of C 1s, B 1s, Al 2p, and P 2p of SCNCM and (e–h) of
+SCNCM/(ALP+BA)-1.
+The schematic diagram of the construction process of the functional passivation coating
+on the single-crystal NCM811 surface appears in Figure 4. The function-speciﬁc ALP and
+BA substances not only possess the chemical activity to react with the residual lithium
+compounds (LiOH and Li2CO3), but the resulting by-products are also conducive to the
+construction of stable CEI, which can be an efﬁcient solution to the interfacial problem
+of the NCM811 cathode. On the one hand, the stable target product of AlPO4 and B2O3
+can serve as a solid barrier to safeguard the matrix particles from harmful substances
+produced by electrolyte decomposition at higher operation voltage (4.5 V/4.6 V) and the
+boron-containing compounds can interact with the HF resulting from the decomposition
+Materials 2023, 16, 3613
+7 of 15
+of lithium salt in the electrolyte to form B-F compounds due to the ﬂuorophilic property
+of boron, which signiﬁcantly reduces degradation of the active material by HF, inhibits
+the dissolution of transition metals, alleviates the side reactions in interface areas, delays
+the serious structural degradation of high-nickel materials, and prolongs the life of a cell
+under high-voltage working conditions. On the other hand, not only the crystalline Li3PO4
+can be selected as a channel to facilitate the transfer of Li+ but the Li3BO3 with high ionic
+conductivity can also effectively promote the diffusion of Li+, resulting in a low impedance
+phosphate–boron interface layer being formed. It is because of the synergy of the two
+functional species that the battery exhibits an excellent electrochemical property.
+HF
+Li+
+e-
+Ni2+
+O2
+O2
+e-
+e-
+Li+
+Li+
+Li+
+e-
+HF
+O2
+O2
+Ni2+
+Ni2+
+Ni2+
+ALP
+BA
+Original 
+fragile 
+CEI
+Phosphate 
+and boride 
+solid CEI
+Li3PO4
+AlPO4
+Li3BO3
+B2O3
+Lithium
+residual 
+compounds
+AlH2P3O10 + 6LiOH →2Li3PO4 + AlPO4 + 4H2O
+AlH2P3O10 + 3Li2CO3 →2Li3PO4 + AlPO4 + 3CO2 + H2O
+2H3BO3 + 4LiOH + Li2CO3 →2Li3BO3 + CO2 + 5H2O
+Figure 4. Schematic diagram for the interface reaction principle of ALP and BA on NCM811 sample.
+We tested the electrochemical performance of various electrode materials under error
+to verify the positive effect of the composite grafted ALP/BA layer on NCM811. The
+charge/discharge patterns in the ﬁrst cycle between 2.8 and 4.5 V at 0.1 C and 25 ◦C are dis-
+played in Figure 5a. The ﬁrst charge/discharge-speciﬁc capacities of the different electrodes
+are 244/209, 251/215, and 245/208 mAh g−1 and the calculated initial Coulombic efﬁciency
+(ICE) is 85.8, 85.7, and 84.9%, respectively. Compared with the pristine cathode, the modi-
+ﬁed sample of SCNCM/(ALP+BA)-1 delivers a higher speciﬁc capacity while maintaining
+a similar ICE, which indicates a more optimal Li+ deintercalation–intercalation process.
+However, for the SCNCM/(ALP+BA)-2 sample, it exhibits relatively low ICE and discharge
+speciﬁc capacity, indicating that this is not the optimal modiﬁcation conditions, which
+should be caused by an excess of boric acid. Furthermore, Figure 5b characterizes the cycling
+stability of all electrodes at room temperature over a long period of time. After 200 cycles
+under 1C, the modiﬁed electrode of SCNCM/(ALP+BA)-1 has a reversible speciﬁc capacity
+of 158 mAh g−1 and a capacity retention up to 85.4%. The reversible speciﬁc capacity of
+the SCNCM/(ALP+BA)-2 was 122 mAh g−1 with a capacity retention of 66.4%, whereas
+the matching results for the bare SCNCM electrode are signiﬁcantly lower (111 mAh g−1
+and 60.2%), denoting the cycling stability of the modiﬁed SCNCM/(ALP+BA)-1 electrode
+has been dramatically improved. To emphasize the remarkable performance of ALP/BA
+layer, we further increased the cut-off voltage of the SCNCM/(ALP+BA)-1 electrode to
+4.6 V and also tested the higher temperature and higher voltage performance (4.5 V, 55 ◦C).
+The electrochemical performance of the SCNCM/(ALP+BA)-1 electrode with 4.6 V is pre-
+sented in Figure 5c,d. The ﬁrst charge/discharge speciﬁc capacities of the SCNCM and
+SCNCM/(ALP+BA)-1 electrodes were 251/216 and 247/218 mAh g−1, the corresponding
+ICE was 86.0% and 88.1%, respectively. In addition to the enhanced ICE, the capacity re-
+tention rate of the SCNCM/(ALP+BA)-1 electrode (83.8%) is much greater than that of the
+primitive electrode (55.1%). It is easy to ﬁnd that as the cut-off voltage rises, the decaying
+Materials 2023, 16, 3613
+8 of 15
+trend of the cycling performance for the modiﬁed electrode is slower than a reference
+electrode, which indicates that this strategy of using interfacial reactions to generate a
+composite passivation layer has superior effects, especially the formation of this boron-rich
+and aluminium-rich CEI greatly extends the life of the cell at high operating voltages. As
+illustrated in Figure 5e,f, the ﬁrst charge/discharge speciﬁc capacities of SCNCM electrode
+and SCNCM/(ALP+BA)-1 electrode were 247/225 and 241/225 at 4.5 V cut-off voltage and
+55 ◦C, respectively, and the correlation capacity retention rates were 54.8% and 80.3% after
+100 cycles. Such intensiﬁcation of thermal stability can be associated with the formation
+of robust CEI, which effectively protects the electrode material from electrolyte attack
+and mitigates bulk structural degradation of the cathode material under harsh operating
+conditions [45,46].
+0
+20
+40
+60
+80
+100 120 140 160 180 200
+0
+40
+80
+120
+160
+200
+Specific capacity (mAh g-1)
+Cycle Number
+ SCNCM
+ SCNCM/(ALP+BA)−1
+ SCNCM/(ALP+BA)−2
+1 C 2.8-4.5 V  25 ℃
+0
+20
+40
+60
+80
+100 120 140 160 180 200
+0
+40
+80
+120
+160
+200
+Specific capacity (mAh g-1)
+Cycle Number
+ SCNCM
+ SCNCM/(ALP+BA)−1
+0
+50
+100
+150
+200
+250
+2.5
+3.0
+3.5
+4.0
+4.5
+Potential (V vs. Li/Li+)
+Specific capacity (mAh g-1)
+ SCNCM ICE:90.9%
+ SCNCM/(ALP+BA)−1 ICE:93.4%
+e
+0.1 C 2.8-4.5 V  55 ℃
+0
+20
+40
+60
+80
+100
+0
+40
+80
+120
+160
+200
+240
+Specific capacity (mAh g-1)
+Cycle Number
+ SCNCM
+ SCNCM/(ALP+BA)−1
+f
+1 C 2.8-4.5 V  55 ℃
+0
+50
+100
+150
+200
+250
+2.5
+3.0
+3.5
+4.0
+4.5
+Potential (V vs. Li/Li+)
+Specific capacity (mAh g-1)
+ SCNCM ICE:85.8%
+ SCNCM/(ALP+BA)−1 ICE:85.7%
+ SCNCM/(ALP+BA)−2 ICE:84.9%
+0.1 C 2.8-4.5 V  25 ℃
+1 C 2.8-4.6 V  25 ℃
+0
+50
+100
+150
+200
+250
+2.5
+3.0
+3.5
+4.0
+4.5
+Potential (V vs. Li/Li+)
+Specific capacity (mAh g-1)
+ SCNCM ICE:86.0%
+ SCNCM/(ALP+BA)−1 ICE:88.1%
+c
+0.1 C 2.8-4.6 V  25 ℃
+b
+a
+d
+Figure 5. The ﬁrst charging and discharging curves of the SCNCM, SCNCM/(ALP+BA)-1, and
+SCNCM/(ALP+BA)-2 samples at the current of 0.1 C with the voltage range of (a) 2.8−4.5 V at
+25 ◦C and (c) 2.8−4.6 V at 25 ◦C, and (e) 2.8−4.5 V at 55 ◦C, the cycling graph of the SCNCM,
+SCNCM/(ALP+BA)-1, and SCNCM/(ALP+BA)-2 samples at the current of 1 C in the voltage range
+of (b) 2.8−4.5 V at 25 ◦C, (d) 2.8−4.6 V at 25 ◦C, and (f) 2.8−4.5 V at 55 ◦C.
+Figure 6a depicts the rate performance of these electrodes. Clearly, the SCNCM/
+(ALP+BA)-1 electrode revealed the best performance of rate and maintained a speciﬁc
+capacity of 152 mAh g−1 at 5 ◦C, much higher than that of 115 mAh g−1 of the SCNCM
+cathode and 139 mAh g−1 for the SCNCM/(ALP+BA)-2 electrode. Moreover, when the
+circulation rate retreats to 0.1 C, as compared with the SCNCM electrode (191 mAh g−1),
+Materials 2023, 16, 3613
+9 of 15
+the SCNCM/(ALP+BA)-1 electrode exerts a higher speciﬁc capacity (209 mAh g−1) and
+the recovered speciﬁc capacity tends to be more stable. Under the harsh conditions of
+4.5 V cut-off voltage, the ALP/BA decorated NCM811 performs outstandingly both in the
+long-term cycling and capacity retention at high circulation rate [47,48]. Such great enhance-
+ment of electrochemical properties implies that the SCNCM/(ALP+BA)-1 sample exhibits
+an acceleration of the electrode reactivity, which is attributed to the CEI formed by the
+participation of ALP/BA. To explore the electrode kinetics, the Nyquist plots of the SCNCM
+and SCNCM/(ALP+BA)-1 cathodes after cycling 200 at 4.5 V are shown in Figure 6b. The
+Nyquist plots consist of the electrolyte resistance (Re), the cathode/electrolyte interphase
+impedance (RCEI) in the high-frequency region corresponds to the Li+ migration through
+the surface insulating layer of active material particles, the charge-transfer resistance (RCT)
+in the medium-frequency region reﬂects the charge transfer between electrons and ions
+at the conductive junction, and the Warburg impedance in the low-frequency region rep-
+resents the solid diffusion process of Li+ in the active material particles. Remarkably, the
+values of RCEI and RCT for the SCNCM/(ALP+BA)-1 electrode (58.5 and 79.4 Ω) are smaller
+than the reference SCNCM (64.4 and 146.6 Ω), especially for the RCT value, which leads to
+the conclusion of a signiﬁcant reduction in the charge transfer resistance on the particle
+surface. As a result, due to the involvement of the coating substance, a robust and lower
+impedance CEI is generated during electrochemical cycling. Furthermore, as shown in
+Figure S1, we came to a similar conclusion by analyzing the Nyquist plots of electrodes
+at a cut-off voltage of 4.6 V, compared with pristine electrode (319.4 Ω), the RCT values
+for the treated electrode (219.4 Ω) was signiﬁcantly lower. Furthermore, the galvanostatic
+intermittent titration technique (GITT) can more sufﬁciently explain the improvement in
+rate cycle stability, and the calculation results of the Li+ diffusion coefﬁcient are shown in
+Figure 6c. The Li+ diffusion coefﬁcient of the modiﬁed electrode is higher than the pristine
+electrode at 4.5 V cut-off voltages during a charge/discharge process, this indicates that the
+modiﬁed samples possess faster Li+ transport. The improvement in Li+ transport rate can
+be attributed to the surface conductive lithium salt, which is formed by the reaction of ALP
+and BA with residual lithium compounds. In order to evaluate the thermal performance
+of the cathode materials, DSC measurements were performed as the electrode charged to
+4.5 V. As Figure 6d shows, the exothermic reaction of SCNCM/(ALP+BA)-1 occurred at a
+higher temperature of 246.38 ◦C with a heat generation of 474.95 J g−1, compared with the
+data of 237.04 ◦C and 565.06 J g−1 for the reference sample, respectively. The exothermic
+reaction is affected by the release of oxygen during the decomposition of the high-nickel
+cathode materials. These outstanding thermal behaviors of the modiﬁed cathode materials
+may be related to the phosphate compounds and borate compounds that are very stable
+against both the chemical and thermal reactions owing to the strong PO43−and BO33−
+bonding, which make the decrease of cathode surface exposed to the electrolyte to reduce
+the generation of oxygen due to a side interface reaction so that the SCNCM/(ALP+BA)-1
+is able to reduce the amount of heat release and delay the thermal peak.
+The differential capacity versus electrode potential (dQ/dV) curves were calculated
+by differentiating the 10th and 100th charge–discharge curves to reveal the phase transition
+behavior during deep electrochemical cycles. By analyzing the differential capacity curves
+at different cut-off voltages (Figure 7a–d), three different redox peaks can be observed
+in the previous curves, representing the phase transition from H1 to M, from M to H2,
+and from H2 to H3, respectively. However, after 100 cycles, the peaks representing the
+H2-to-H3 phase transition have completely disappeared for the pristine electrode, and the
+peaks are clearly observed in the curves of the modiﬁed electrode, which suggests that
+this irreversible phase transition of the material from layered to spinel and deleterious
+rock salt structures is signiﬁcantly suppressed during multiple electrochemical cycles.
+This irreversible phase transition behavior becomes more severe as the cut-off voltage is
+increased to 4.6 V. For the SCNCM electrode, the peaks representing the M-to-H2 and H2-
+to-H3 phase transitions have completely disappeared after 100 cycles, however, these two
+characteristic peaks are observed in the SCNCM electrode. Furthermore, the anodic peaks of
+Materials 2023, 16, 3613
+10 of 15
+the SCNCM electrode shift signiﬁcantly to higher potential with increasing electrochemical
+cycles, which indicates a serious polarization of the SCNCM electrode. It is such a severe
+irreversible phase transition that causes a dramatic decrease in the plateau voltage and
+capacity [27]. By building a stable CEI, the ALP/BA passivation layer becomes a solid
+barrier between the surface of active material and the electrolyte, greatly alleviating the
+interfacial side reactions and protecting the structural stability of the cathode material.
+Eventually, the modiﬁed cathode performs superior electrochemical behavior.
+0
+10
+20
+30
+40
+50
+60
+70
+0.0
+5.0×10-11
+1.0×10-10
+1.5×10-10
+2.0×10-10
+2.5×10-10
+3.0×10-10
+3.5×10-10
+DLi + (cm2 s-1)
+Potential (V)
+ SCNCM
+ SCNCM/(ALP+BA)−1
+Time (h)
+4.3V
+2.8V
+2.8V
+c
+160
+200
+240
+280
+320
+360
+Peak : 246.38 ℃
+Heat : 474.95 J g-1
+Heat flow (W g-1)
+Temperature (℃)
+ SCNCM
+ SCNCM/(ALP+BA)−1
+Peak : 237.04 ℃
+Heat : 565.06 J g-1
+d
+0
+5
+10
+15
+20
+25
+30
+35
+60
+80
+100
+120
+140
+160
+180
+200
+220
+240
+0.2C
+0.1C
+5C
+2C
+1C
+0.5C
+ SCNCM
+ SCNCM/(ALP+BA)−1
+ SCNCM/(ALP+BA)−2
+ Capacity (mAh g-1)
+Cycle Number
+0.1C
+a
+0
+50
+100
+150
+200
+250
+0
+30
+60
+90
+120
+150
+ 
+-Z'' (ohm)
+Z' (ohm)
+ SCNCM
+ SCNCM/(ALP+BA)−1
+ SCNCM/(ALP+BA)−2
+b
+Figure 6. (a) Rate property of the different electrodes, (b) Nyquist plots of different electrode
+after 200 cycles with 2.8–4.5 V at 1C, (c) the calculated diffusion coefﬁcients of SCNCM and
+SCNCM/(ALP+BA)-1 electrodes from GITT tests after a complete charge/discharge process, (d) dif-
+ferential scanning calorimetry (DSC) measurement of pristine SCNCM and SCNCM/(ALP+BA)-1
+charged to 4.5 V vs. Li/Li+.
+To further explore the factors of capacity degradation, a comparative analysis of the
+electrode surfaces of SCNCM and SCNCM/(ALP+BA)-1 cathodes was analyzed relying on
+XPS. The XPS ﬁtting results of the electrodes after 200 cycles at 4.5 V cut-off voltage in the
+region of C 1s, F 1s, and Ni 2p are displayed in Figure 8. As shown in Figure 8a,d, the B 1s
+signals are detected in the SCNCM/(ALP+BA)-1 sample and the B-O bond (192.4 eV) and B-
+F bond (194.9 eV) peaks appear in the B1s spectrum. A plausible explanation is that borates
+are participating in the formation of CEI during the electrochemical cycling, which forms a
+protective barrier against the corrosion of HF by forming B-F or B-O-based compounds.
+Accordingly, the presence of B-rich CEI on the surface of SCNCM/(ALP+BA)-1 inhibits the
+dissolution of transition metal ions, interfacial side reactions of the electrode/electrolyte and
+irreversible phase transition. Furthermore, P 2p spectra (Figure 8b,e) reveal a critical point,
+the relative intensity of the peak corresponding to LixPFy (137.5 eV) is stronger in SCNCM,
+indicating a more severe decomposition behavior of the lithium salt (LiPF6). Additionally,
+from Figure 8c,f, the F1s peak in the SCNCM/(ALP+BA)-1 sample shows mainly two
+components LiF (685.4 eV) and LixPFy (687.6 eV), both of which are produced by the
+decomposition of the lithium salt on the electrode surface. The signiﬁcantly weaker intensity
+of the F1s peak of SCNCM/(ALP+BA)-1 compared to SCNCM indicates a milder side effect
+Materials 2023, 16, 3613
+11 of 15
+during CEI formation. In addition, the morphologies of SCNCM and SCNCM/(ALP+BA)-1
+electrodes after cycling at 4.5 V cut-off voltage were shown in Figure S2. Due to the super
+structural stability of the single crystal, the single-crystal NCM811 still maintains the
+original particle-like structure after cycling, but the interface of these samples is completely
+different. The surface of the SCNCM particles is clearly covered with deposits that come
+from the products of severe electrolyte decomposition reactions, making the surface rough
+and uneven, and the SCNCM/(ALP+BA)-1 particles exhibit a uniform and smooth surface,
+further demonstrating that the multifunctional composite passivation interface has the
+function of mitigating electrolyte side reactions and constructing stable CEI.
+3.0
+3.2
+3.4
+3.6
+3.8
+4.0
+4.2
+4.4
+4.6
+101 mV
+H1/M
+H2/H3
+M/H2
+Differential capacity (dQ/dV)
+Potential (V vs. Li/Li+)
+ 10
+ 100
+3.0
+3.2
+3.4
+3.6
+3.8
+4.0
+4.2
+4.4
+4.6
+24 mV
+H2/H3
+M/H2
+Differential capacity (dQ/dV)
+Potential (V vs. Li/Li+)
+ 10
+ 100
+H1/M
+3.0
+3.2
+3.4
+3.6
+3.8
+4.0
+4.2
+4.4
+4.6
+38.4 mV
+H1/M
+H2/H3
+M/H2
+Differential capacity (dQ/dV)
+Potential (V vs. Li/Li+)
+ 10
+ 100
+3.0
+3.2
+3.4
+3.6
+3.8
+4.0
+4.2
+4.4
+4.6
+  178.5 mV
+H2/H3
+M/H2
+Differential capacity (dQ/dV)
+Potential (V vs. Li/Li+)
+ 10
+ 100
+H1/M
+d
+c
+b
+a
+SCNCM
+SCNCM/(ALP+BA)−1
+SCNCM
+SCNCM/(ALP+BA)−1
+1 C  2.8-4.5 V
+1 C  2.8-4.5 V
+1 C  2.8-4.6 V
+1 C  2.8-4.6 V
+Figure 7. The dQ/dV curves (a,c) for SCNCM at 4.5 V and 4.6 V cut-off voltage and (b,d) for
+SCNCM/(ALP+BA)-1 electrode during charge/discharge at different electrochemical cycles.
+We assembled full cells with graphite anode to achieve a better evaluation of this
+modiﬁcation strategy in terms of applications. The ﬁrst charge/discharge proﬁles, ﬁrst
+between 2.8 and 4.3 V at 0.1 C and 25 ◦C, are shown in Figure S3. The charge/discharge
+speciﬁc capacity of the ﬁrst circle for SCNCM-FC and SCNCM/(ALP+BA)-FC electrodes
+are 241/204 and 241/203 mAh g−1, and the corresponding ICE is 84.4% and 84.1%. Al-
+though the two electrodes have similar ICE, the long-term cycling performance differs
+signiﬁcantly. As illustrated in Figure S3b, the full cell of SCNCM/(ALP+BA)-FC cathode
+achieved a capacity retention of 86.8% after 200 cycles at 1 C, while only exhibiting 79.3%
+capacity retention for the full cell of unmodiﬁed SCNCM cathodes. Experiments on full
+cells further demonstrate the feasibility of this modiﬁcation strategy, even in the ﬁeld of
+applied electrochemistry.
+Materials 2023, 16, 3613
+12 of 15
+130
+132
+134
+136
+138
+140
+142
+144
+Intensity (a.u.)
+Binding energy (eV)
+197
+196
+195
+194
+193
+192
+191
+190
+189
+188
+Intensity (a.u.)
+Binding energy (eV)
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+Intensity (a.u.)
+Binding energy (eV)
+B-O
+B-F
+130
+132
+134
+136
+138
+140
+142
+144
+Intensity (a.u.)
+Binding energy (eV)
+682
+684
+686
+688
+690
+692
+694
+Intensity (a.u.)
+Binding energy (eV)
+682
+684
+686
+688
+690
+692
+694
+Intensity (a.u.)
+Binding energy (eV)
+LixPOyFz
+LixPFy
+LiF
+LixPOyFz
+B 1s
+P 2p
+F 1s
+f
+e
+d
+c
+b
+a SCNCM
+SCNCM/(ALP+BA)-1
+SCNCM
+SCNCM/(ALP+BA)-1
+SCNCM
+SCNCM/(ALP+BA)-1
+LixPFy
+LixPOyFz
+LixPOyFz
+LiF
+Figure 8. (a–c) XPS ﬁtting results of B 1s, P 2p, and F 1s for SCNCM cathode after 200 cycles and
+(d–f) for SCNCM/(ALP+BA)-1 cathode.
+4. Conclusions
+In this study, in order to strengthen the performance of single-crystal NCM811 cathode
+at high operation voltage, we designed a multifunctional composite passivation interface
+with ALP and BA from the perspective of clearing the surface residual lithium and enhanc-
+ing the high-voltage performance of the single-crystal NCM811 cathode. Speciﬁcally, the
+stable by-products AlPO4 and B2O3 serve as a solid barrier to shield the substrate from
+the attack of hazardous substances created by electrolyte decomposition at high operation
+voltage, while the crystalline Li3PO4 and L3BO3 act as a selective channel facilitating the
+transfer of Li+. As a result, the cycling performance of the cathode is notably improved
+at 4.5 V and 4.6 V. Under 4.5 V cut-off voltage, a speciﬁc capacity of 152 mAh g−1 can be
+delivered at a charging/discharging rate of 5 C, while the original cathode is signiﬁcantly
+lower exhibiting only 115 mAh g−1. Even at high cutoff voltages of 4.5 V and 4.6 V, the
+modiﬁed samples performed excellent capacity retention of 85.4% and 83.8% after 200 cy-
+cles at 1 C, respectively. In addition, the harsh high-voltage-temperature (4.5 V, 55 ◦C)
+performance of the modiﬁed cathode increased from 54.8% to 80.3% after 100 cycles and
+the improvement of heat resistance was realized. This functional passivation interface
+is projected to give signiﬁcant beneﬁts in both performance of rate and cycle stability at
+high operating potentials, making single-crystal NCM811 an attractive cathode material for
+high-energy LIB.
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/ma16103613/s1. Table S1. XRD data for SCNCM and SCNCM/
+(ALP+BA)-1. Table S2. Comparison table of NCM study results. Figure S1. (a) Nyquist plots
+of SCNCM and SCNCM/(ALP+BA)-1 electrode after 200 cycles at 1 C within 2.8–4.6 V, (b) the
+calculated diffusion coefﬁcients of SCNCM and SCNCM/(ALP+BA)-1 electrodes from GITT tests
+during a complete charging and discharging process at 2.8–4.6 V. Figure S2. The SEM images of (a)
+SCNCM and (b) SCNCM/(ALP+BA)-1 cathodes after 200 cycles at 4.5 V. Figure S3. The ﬁrst charge
+and discharge curves of the SCNCM-FC and SCNCM/(ALP+BA)-FC, at the current of 0.1 C in the
+voltage range of 2.8−4.3 V, (b) cycling performance of the SCNCM-FC and SCNCM/(ALP+BA)-FC
+electrode at the current of 1 C in the voltage range of 2.8−4.3 V. Refs. [49–53] were cited in the
+Supplementary Materials.
+Materials 2023, 16, 3613
+13 of 15
+Author Contributions: Conceptualization, F.L. and H.Z.; methodology, F.L.; formal analysis, Y.L. and
+Y.W.; investigation, F.L.; resources, H.Z. and Y.W.; data curation, Y.L., Y.W. and G.Z.; writing—review
+and editing, F.L. and G.Z.; visualization, G.Z. and H.Z. All authors have read and agreed to the
+published version of the manuscript.
+Funding: This work was funded by the National Natural Science Foundation of China, grant number:
+22179090, 21875154 and National Key R&D Program of China grant number: No. 2022YFB3803500.
+Data Availability Statement: The datasets used and/or analyzed in the present study are available
+from the corresponding author upon reasonable request.
+Acknowledgments: This work was funded by the National Natural Science Foundation of China,
+grant number: 22179090, 21875154 and National Key R&D Program of China grant number: No.
+2022YFB3803500.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Duan, X.W.; Zhu, W.K.; Ruan, Z.K.; Xie, M.; Chen, J.; Ren, X.H. Recycling of Lithium Batteries—A Review. Energies 2022, 15, 1611.
+[CrossRef]
+2.
+Wang, Y.J.; Zhang, X.C.; Chen, Z.H. Low temperature preheating techniques for Lithium-ion batteries: Recent advances and
+future challenges. Appl. Energy 2022, 313, 118832. [CrossRef]
+3.
+Xu, J.J.; Cai, X.Y.; Cai, S.M.; Shao, Y.X.; Hu, C.; Lu, S.R.; Ding, S.J. High-Energy Lithium-Ion Batteries: Recent Progress and a
+Promising Future in Applications. Energy Environ. Mater. 2022, 8, 12450. [CrossRef]
+4.
+Wei, Y.Y.; Hu, B.; Peng, J.Q.; Zhang, L.; Huang, J.F.; Tang, H.Y.; Huang, B.; Li, Y.W.; Chen, S.J.; Xiao, S.H. Enhanced rate
+performance and mitigated capacity decay of single-crystal LiNi0.8Co0.1Mn0.1O2 by the synergism of Mg doping and V2O5
+coating. J. Electroanal. Chem. 2023, 932, 117202. [CrossRef]
+5.
+Kong, X.B.; Yang, H.Y.; Zhang, Y.G.; Dai, P.P.; Tang, Y.L.; Zeng, J.; Zhao, J.B. Design and mechanism exploration of single-
+crystalline NCM811 materials with superior comprehensive performance for Li-ion batteries. Chem. Eng. J. 2023, 452, 139431.
+[CrossRef]
+6.
+Sim, S.J.; Lee, S.H.; Jin, B.S.; Kim, H.S. Use of carbon coating on LiNi0.8Co0.1Mn0.1O2 cathode material for enhanced performances
+of lithium-ion batteries. Sci. Rep. 2020, 10, 11114. [CrossRef]
+7.
+Zhang, P.F.; Liu, Z.F.; Ma, B.; Li, P.; Zhou, Y.k.; Tian, X.H. Improving the single crystal LiNi0.8Co0.1Mn0.1O2 cathode material
+performance by ﬂuorine doping. Ceram. Int. 2021, 47, 33843–33852. [CrossRef]
+8.
+Wang, H.Y.; Lin, J.; Zhang, X.D.; Wang, L.C.; Yang, J.B.; Fan, E.S.; Wu, F.; Chen, R.J.; Li, L. Improved Electrochemical Performance
+of LiNi0.8Co0.1Mn0.1O2 Cathode Materials Induced by a Facile Polymer Coating for Lithium-Ion Batteries. ACS Appl. Energy
+Mater. 2021, 4, 6205–6213. [CrossRef]
+9.
+Han, Y.K.; Lei, Y.; Ni, J.; Zhang, Y.C.; Geng, Z.; Ming, P.W.; Zhang, C.M.; Tian, X.R.; Shi, J.L.; Guo, Y.G.; et al. Single-Crystalline
+Cathodes for Advanced Li-Ion Batteries: Progress and Challenges. Small 2022, 18, 2107048. [CrossRef]
+10.
+Niu, S.; Xu, J.; Wu, K.; Liang, C.D.; Zhu, G.B.; Qu, Q.T.; Zheng, H.H. Different mechanical and electrochemical behavior between
+the two major Ni-rich cathode materials in Li-Ion batteries. Mater. Chem. Phys. 2021, 260, 124046. [CrossRef]
+11.
+Liu, A.; Phattharasupakun, N.; Cormier, M.M.; Zsoldos, E.; Zhang, N.; Lyle, E.; Arab, P.; Sawangphruk, M.; Dahn, J.R. Factors that
+Affect Capacity in the Low Voltage Kinetic Hindrance Region of Ni-Rich Positive Electrode Materials and Diffusion Measurements
+from a Reinvented Approach. J. Electrochem. Soc. 2021, 168, 070503. [CrossRef]
+12.
+Li, H.; Li, J.; Zaker, N.; Zhang, N.; Botton, G.A.; Dahn, J.R. Synthesis of Single Crystal LiNi0.88Co0.09Al0.03O2 with a Two-Step
+Lithiation Method. J. Electrochem. Soc. 2019, 166, A1956–A1963. [CrossRef]
+13.
+Trevisanello, E.; Ruess, R.; Conforto, G.; Richter, F.H.; Janek., J. Polycrystalline and Single Crystalline NCM Cathode Materials—
+Quantifying Particle Cracking, Active Surface Area, and Lithium Diffusion. Adv. Energy Mater. 2021, 11, 2003400. [CrossRef]
+14.
+Zhang, S.S. Problems and their origins of Ni-rich layered oxide cathode materials. Energy Storage Mater. 2020, 24, 247–254.
+[CrossRef]
+15.
+Hatsukade, T.; Schiele, A.; Hartmann, P.; Brezesinski, T.; Janek, J. Origin of Carbon Dioxide Evolved during Cycling of Nickel-Rich
+Layered NCM Cathodes. ACS Appl. Mater. Interfaces 2018, 10, 38892–38899. [CrossRef]
+16.
+Zhuang, G.V.; Chen, G.Y.; Shim, J.; Song, X.Y.; Ross, P.N.; Richardson, T.J. Li2CO3 in LiNi0.8Co0.15Al0.05O2 cathodes and its effects
+on capacity and power. J. Power Sources 2004, 134, 293–297. [CrossRef]
+17.
+Zhang, S.S. Insight into the Gassing Problem of Li-ion Battery. Front. Energy Res. 2014, 2, 59. [CrossRef]
+18.
+Dixit, M.; Markovsky, B.; Schipper, F.; Aurbach, D.; Major, D.T. Origin of Structural Degradation During Cycling and Low Thermal
+Stability of Ni-Rich Layered Transition Metal-Based Electrode Materials. J. Phys. Chem. C 2017, 121, 22628–22636. [CrossRef]
+19.
+Ryu, H.H.; Park, K.J.; Yoon, C.S.; Sun, Y.K. Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤x ≤0.95) Cathodes for
+High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation? Chem. Mater. 2018, 30, 1155–1163. [CrossRef]
+20.
+Kim, N.Y.; Yim, T.; Song, J.H.; Yu, J.S.; Lee, Z.H. Microstructural study on degradation mechanism of layered LiNi0.6Co0.2Mn0.2O2
+cathode materials by analytical transmission electron microscopy. J. Power Sources 2016, 307, 641–648. [CrossRef]
+Materials 2023, 16, 3613
+14 of 15
+21.
+Hu, E.; Wang, X.; Yu, X.Q.; Yang, X.Q. Probing the Complexities of Structural Changes in Layered Oxide Cathode Materials for
+Li-Ion Batteries during Fast Charge–Discharge Cycling and Heating. Acc. Chem. Res. 2018, 51, 290–298. [CrossRef] [PubMed]
+22.
+Noh, H.J.; Youn, S.; Yoon, C.S.; Sun, Y.K. Comparison of the structural and electrochemical properties of layered Li[NixCoyMnz]O2
+(x = 1/3, 0.5, 0.6, 0.7, 0.8 and 0.85) cathode material for lithium-ion batteries. J. Power Sources 2013, 233, 121–130. [CrossRef]
+23.
+Tornheim, A.; Shariﬁ, A.S.; Garcia, J.C.; Bareño, J.; Iddir, H.; Yassar, R.S.; Zhang, Z.C. Effect of electrolyte composition on rock salt
+surface degradation in NMC cathodes during high-voltage potentiostatic holds. Nano Energy 2019, 55, 216–225. [CrossRef]
+24.
+Yan, P.; Zheng, J.; Tang, Z.K.; Devaraj, A.; Chen, G.Y.; Amine, K.; Zhang, J.G.; Liu, L.M.; Wang, C.M. Injection of oxygen vacancies
+in the bulk lattice of layered cathodes. Nat. Nanotechnol. 2019, 14, 602–608. [CrossRef] [PubMed]
+25.
+Jung, R.; Metzger, M.; Maglia, F.; Stinner, C.; Gasteiger, H.A. Oxygen Release and Its Effect on the Cycling Stability of LiNixMny-
+CozO2 (NMC) Cathode Materials for Li-Ion Batteries. J. Electrochem. Soc. 2017, 164, A1361–A1377. [CrossRef]
+26.
+Flores, E.; Vonruti, N.; Novak, P.; Ulrich, A.; Erik, B. Elucidation of LixNi0.8Co0.15Al0.05O2 Redox Chemistry by Operando Raman
+Spectroscopy. Chem. Mater. 2018, 30, 4694–4703. [CrossRef]
+27.
+Jamil, S.; Wang, G.; Yang, L.; Xie, X.; Cao, S.; Liu, H.; Chang, B.B.; Wang, X.Y. Suppressing H2-H3 phase transition in high Ni-low
+Co layered oxide cathode material by dual modiﬁcation. J. Mater. Chem. A 2020, 8, 21306–21316. [CrossRef]
+28.
+Liu, W.; Li, X.; Xiong, D.; Hao, Y.C.; Li, J.W.; Kou, H.; Yan, B.; Li, D.J.; Lu, S.G.; Koo, A.; et al. Signiﬁcantly improving cycling
+performance of cathodes in lithium ion batteries: The effect of Al2O3 and LiAlO2 coatings on LiNi0.6Co0.2Mn0.2O2. Nano Energy
+2018, 44, 111–120. [CrossRef]
+29.
+Liu, W.; Li, X.; Hao, Y.; Xiong, D.B.; Shan, H.; Wang, J.J.; Xiao, W.; Yang, H.J.; Yang, H.; Kou, L.; et al. Functional Passivation
+Interface of LiNi0.8Co0.1Mn0.1O2 toward Superior Lithium Storage. Adv. Funct. Mater. 2021, 31, 2008301. [CrossRef]
+30.
+Du, Y.H.; Sheng, H.; Meng, X.H.; Zhang, X.D.; Zou, Y.G.; Liang, J.Y.; Fan, M.; Wang, F.Y.; Tang, J.L.; Cao, F.F.; et al. Chemically
+converting residual lithium to a composite coating layer to enhance the rate capability and stability of single-crystalline Ni-rich
+cathodes. Nano Energy 2022, 94, 106901. [CrossRef]
+31.
+Hou, A.; Liu, Y.; Ma, L.; Li, T.; Ren, B.Z.; Zhang, P.F. NH4F and carbon nanotubes co-modiﬁed LiNi0.88Co0.09Al0.03O2 cathode
+material with enhanced electrochemical properties for Li-ion batteries. J. Mater. Sci. Mater. Electron. 2019, 30, 4128–4136.
+[CrossRef]
+32.
+Liu, K.; Zhang, Q.; Dai, S.; Li, W.; Liu, X.J.; Ding, F.; Zhang, J.L. Synergistic Effect of F– Doping and LiF Coating on Improving the
+High-Voltage Cycling Stability and Rate Capacity of LiNi0.5Co0.2Mn0.3O2 Cathode Materials for Lithium-Ion Batteries. ACS Appl.
+Mater. Interfaces 2018, 10, 34153–34162. [CrossRef]
+33.
+Han, Y.; Xu, J.; Wang, W.; Long, F.; Qu, Q.T.; Wang, Y.; Zheng, H.H. Implanting an electrolyte additive on a single crystal Ni-rich
+cathode surface for improved cycleability and safety. J. Mater. Chem. A 2020, 8, 24579–24589. [CrossRef]
+34.
+You, L.; Chu, B.; Li, G.; Huang, T.; Yu, A. H3BO3 washed LiNi0.8Co0.1Mn0.1O2 with enhanced electrochemical performance and
+storage characteristics. J. Power Sources 2021, 482, 228940. [CrossRef]
+35.
+Tang, W.; Chen, Z.; Xiong, F.; Chen, F.; Huang, C.; Gao, Q.; Wang, T.Z.; Yang, Z.H.; Zhang, W.X. An effective etching-induced
+coating strategy to shield LiNi0.8Co0.1Mn0.1O2 electrode materials by LiAlO2. J. Power Sources 2019, 412, 246–254. [CrossRef]
+36.
+Li, Y.; Tan, C.; Wei, S.; Cui, L.S.; Fan, X.P.; Pan, Q.C.; Lai, F.Y.; Zheng, F.H.; Wang, H.Q.; Li, Q.Y. Stable surface construction of the
+Ni-rich LiNi0.8Mn0.1Co0.1O2 cathode material for high performance lithium-ion batteries. J. Mater. Chem. A 2020, 8, 21649–21660.
+[CrossRef]
+37.
+Song, H.G.; Kim, J.Y.; Kim, K.T.; Park, Y.J. Enhanced electrochemical properties of Li(Ni0.4Co0.3Mn0.3)O2 cathode by surface
+modiﬁcation using Li3PO4-based materials. J. Power Sources 2011, 196, 6847–6855. [CrossRef]
+38.
+Cho, J.; Kim, T.-J.; Kim, J.; Noh, M.; Park, B. Synthesis, Thermal, and Electrochemical Properties of AlPO4]-Coated
+LiNi0.8Co0.1Mn0.1O2 Cathode Materials for a Li-Ion Cell. J. Electrochem. Soc. 2004, 151, A1899–A1904. [CrossRef]
+39.
+Hu, G.R.; Deng, X.R.; Peng, Z.D.; Du, k. Comparison of AlPO4- and Co3(PO4)2-coated LiNi0.8Co0.2O2 cathode materials for
+Li-ion battery. Electrochim. Acta 2008, 53, 2567–2573. [CrossRef]
+40.
+Zhang, W.; Liang, L.; Zhao, F.; Yang, L. Ni-rich LiNi0.8Co0.1Mn0.1O2 coated with Li-ion conductive Li3PO4 as competitive
+cathodes for high-energy-density lithium ion batteries. Electrochim. Acta 2020, 340, 135871. [CrossRef]
+41.
+Hu, K.; Qi, X.; Lu, C.; Du, K.; Peng, Z.D.; Cao, Y.B.; Hu, G.R. Enhanced electrochemical performance of LiNi0.8Co0.1Mn0.1O2
+cathode materials via Li4P2O7 surface modiﬁcation for Li-ion batteries. Ceram. Int. 2018, 44, 14209–14216. [CrossRef]
+42.
+Zhao, Q.; Wu, Y.; Yang, Z.; Song, D.P.; Sun, X.L.; Wang, C.; Yang, L.; Zhang, Y.; Gao, J.; Ohsaka, T.; et al. A ﬂuorinated electrolyte
+stabilizing high-voltage graphite/NCM811 batteries with an inorganic-rich electrode-electrolyte interface. Chem. Eng. J. 2022, 440,
+135939. [CrossRef]
+43.
+Liu, F.; Zhang, Z.; Yu, Z.; Fan, X.M.; Yi, M.Y.; Bai, M.H.; Song, Y.; Mao, Q.Y.; Hong, B.; Zhang, Z.A.; et al. Bifunctional nitrile-borate
+based electrolyte additive enables excellent electrochemical stability of lithium metal batteries with single-crystal Ni-rich cathode
+at 4.7 V. Chem. Eng. J. 2022, 434, 134745. [CrossRef]
+44.
+Hu, X.H.; Du, K.; Zhang, Y.J.; Hou, Y.B.; Zhao, H.L.; Bai, Y. Enhanced microstructure stability of LiNi0.8Co0.1Mn0.1O2 cathode
+with negative thermal expansion shell for long-life battery. J. Colloid Interface Sci. 2023, 640, 1005–1014. [CrossRef]
+45.
+Wang, C.C.; Liu, F.C.; Kan, K.; Zhao, P.; Xiong, C.Y. Realization of a high voltage Ni rich layer LiNi0.5Co0.2Mn0.3O2 single
+crystalline cathode for LIBs by surface modiﬁcation. Ceram. Int. 2023, 49, 7956–7964. [CrossRef]
+Materials 2023, 16, 3613
+15 of 15
+46.
+Hou, Y.Z.; Ren, Y.B.; Shi, T.S.; Li, J.Q.; Li, H.L.; Zhang, L.C.; Liu, Y.; Wan, Y.Q.; Zhang, S.C.; Zhu, D.D. The surface Al2O3 coating
+and bulk Zr doping drastically improve the voltage fade and cycling stability of Li(Ni0.8Mn0.1Co0.1)O2 cathode materials. J.
+Alloys Compd. 2023, 939, 168778. [CrossRef]
+47.
+Shen, Y.B.; Wang, L.C.; Jiang, J.Z.; Wang, D.; Zhang, D.Y.; Yin, D.M.; Wang, L.M.; Zhang, X.Y.; Huang, G.; Cheng, Y. Stabilization
+of high-voltage layered oxide cathode by multi-electron rare earth oxide. Chem. Eng. J. 2023, 454, 140249. [CrossRef]
+48.
+Zhang, Y.; Song, Y.; Liu, J. Double Conductor Coating to Improve the Structural Stability and Electrochemical Performance of
+LiNi0.8Co0.1Mn0.1O2 Cathode Material. ACS Sustain. Chem. Eng. 2023, 11, 2264–2274. [CrossRef]
+49.
+Zhang, Y.; Song, Y.; Liu, J. In Situ Polymerization Anchoring Effect Enhancing the Structural Stability and Electrochemical
+Performance of the LiNi0.8Co0.1Mn0.1O2 Cathode Material. ACS Appl. Mater. Interfaces 2023, 15, 19075–19084. [CrossRef]
+50.
+Peng, F.; Zhang, L.X.; Yang, G.C.; Li, Y.H.; Pan, Q.C.; Li, Y.; Hu, S.J.; Zheng, F.H.; Wang, H.Q.; Li, Q.Y. Nanoscale surface
+modiﬁcation to suppress capacity fade of Ni-Rich layered oxide material at high cut-off voltage. Chem. Eng. J. 2023, 451, 138911.
+[CrossRef]
+51.
+Shen, Y.B.; Zhang, X.Y.; Wang, L.C.; Zhang, D.Y.; Bao, D.; Yin, D.M.; Wang, L.M.; Cheng, Y.; Huang, G. A universal multifunctional
+rare earth oxide coating to stabilize high-voltage lithium layered oxide cathodes. Energy Storage Mater. 2023, 56, 155–164.
+[CrossRef]
+52.
+Shim, T.Y.; Yoo, Y.W.; Hwang, D.Y.; Lee, S.H. Highly improved structural stability and electrochemical properties of Ni-rich NCM
+cathode materials. Ceram. Int. 2023, 49, 12138–12143. [CrossRef]
+53.
+Saha, A.; Shalev, O.; Maiti, S.; Wang, L.L.; Akella, S.H.; Schmerling, B.; Targin, S.; Tkachev, M.; Fan, X.L.; Noked, M. Evolution of
+ternary LixSnyOz artiﬁcial cathode-electrolyte interphase (ACEI) through ALD: A surface strengthened NCM811 with enhanced
+electrochemical performances for Li-ion batteries. Mater. Today Energy 2023, 31, 101207. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
+==================== PAPER 12 ====================
+
+Citation: Ahangari, M.; Xia, F.; Szalai,
+B.; Zhou, M.; Luo, H. Advancing
+Lithium-Ion Batteries’
+Electrochemical Performance:
+Ultrathin Alumina Coating on
+Li(Ni0.8Co0.1Mn0.1)O2 Cathode
+Materials. Micromachines 2024, 15,
+894. https://doi.org/10.3390/
+mi15070894
+Academic Editor: Hugo Aguas
+Received: 30 May 2024
+Revised: 4 July 2024
+Accepted: 6 July 2024
+Published: 9 July 2024
+Copyright:
+© 2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+micromachines
+Article
+Advancing Lithium-Ion Batteries’ Electrochemical Performance:
+Ultrathin Alumina Coating on Li(Ni0.8Co0.1Mn0.1)O2
+Cathode Materials
+Mehdi Ahangari
+, Fan Xia
+, Benedek Szalai, Meng Zhou *
+and Hongmei Luo *
+Department of Chemical and Materials Engineering, New Mexico State University, Las Cruces, NM 88003, USA;
+mahani92@nmsu.edu (M.A.); fxia@nmsu.edu (F.X.); szalaib@nmsu.edu (B.S.)
+* Correspondence: mzhou@nmsu.edu (M.Z.); hluo@nmsu.edu (H.L.)
+Abstract: Ni-rich Li(NixCoyMnz)O2 (x ≥0.8)-layered oxide materials are highly promising as cathode
+materials for high-energy-density lithium-ion batteries in electric and hybrid vehicles. However,
+their tendency to undergo side reactions with electrolytes and their structural instability during
+cyclic lithiation/delithiation impairs their electrochemical cycling performance, posing challenges
+for large-scale applications. This paper explores the application of an Al2O3 coating using an
+atomic layer deposition (ALD) system on Ni-enriched Li(Ni0.8Co0.1Mn0.1)O2 (NCM811) cathode
+material. Characterization techniques, including X-ray diffraction, scanning electron microscopy,
+and transmission electron microscopy, were used to assess the impact of alumina coating on the
+morphology and crystal structure of NCM811. The results conﬁrmed that an ultrathin Al2O3 coating
+was achieved without altering the microstructure and lattice structure of NCM811. The alumina-
+coated NCM811 exhibited improved cycling stability and capacity retention in the voltage range of
+2.8–4.5 V at a 1 C rate. Speciﬁcally, the capacity retention of the modiﬁed NCM811 was 5%, 9.11%,
+and 11.28% higher than the pristine material at operating voltages of 4.3, 4.4, and 4.5 V, respectively.
+This enhanced performance is attributed to reduced electrode–electrolyte interaction, leading to fewer
+side reactions and improved structural stability. Thus, NCM811@Al2O3 with this coating process
+emerges as a highly attractive candidate for high-capacity lithium-ion battery cathode materials.
+Keywords: Ni-rich cathode; surface coating; lithium-ion batteries; atomic layer deposition
+1. Introduction
+Rechargeable lithium-ion batteries (LIBs) are pivotal in the evolution of microelec-
+tronics and serve as primary power sources for portable electronic devices. Their superior
+energy density, both in terms of weight and volume compared to other rechargeable battery
+technologies, has made them ubiquitous, integral, and essential components of modern
+life [1–3]. The burgeoning demand for electric vehicles (EVs) and hybrid electric vehicles
+(HEVs) has positioned LIBs as a promising solution to meet the requirements for high
+energy and power density [4,5]. Among all types of cathode materials, LiNixCoyMnzO2
+(NCM, where x + y + z = 1)-layered oxide materials have attracted attention due to their
+low cost, high capacity, and long stability [6]. In particular, Li(Ni0.8Co0.1Mn0.1)O2, as a
+crucial component of lithium-ion batteries, has garnered considerable attention due to its
+high reversible speciﬁc capacity (200 mAh g−1) resulting from the double-redox reaction of
+Ni2+/Ni4+ and its relatively favorable cost proﬁle [7]. Following the commercial success
+of NCM with moderate nickel content, it has been demonstrated that producing Ni-rich
+NCM-layered oxides (≥0.8) with higher nickel and lower cobalt content is an effective
+strategy to enhance the cathode’s speciﬁc capacity and operating voltage while reducing
+costs [8,9]. This approach is particularly well-suited for practical applications in the EV
+sector. Nevertheless, the practical adoption of Ni-enriched NCM materials faces challenges
+such as rapid capacity decay and increased impedance upon cycling due to pronounced
+Micromachines 2024, 15, 894. https://doi.org/10.3390/mi15070894
+https://www.mdpi.com/journal/micromachines
+Micromachines 2024, 15, 894
+2 of 11
+structural instability and an unstable electrode–electrolyte interface [10–12]. The main
+mechanisms for electrochemical degradation are as follows: (i) irreversible migration of
+Ni ions to Li sites due to the similar ionic radii of Ni2+ (0.69 Å) and Li+ (0.76 Å), leading
+to Ni/Li mixing [13]; (ii) the reaction of residual lithium on the surface with moisture in
+the air, forming passivating layers such as Li2CO3 and LiOH on the cathode surface [14];
+(iii) the dissolution of transition metals, resulting in interfacial resistance and capacity
+deterioration; and (iv) irreversible detrimental phase transitions among three hexagonal
+structures (H1, H2, and H3) that manifest when Ni-rich cathode materials undergo repeated
+Li insertion/extraction, particularly during highly charged/discharged states, leading to
+microcrack propagation and pulverization [15,16]. The mentioned drawbacks hinder the
+commercialization of high-Ni-content cathode materials in LIBs.
+Surface modiﬁcation has emerged as a great strategy for enhancing the electrochemical
+performance of Ni-rich cathode materials and resolving the mentioned technical issues, as a
+continuous coating can effectively decrease the occurrence of parasitic surface reactions and
+stabilize both surface and bulk structure of the materials [17,18]. A suitable coating is char-
+acterized by properties such as conformality, low thickness, integrity, and continuity [19].
+Metal oxides such as TiO2 [20], ZrO2 [21], Al2O3 [22], and MgO [23] are the most common
+materials used for their low cost and high protection properties. Among these, Al2O3 has
+been widely utilized as a coating for cathode active materials in LIBs, which can be applied
+using wet chemistry or atomic layer deposition (ALD) techniques [24]. The ALD method
+has earned a good reputation for producing ultrathin ﬁlms with atomic-level control using
+sequential, self-limiting surface reactions [25]. It has been reported that ZrO2 [26], TiO2 [27],
+and MgF2 [28] coatings applied to cathode active materials using ALD have enhanced the
+stability of the surface-modiﬁed samples.
+Herein, an ultrathin Al2O3 coating (2 nm) using an ALD machine was adopted for
+the surface of NCM811 cathode active material for LIBs using trimethylaluminum (TMA)
+and H2O in a process consisting of two half-reaction steps. The resultant Al2O3-coated
+NCM811 was assembled as cathode electrodes, demonstrating signiﬁcantly improved
+stability compared to pristine electrodes upon prolonged cycling.
+2. Materials and Methods
+2.1. Materials Synthesis
+NCM811 powder was produced by the solid-state method. All the reagents used
+in this research were purchased from Sigma-Aldrich company (St. Louis, MO, USA). A
+mixture of high-purity NiSO4.6H2O, CoSO4·7H2O, and MnSO4·H2O was dissolved in
+distilled water (1 mol/L), maintaining a molar ratio of Ni:Co:Mn = 8:1:1. Then, a 2 mol/L
+NaOH solution was added to the transition metals solution under a N2 atmosphere while
+mixing the two solutions. The pH was adjusted to 10.0–11.0 using NH3·H2O, and the
+temperature was maintained at 50 ◦C for 24 h. The resultant powder was then ﬁltered and
+washed using distilled water. Following this, the obtained powder (Ni0.8Co0.1Mn0.1(OH)2)
+was kept in a vacuum oven at 120 ◦C for 24 h. Finally, Ni0.8Co0.1Mn0.1(OH)2 and LiOH.H2O
+were mixed at a 1.00:1.05 molar ratio and ball-milled, followed by calcination of the mixture
+at 750 ◦C for 12 h under a pure oxygen atmosphere in a tube furnace.
+Al2O3 on NCM811 was performed in an Angstrom-Dep ALD machine (Albuquerque,
+NM, USA), which was equipped with a rotary reactor. NCM811 powder served as the active
+material to be coated with Al2O3. Nine grams of NCM811 powder were loaded into the
+rotary reactor. N2 gas was employed as the carrier and purging gas, with the temperature
+of TMA and water set at 90 ◦C, while the batch reactor was maintained at 120 ◦C. The
+two half-reaction steps consisted of injecting TMA and H2O with 0.2 and 0.5 s purging,
+respectively, between each pulse, and purging of 30 s after the last pulse. Three ALD
+growth cycles were used to prepare the Al2O3-coated powders. However, the resulting ﬁlm
+thickness was 2 nm, which is approximately 6–7 times thicker than expected from ALD.
+This suggests that chemical vapor deposition (CVD) might contribute signiﬁcantly to the
+Micromachines 2024, 15, 894
+3 of 11
+growth process. The deviation in thickness is likely due to the short pulse and purge times
+used during the process.
+2.2. Material Characterizations
+Powder X-ray diffraction (XRD) analysis was conducted using a Bruker AXS D8
+(Billerica, MA, USA) Focus diffractometer equipped with a LynxEye position-sensitive
+detector (PSD), utilizing Cu Kα radiation (λ = 0.15406 nm) and a 0.2 mm slit (Empyrean
+XRD PANalytical, UK) on pristine and alumina-coated NCM811. The diffraction pattern
+was recorded in the 2θ range of 10–80◦with a step size of 0.02◦and a count time of 3 s per
+step. Morphological characteristics and particle size were examined using a ﬁeld emission
+scanning electron microscope (Hitachi FESEM Model SU7000, Tokyo, Japan) equipped with
+an elemental energy dispersive spectroscopy (EDS) detector. The chemical composition
+of samples was determined by EDS. A transmission electron microscope (TEM) operated
+at 200 kV was employed to identify the thickness and continuity of the coating on the
+powder’s surface.
+2.3. Electrochemical Measurements
+The as-prepared materials underwent electrochemical measurements in CR2032 coin
+cells at room temperature. Cathode electrodes were prepared using a slurry coating
+procedure. The slurry comprised 80 wt.% NCM811 (active material), 10 wt.% Super-P
+carbon black (conductive agent), and 10 wt.% polyvinylidene diﬂuoride (PVDF, binder)
+dissolved in N-methyl-2-pyrrolidene (NMP). The solution was stirred overnight with a
+magnetic stirrer, and the cathode electrodes were fabricated by tape-casting the mixed
+slurry onto battery-grade aluminum foil using the doctor blade method. After tape casting,
+the cathodes were dried overnight at 120 ◦C in a vacuum oven. The CR2032 coin cells
+were assembled in an argon-ﬁlled glove box under a dry argon atmosphere and <0.1 ppm
+water and oxygen. The electrolyte used was 1 M LiPF6 dissolved in a 1:1 mixture of
+ethylene carbonate (EC) and diethyl carbonate (DEC). Lithium foil served as the anode,
+and a Celgard 2400 membrane acted as the separator. The cathode electrode mass loading
+was approximately 2.3–2.5 mg cm−2. Following assembly, the cells rested for 10 h before
+electrochemical characterization.
+For the rate capability test, cells were charged in the galvanostatic mode to cutoff
+voltages of 4.3, 4.4, and 4.5 V with varying current densities (0.1, 0.2, 0.5, 1.0, 2.0, and 5.0 C,
+1 C = 200 mAh g−1, where g refers to the mass loading of the active material) followed by
+discharging to 2.8 V at the same rate as charging using a NEWARE battery testing machine.
+A 10 min resting period was applied prior to each step. Long-term cycling was conducted
+at 1 C for 150 cycles. The half-cells were cycled at 0.1 C for 3 cycles before cycling at 1 C.
+Three-electrode cells were employed for cyclic voltammetry (CV) and electrochemical
+impedance spectroscopy (EIS), with lithium foil as the reference and counter electrode in a
+three-electrode cell system. Cyclic voltammograms of the electrodes were recorded within
+the potential range of 2.8–4.6 V at a scanning rate of 0.1 mV s−1. The samples were cycled
+at 0.05 C for 3 cycles before CV measurements. EIS measurements were performed in a
+frequency range of 100 kHz to 10 mHz with a perturbation amplitude of ±10 mV when
+the samples were charged to the upper cutoff voltage. The measurements were conducted
+using a CHI 660E electrochemical workstation.
+3. Results and Discussion
+3.1. X-ray Diffraction Analysis
+Pristine and coated samples were analyzed by XRD to evaluate crystal ordering and
+determine any impurities and phase changes during powder synthesis and the Al2O3
+deposition process. As shown in Figure 1, the XRD patterns of both samples indicate that
+the powder structures are well indexed to the layered hexagonal α-NaFeO2 type belonging
+to the R-3m space group. There are no signiﬁcant shifts in peak positions or any new phases
+related to impurities. The I(003)/I(104) ratio of both samples is approximately the same
+Micromachines 2024, 15, 894
+4 of 11
+and exceeds 1.2, 1.78, and 1.71 for uncoated and coated samples, respectively. Any change
+in the I(003)/I(104) ratio is attributed to changes in lithium content in the unit cell, which
+typically occurs during additional heat treatment in the coating process [29]. It is generally
+accepted that a peak intensity ratio greater than 1.2 signiﬁes a good layered structure and a
+lower degree of Li+/Ni2+ cation mixing in the lattice [30]. Moreover, the obvious splitting
+of the (006), (102) and (108), (110) peaks indicates the maintenance of a well-ordered layered
+structure as well as a high degree of crystallinity [31]. Additionally, there is no shift in the
+(003) reﬂection in the coated sample, which signiﬁcantly implies two points: ﬁrst, powder
+synthesis is highly accurate, and second, the Al2O3 coating process has no effect on the host
+crystal structure of NCM811 powder and does not introduce a new phase into the particles.
+This might be related to the fact that the coating deposition process was performed at a
+low temperature (120 ◦C), which inhibited Al diffusion into the lattice structure, ensuring
+no changes occurred in the crystal structure during the coating synthesis. The distinct
+diffraction peak of the Al2O3 phase is not detected in the NCM811@Al2O3 XRD pattern.
+This suggests that an ultrathin alumina coating covered the NCM811 particle surfaces and
+that the coating has a very low content and is an amorphous structure, which would be
+expected for a growth temperature of 120 ◦C.
+ 
+Figure 1. XRD patterns comparing the (a) pristine and (b) NCM811 surface modiﬁed with Al2O3.
+3.2. Morphology
+SEM images (Figure 2a,b) were captured to analyze the surface morphology and
+microstructure of the samples. Both samples exhibited secondary microspherical-like shape
+particles due to the aggregation of numerous nanometer-sized primary particles. Notably,
+the surface morphology of NCM811 particles remained unchanged, indicating a thin Al2O3
+layer. EDS mapping of transition metals and Al (Figure 2c,d) was conducted to determine
+the element distribution on the particle surface. The images conﬁrm the homogeneous
+distribution of transition metals and Al in the coated sample, indicating the desirable
+conformality and uniformity of the applied coating. TEM observation (Figure 2e) reveals a
+smooth and uniform Al2O3 coating achieved on the NCM811 particles, with an ultrathin
+thickness. The coating thickness is critical; too thick a coating inhibits Li+ ion intercalation
+and extraction, while too thin a coating is ineffective in protecting the cathode material
+from reactions with the electrolyte [32]. More measurements for the coating thickness are
+provided in Figure S1.
+Micromachines 2024, 15, 894
+5 of 11
+ 
+Figure 2. SEM images showing (a) pristine and (b) NCM811 coated with Al2O3, along with EDS-
+mapping of (c) pristine NCM811 and (d) Al2O3-coated NCM811 particles. Additionally, TEM images
+depicting the Al2O3-coated NCM811 particle are shown in (e).
+3.3. Electrochemical Properties
+The impact of Al2O3 using the ALD coating system on the enhancement of the electro-
+chemical performance of the NCM811 cathode material was assessed through cycling at
+1 C across the voltage ranges of 2.8–4.3, 4.4, and 4.5 V vs. Li/Li+ at 25 ◦C, as depicted in
+Figure 3. The results reveal that the coated sample demonstrated superior electrochemical
+performance across all upper cutoff voltages. Particularly noteworthy is the signiﬁcant
+difference in capacity retention as the upper cutoff voltage increased, with values of 82.00%,
+75.68%, and 63.64% for pristine NCM811 compared to 87.00%, 84.79%, and 74.92% for the
+modiﬁed sample at 4.3, 4.4, and 4.5 V, respectively. Furthermore, both samples exhibited
+Coulombic Efﬁciency (CE) exceeding 95%. At the critical 4.5 V cutoff voltage, the Al2O3-
+coated sample delivered a discharge capacity of 198.93 mAh g−1 at 1 C discharge current,
+slightly lower than pristine NCM811, which yielded 200.66 mAh g−1. After 150 cycles,
+the former delivered 149.04 mAh g−1, while the latter achieved 127.69 mAh g−1. The
+diminished capacity retention of the uncoated sample compared to the coated counterpart
+can be attributed to the high polarization and deterioration of the interface structure of
+NCM811, particularly under high upper cutoff voltage operation [33]. Indeed, the uniform
+nano-Al2O3 coating reduced the electrode–electrolyte reaction at the interface and delayed
+the formation of a thick passive layer, thereby postponing polarization at the material
+interface. Additionally, the formation of HF in the electrolyte leads to damage to cathode
+materials, while an ultrathin layer can signiﬁcantly prolong the onset of severe degradation
+of the active material [34]. The relevant electrochemical stability results corresponding
+to this experiment are provided in Table 1. The data in Table 1 suggest that although the
+discharge capacity of the samples in the ﬁrst few cycles is higher at 4.5 V cutoff potential,
+the capacity loss is comparable. Therefore, an operating voltage of 4.4 V can be identiﬁed
+as the optimized working condition for NCM811@Al2O3, striking a balance between capac-
+ity retention and high-capacity delivery. One plausible explanation for the poor cycling
+Micromachines 2024, 15, 894
+6 of 11
+stability of NCM811 when charging to a 4.5 V potential is electrolyte oxidation and the side
+reactions between the cathode and electrolyte [35].
+ 
+Figure 3. Electrochemical properties of bare and Al2O3-coated NCM811 over 150 cycles (1 C) at 4.3,
+4.4, and 4.5 upper cutoff voltages. The upper ﬁgures compare the cycling stability of the samples,
+while the lower ones illustrate the voltage fading after 150 cycles.
+Table 1. Electrochemical data for stability of bare and Al2O3-coated NCM811 over 150 cycles between
+2.8 and 4.5 V.
+Sample
+1st Discharge
+Capacity (mAh g−1)
+150th Discharge
+Capacity (mAh g−1)
+Capacity
+Retention (%)
+Voltage Fading
+(V)
+Upper Cutoff
+Voltage (V)
+Pristine
+NCM811
+179.46
+147.51
+82.00
+0.0986
+4.3
+189.62
+144.52
+75.68
+0.1559
+4.4
+200.66
+127.69
+63.64
+0.3522
+4.5
+Al2O3-Coated
+NCM811
+179.61
+152.25
+87.00
+0.0710
+4.3
+187.23
+158.74
+84.79
+0.1413
+4.4
+198.93
+149.04
+74.92
+0.2930
+4.5
+Voltage fading in Ni-rich NCM cathode materials occurs during cycling, primarily due
+to the destruction of the crystal structure and irreversible phase transitions. Galvanostatic
+voltage proﬁles recorded with a discharge current density of 1 C for both pristine and
+coated samples for the 1st and 150th cycles are illustrated in Figure 4 to compare the voltage
+decay over cycling. It is evident that, for all samples, the discharge proﬁles gradually
+shifted to lower voltage plateaus during cycling, accompanied by a decrease in discharge
+capacity. This phenomenon is attributed to the dissolution of transition metals from the
+active material due to structural and interfacial instabilities [36]. Moreover, the voltage
+fading increased as the upper cutoff voltage increased. Speciﬁcally, the pristine NCM811
+experienced voltage fading of 0.0986 V, 0.1559 V, and 0.3522 V during cycling at cutoff
+voltages of 4.3 V, 4.4 V, and 4.5 V, respectively. In contrast, the Al2O3-coated sample
+exhibited lower voltage decay in this experiment, with values of 0.0710 V, 0.1413 V, and
+0.2930 V for the corresponding cutoff voltages. The reduced voltage decay during cycling
+Micromachines 2024, 15, 894
+7 of 11
+can be attributed to the successful suppression of polarization in the NCM811 electrode by
+the Al2O3 coating, which improved the structural stability and phase reversibility of the
+active material while protecting the bulk from direct contact with the electrolyte [37].
+ 
+Figure 4. Rate capability for pristine and NCM811@Al2O3 at different cutoff voltages.
+The results of rate capability performance for the samples at various charging cutoff
+voltages are shown in Figure 4. The samples were charged and discharged at current
+densities ranging from 0.1 to 5 C. Due to the low diffusion efﬁciency of Li+ at high current
+densities, the discharge capacity of both cathode materials decreased as the discharge
+current density increased. However, the coated sample exhibited higher discharge capacity,
+especially at higher rates (2 and 5 C) and upper cutoff voltages (4.4 and 4.5 V).
+At low current densities and in the initial cycles (1–25), both samples demonstrated
+similar reversible discharge capacity. In contrast, at higher rates (5 C) and in later cycles
+(26–55), the coated sample delivered more capacity, attributed to the improved stability of
+the surface structure. For instance, at the 4.5 V charging cutoff, pristine and coated NCM811
+exhibited a reversible capacity of 217.28 and 213.54 mAh g−1 in the ﬁrst cycle, respectively.
+The difference in initial discharge capacity might be due to the electrochemical inactivity of
+Al2O3. Over multiple charging and discharging cycles at different rates, the Al2O3-coated
+NCM811 demonstrated an impressive reversible capacity of 210.90 mAh g−1, compared to
+202.16 mAh g−1 for the pristine NCM811.
+It is worth noting that while the Al2O3 coating did not signiﬁcantly inhibit Li+ ion
+diffusion at different rates, it enhanced the stability of the sample, enabling it to deliver
+more capacity than the pristine sample, irrespective of the charging voltage. The cycling
+and rate performances of the samples conﬁrm that the structural stability of NCM811
+cathode materials has been effectively improved by the Al2O3 coating.
+3.4. EIS Measurements
+An EIS test was conducted to further investigate the positive inﬂuence of the Al2O3
+coating on the NCM811 cathode material. The Nyquist plots of the samples and the
+equivalent electrical circuit at the charged state at various upper cutoff voltages before
+cycling and after 150 cycles are illustrated in Figure 5. Each EIS plot consists of two
+semicircles and a straight line in different frequency regions. In the circuit, Rs, RSEI, and Rct
+represent the electrolyte resistance, the ﬁlm resistance due to the solid electrolyte interface,
+and the charge transfer resistance related to the interface between the electrolyte and the
+electrode, respectively. In addition, the straight line at a low frequency corresponds to
+Warburg impedance (W), which is related to Li+ diffusion in the particle [38].
+Micromachines 2024, 15, 894
+8 of 11
+ 
+Figure 5. EIS curves of charged bare and Al2O3-coated NCM811 at 4.3–4.5 voltage range before
+cycling and after 150 cycles.
+The Rs value for all samples is nearly the same, as identical electrolytes were used
+for this experiment. The Rct value is listed in Table 2. Although the Rct values for both
+electrodes were nearly the same before cycling, the value increased after cycling. However,
+the increase in charge transfer resistance was signiﬁcantly higher for the uncoated sample
+compared to the coated one. This sharp increase in Rct correlates with the surface distortion
+induced by side reactions with the electrolyte. In contrast, the alumina-coated NCM
+experienced a lower increase in Rct indicating a superior charge-transfer rate during long-
+term cycling. The EIS results are consistent with the cycling and rate capability results. It is
+worth noting that cycling at a 4.5 V upper cutoff potential induced a signiﬁcant increase in
+Rct, which can justify the drastic capacity retention deterioration over cycling.
+Table 2. Rct values for pristine and Al2O3-coated NCM811 before cycling and after 150 cycles.
+Sample
+Rct before Cycling
+(Ω)
+Rct after 150 Cycles
+(Ω)
+Upper Cutoff
+Voltage (V)
+Pristine NCM811
+34.18
+114.8
+4.3
+75.88
+164.00
+4.4
+91.34
+307.10
+4.5
+Al2O3-Coated
+NCM811
+62.59
+75.58
+4.3
+92.97
+126.53
+4.4
+72.42
+205.8
+4.5
+3.5. Cyclic Voltammetry Measurements
+To further understand the electrochemical behavior of NCM811 and NCM811@Al2O3,
+cyclic voltammograms of the cathode electrodes were recorded over 15 cycles within a
+2.8–4.6 V voltage range at a scan rate of 0.1 mV s−1, as shown in Figure 6. The curves for
+both samples exhibited similar proﬁles, indicating that the Al2O3 coating did not participate
+in the electrochemical reactions. The main paired peaks correspond to the typical phase
+transitions for layered oxide cathode materials.
+Micromachines 2024, 15, 894
+9 of 11
+Figure 6. CV curves of (a) pristine and (b) Al2O3-coated NCM811 at a scan rate of 0.1 mV s−1 within
+a 2.8–4.6 V voltage range.
+The potential difference between the oxidation and reduction peaks is a key kinetic
+factor inﬂuenced by the formation of the cathode solid electrolyte interface or by side
+reactions on the electrode surface. This potential difference reﬂects the reversibility of the
+electrochemical reaction [30]. For the coated sample, the oxidation and reduction peaks are
+located at 3.848 V and 3.682 V, respectively, with a corresponding potential difference of
+0.166 V for the ﬁrst cycle. In contrast, the uncoated sample has a higher potential difference
+of 0.191 V.
+After 15 cycles, the coated sample exhibited a smaller voltage gap, indicating higher
+structural stability and a greater degree of reversibility. These results reveal that the
+ultrathin Al2O3 coating effectively reduced electrochemical polarization and enhanced
+electrochemical performance. This improvement is attributed to the coating’s ability to
+suppress side reactions at the electrode/electrolyte interface.
+4. Conclusions
+In this manuscript, NCM811 cathode active material was synthesized, and an ultrathin
+Al2O3 coating was established on the NCM811 surface using the ALD technique. The
+alumina coating was demonstrated to exist on the surface of the cathode particles without
+altering their morphology or crystal structure, attributed to the low-temperature coating
+process. This coating signiﬁcantly improved the cycling stability and rate capability of the
+cathode electrode, which is related to the enhanced structural stability of NCM811 powder.
+Additionally, the coating suppressed irreversible phase transitions and side reactions at the
+electrode–electrolyte interface, conﬁrmed by EIS and CV measurements. Electrochemical
+measurements showed that cycling at higher upper cutoff voltages drastically reduced
+capacity retention for pristine NCM811. However, Al2O3 surface treatment stabilized the
+cathode material’s structure, with a 2.8–4.4 V cutoff potential identiﬁed as the optimized
+cycling condition for NCM811@Al2O3 in this research.
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/mi15070894/s1, Figure S1. Al2O3 ALD Coating thickness from
+two different locations of NCM811@Al2O3 particles.
+Author Contributions: Conceptualization, M.A.; methodology, F.X.; writing—original draft M.A.;
+writing—review and editing, B.S.; analysis and supervision, H.L. and M.Z. All authors have read and
+agreed to the published version of the manuscript.
+Funding: The research was funded by the National Science Foundations: NSF-OIA-2119688, NSF-
+CMMI-2215982 and NSF-CHE-2216473.
+Micromachines 2024, 15, 894
+10 of 11
+Data Availability Statement: The original contributions presented in the study are included in the
+article, further inquiries can be directed to the corresponding author.
+Conﬂicts of Interest: The authors declare no conﬂicts of interest.
+References
+1.
+Levartovsky, Y.; Wu, X.; Erk, C.; Maiti, S.; Grinblat, J.; Talianker, M.; Aurbach, D. Enhancement of structural, electrochemical, and
+thermal properties of Ni-rich LiNi0.85Co0.1Mn0.05O2 cathode materials for Li-ion batteries by Al and Ti doping. Batter. Supercaps
+2021, 4, 221–231. [CrossRef]
+2.
+Yang, J.; Xia, Y. Suppressing the phase transition of the layered Ni-rich oxide cathode during high-voltage cycling by introducing
+low-content Li2MnO3. ACS Appl. Mater. Interfaces 2016, 8, 1297–1308. [CrossRef]
+3.
+Xiao, W.; Nie, Y.; Miao, C.; Wang, J.; Tan, Y.; Wen, M. Structural design of high-performance Ni-rich LiNi0.83Co0.11Mn0.06O2
+cathode materials enhanced by Mg2+ doping and Li3PO4 coating for lithium ion battery. J. Colloid Interface Sci. 2022, 607,
+1071–1082. [CrossRef] [PubMed]
+4.
+Liu, Y.; Fan, X.; Luo, B.; Zhao, Z.; Shen, J.; Liu, Z.; Xiao, Z.; Zhang, B.; Zhang, J.; Ming, L.; et al. Understanding the enhancement
+effect of boron doping on the electrochemical performance of single-crystalline Ni-rich cathode materials. J. Colloid Interface Sci.
+2021, 604, 776–784. [CrossRef] [PubMed]
+5.
+Heenan, T.M.M.; Wade, A.; Tan, C.; Parker, J.E.; Matras, D.; Leach, A.S.; Robinson, J.B.; Llewellyn, A.; Dimitrijevic, A.; Jervis, R.;
+et al. Identifying the origins of microstructural defects such as cracking within Ni-rich NMC811 cathode particles for lithium-ion
+batteries. Adv. Energy Mater. 2020, 10, 2002655. [CrossRef]
+6.
+Negi, R.S.; Culver, S.P.; Wiche, M.; Ahmed, S.; Volz, K.; Elm, M.T. Optimized atomic layer deposition of homogeneous, conductive
+Al2O3 coatings for high-nickel NCM containing ready-to-use electrodes. Phys. Chem. Chem. Phys. 2021, 23, 6725–6737. [CrossRef]
+[PubMed]
+7.
+Lee, H.B.; Hoang, T.D.; Byeon, Y.S.; Jung, H.; Moon, J.; Park, M.-S. Surface stabilization of Ni-rich layered cathode materials via
+surface engineering with LiTaO3 for lithium-ion batteries. ACS Appl. Mater. Interfaces 2022, 14, 2731–2741. [CrossRef]
+8.
+Wu, F.; Tian, J.; Su, Y.; Wang, J.; Zhang, C.; Bao, L.; He, T.; Li, J.; Chen, S. Effect of Ni2+ content on lithium/nickel disorder for
+Ni-rich cathode materials. ACS Appl. Mater. Interfaces 2015, 7, 7702–7708. [CrossRef]
+9.
+She, S.; Zhou, Y.; Hong, Z.; Huang, Y.; Wu, Y. Surface coating of NCM-811 cathode materials with g-C3N4 for enhanced
+electrochemical performance. ACS Omega 2022, 7, 24851–24857. [CrossRef] [PubMed]
+10.
+Li, Y.; Tan, C.; Wei, S.; Cui, L.; Fan, X.; Pan, Q.; Lai, F.; Zheng, F.; Wang, H.; Li, Q. Stable surface construction of the Ni-rich
+LiNi0.8Mn0.1Co0.1O2 cathode material for high-performance lithium-ion batteries. J. Mater. Chem. A 2020, 8, 21649–21660.
+[CrossRef]
+11.
+Dose, W.M.; Temprano, I.; Allen, J.P.; Björklund, E.; O’Keefe, C.A.; Li, W.; Mehdi, B.L.; Weatherup, R.S.; De Volder, M.F.L.; Grey,
+C.P. Electrolyte reactivity at the charged Ni-rich cathode interface and degradation in Li-ion batteries. ACS Appl. Mater. Interfaces
+2022, 14, 13206–13222. [CrossRef] [PubMed]
+12.
+Yang, H.; Gao, R.-M.; Zhang, X.-D.; Liang, J.-Y.; Meng, X.-H.; Lu, Z.-Y.; Cao, F.-F.; Ye, H. Building a Self-Adaptive Protective Layer
+on Ni-Rich Layered Cathodes to Enhance the Cycle Stability of Lithium-Ion Batteries. Adv. Mater. 2022, 34, 2204835. [CrossRef]
+13.
+Gu, M.; Belharouak, I.; Zheng, J.; Wu, H.; Xiao, J.; Genc, A.; Amine, K.; Thevuthasan, S.; Baer, D.R.; Zhang, J.-G.; et al. Formation
+of the spinel phase in the layered composite cathode used in Li-ion batteries. ACS Nano 2013, 7, 760–767. [CrossRef]
+14.
+Xiong, X.; Wang, Z.; Yue, P.; Guo, H.; Wu, F.; Wang, J.; Li, X. Washing effects on electrochemical performance and storage
+characteristics of LiNi0.8Co0.1Mn0.1O2 as cathode material for lithium-ion batteries. J. Power Sources 2013, 222, 318–325. [CrossRef]
+15.
+Ryu, H.-H.; Park, K.-J.; Yoon, C.S.; Sun, Y.-K. Capacity fading of Ni-rich Li[NixCoyMn1–x–y]O2 (0.6 ≤x ≤0.95) cathodes for
+high-energy-density lithium-ion batteries: Bulk or surface degradation? Chem. Mater. 2018, 30, 1155–1163. [CrossRef]
+16.
+Li, T.; Yuan, X.-Z.; Zhang, L.; Song, D.; Shi, K.; Bock, C. Degradation mechanisms and mitigation strategies of nickel-rich
+NMC-based lithium-ion batteries. Electrochem. Energy Rev. 2020, 3, 43–80. [CrossRef]
+17.
+Chen, T.; Wang, F.; Li, X.; Yan, X.; Wang, H.; Deng, B.; Xie, Z.; Qu, M. Dual functional MgHPO4 surface modiﬁer used to repair
+deteriorated Ni-rich LiNi0.8Co0.15Al0.05O2 cathode material. Appl. Surf. Sci. 2019, 465, 863–870. [CrossRef]
+18.
+Feng, Z.; Rajagopalan, R.; Sun, D.; Tang, Y.; Wang, H. In-situ formation of hybrid Li3PO4-AlPO4-Al(PO3)3 coating layer on
+LiNi0.8Co0.1Mn0.1O2 cathode with enhanced electrochemical properties for lithium-ion battery. Chem. Eng. J. 2020, 382, 122959.
+[CrossRef]
+19.
+Xiong, L.; Sun, M.; Xu, Y.; Du, X.; Xiao, X. Synthesis of carbon-coated Li2MnO3 cathode material with enhanced rate capability for
+lithium-ion batteries. Solid State Ion. 2018, 325, 170–175. [CrossRef]
+20.
+Chen, Y.; Zhang, Y.; Chen, B.; Wang, Z.; Lu, C. An approach to application for LiNi0.6Co0.2Mn0.2O2 cathode material at high
+cutoff voltage by TiO2 coating. J. Power Sources 2014, 256, 20–27. [CrossRef]
+21.
+Tao, T.; Chen, C.; Yao, Y.; Liang, B.; Lu, S.; Chen, Y. Enhanced electrochemical performance of ZrO2 modiﬁed LiNi0.6Co0.2Mn0.2O2
+cathode material for lithium-ion batteries. Ceram. Int. 2017, 43, 15173–15178. [CrossRef]
+22.
+Cheng, R.; Zhou, M.; Zhang, K.; Xu, F.; Sun, L.; Lin, Q.; Li, H. Enhanced electrochemical performance of LiNi1/3Co1/3Mn1/3O2
+cathode material by Al2O3 surface coating derived via NH2-MIL-53(Al) MOF. J. Alloys Compd. 2021, 875, 159956. [CrossRef]
+Micromachines 2024, 15, 894
+11 of 11
+23.
+Ma, F.; Wu, Y.; Wei, G.; Qiu, S.; Qu, J. Enhanced electrochemical performance of LiNi0.8Co0.1Mn0.1O2 cathode via wet-chemical
+coating of MgO. J. Solid State Electrochem. 2019, 23, 2213–2224. [CrossRef]
+24.
+Neudeck, S.; Mazilkin, A.; Reitz, C.; Hartmann, P.; Janek, J.; Brezesinski, T. Effect of low-temperature Al2O3 ALD coating on
+Ni-rich layered oxide composite cathode on the long-term cycling performance of lithium-ion batteries. Sci. Rep. 2019, 9, 5328.
+[CrossRef] [PubMed]
+25.
+Lee, Y.; Sun, H.; Young, M.J.; George, S.M. Atomic layer deposition of metal ﬂuorides using HF–pyridine as the ﬂuorine precursor.
+Chem. Mater. 2016, 28, 2022–2032. [CrossRef]
+26.
+Kong, J.-Z.; Wang, S.-S.; Tai, G.-A.; Zhu, L.; Wang, L.-G.; Zhai, H.-F.; Wu, D.; Li, A.-D.; Li, H. Enhanced electrochemical
+performance of LiNi0.5Co0.2Mn0.3O2 cathode material by ultrathin ZrO2 coating. J. Alloys Compd. 2016, 657, 593–600. [CrossRef]
+27.
+Li, X.; Liu, J.; Meng, X.; Tang, Y.; Banis, M.N.; Yang, J.; Hu, Y.; Li, R.; Cai, M.; Sun, X. Signiﬁcant impact on cathode performance of
+lithium-ion batteries by precisely controlled metal oxide nanocoatings via atomic layer deposition. J. Power Sources 2014, 247,
+57–69. [CrossRef]
+28.
+Kraytsberg, A.; Drezner, H.; Auinat, M.; Shapira, A.; Solomatin, N.; Axmann, P.; Wohlfahrt-Mehrens, M.; Ein-Eli, Y. Atomic Layer
+Deposition of a Particularized Protective MgF2 Film on a Li-ion Battery LiMn1.5Ni0.5O4 Cathode Powder Material. ChemNanoMat
+2015, 1, 577–585. [CrossRef]
+29.
+Lee, S.M.; Oh, S.H.; Ahn, J.P.; Cho, W.I.; Jang, H. Electrochemical properties of ZrO2-coated LiNi0.8Co0.2O2 cathode materials. J.
+Power Sources 2006, 159, 1334–1339. [CrossRef]
+30.
+Yang, G.; Pan, K.; Yan, Z.; Yang, S.; Peng, F.; Liang, J.; Lai, F.; Wang, H.; Zhang, X.; Li, Q. Fully coating of Mg3B2O6 in nonaqueous
+solution on Ni-rich LiNi0.8Co0.1Mn0.1O2 secondary particles to improve cycling stability of lithium-ion batteries. Chem. Eng. J.
+2023, 452, 139405. [CrossRef]
+31.
+Zhang, B.; Dong, P.; Tong, H.; Yao, Y.; Zheng, J.; Yu, W.; Zhang, J.; Chu, D. Enhanced electrochemical performance of
+LiNi0.8Co0.1Mn0.1O2 with lithium-reactive Li3VO4 coating. J. Alloys Compd. 2017, 706, 198–204. [CrossRef]
+32.
+Huang, X.; Zhu, W.; Yao, J.; Bu, L.; Li, X.; Tian, K.; Lu, H.; Quan, C.; Xu, S.; Xu, K.; et al. Suppressing structural degradation
+of Ni-rich cathode materials towards improved cycling stability enabled by a Li2MnO3 coating. J. Mater. Chem. A 2020, 8,
+17429–17441. [CrossRef]
+33.
+Li, L.; Chen, Z.; Zhang, Q.; Xu, M.; Zhou, X.; Zhu, H.; Zhang, K. A hydrolysis-hydrothermal route for the synthesis of ultrathin
+LiAlO2-inlaid LiNi0.5Co0.2Mn0.3O2 as a high-performance cathode material for lithium-ion batteries. J. Mater. Chem. A 2015, 3,
+894–904. [CrossRef]
+34.
+Fan, Q.; Lin, K.; Yang, S.; Guan, S.; Chen, J.; Feng, S.; Liu, J.; Liu, L.; Li, J.; Shi, Z. Constructing effective TiO2 nano-coating for
+high-voltage Ni-rich cathode materials for lithium-ion batteries by precise kinetic control. J. Power Sources 2020, 477, 228745.
+[CrossRef]
+35.
+Du, M.; Yang, P.; He, W.; Bie, S.; Zhao, H.; Yin, J.; Zou, Z.G.; Liu, J. Enhanced high-voltage cycling stability of Ni-rich
+LiNi0.8Co0.1Mn0.1O2 cathode coated with Li2O–2B2O3. J. Alloys Compd. 2019, 805, 991–998. [CrossRef]
+36.
+Kong, J.-Z.; Chen, Y.; Cao, Y.-Q.; Wang, Q.-Z.; Li, A.-D.; Li, H.; Zhou, F. Enhanced electrochemical performance of Ni-rich
+LiNi0.6Co0.2Mn0.2O2 coated by molecular layer deposition derived dual-functional C-Al2O3 composite coating. J. Alloys Compd.
+2019, 799, 89–98. [CrossRef]
+37.
+Yao, W.; Liu, Y.; Li, D.; Zhang, Q.; Zhong, S.; Cheng, H.; Yan, Z. Synergistically enhanced electrochemical performance of Ni-rich
+cathode materials for lithium-ion batteries by K and Ti Co-modiﬁcation. J. Phys. Chem. C 2020, 124, 2346–2356. [CrossRef]
+38.
+Sim, S.-J.; Lee, S.-H.; Jin, B.-S.; Kim, H.-S. Effects of lithium tungsten oxide coating on LiNi0.90Co0.05Mn0.05O2 cathode material
+for lithium-ion batteries. J. Power Sources 2021, 481, 229037. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
